@@ -1,0 +1,221 @@
+﻿/*
+*    Form Styles
+*    Handcrafted by Kaio Andrade 28/09/2016
+*/
+
+.divForm { 
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+  padding: 30px 0;
+  padding-bottom: 50px;
+}
+.divForm .panel-figures{
+  background-color: #c5f0f5;
+  border-left: 3px solid #00b5c9;
+  height: 100%;  
+  padding: 20px 10px;
+  padding-bottom: 25px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,.4);
+  border-radius: 4px;
+}
+.divForm .form-group {
+  position: relative;
+}
+.divForm label {
+  margin-bottom: 0;
+}
+.divForm .label {
+  color: black;
+}
+.divForm .panel-figures-title {
+  font-size: 2em;
+  padding-top: 0;
+  margin: 0 10px 20px;
+  border-bottom: 1px solid gray;
+}
+.divForm .panel-figures > div:not(:first-of-type) {
+  margin: 3px 0;
+}
+.divForm .panel-figures div .label{
+  font-size: 1.2em;
+  font-weight: normal;
+  width: 70%;
+  display: inline-block;
+  text-align: left;
+}
+.divForm .panel-figures div .values {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: right;
+  width: 25%;
+  display: inline-block;
+}
+.divForm .panel-figures div .values:before {
+  content: "$";
+}
+.divForm input[type=text] {
+  padding: 6px 12px;
+}
+.divForm form {
+  margin-bottom: 0;
+  margin: 0 5px;
+}
+.divForm .row:last-of-type {
+  border: none;
+  margin-bottom: 0;
+}
+.divForm .section-title {
+  border-bottom: 2px solid #00b5c9;
+  margin: 0 -15px;
+  margin-bottom: 25px;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: #00b5c9;
+  border-radius: 6px;
+}
+.divForm .childrenFields:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.divForm .childrenFields,
+.divForm .adultFields {
+  border-left: 1px solid #e1e1e1;
+}
+.divForm #purchase-voucher .form-section {
+  /*border: 1px solid red;*/
+  margin-bottom: 20px;
+/*   border: 1px solid #e1e1e1; */
+}
+.divForm #purchase-voucher h2 span,
+.divForm #purchase-voucher h3 span,
+.divForm #purchase-voucher h4 span {
+  clear: both;
+  display: block;
+}
+.divForm #purchase-voucher h2 #Total,
+.divForm #purchase-voucher h3 #Subtotal,
+.divForm #purchase-voucher h4 #Surcharge {
+  font-weight: bold !important;
+  font-size: 140%;
+  margin: 5px 0 15px;
+}
+.divForm #purchase-voucher input[type=submit] {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.divForm .form-message {
+  position: absolute;
+  top: 30%;  
+  transform: translateY(-50%);
+  left: 50%;  
+  transform: translateX(-50%);
+  
+  padding: 30px 30px;
+  text-align: center;  
+  width: 80%;
+  
+  background-color: lightgray;
+  color: white;
+    
+  border-radius: 5px;
+  
+  z-index: 10;
+  
+  box-shadow: 0 5px 16px rgba(0, 0, 0, .5);
+}
+.divForm .form-message.form-message-error {
+  background-color: #d9534f;
+}
+.divForm .form-message.form-message-warning {
+  background-color: #f0ad4e;
+}
+.divForm .form-message.form-message-info {
+  background-color: #46b8da;
+}
+.divForm .multi-step .previous,
+.divForm .multi-step .next {
+  color: white;
+  border: none;
+  padding: 5px 20px;
+}
+.divForm .checkbox-inline{
+  font-size: 1.2em;
+}
+.divForm form:not(.multi-step) button.next,
+.divForm form:not(.multi-step) button.previous {
+  display: none;
+}
+.divForm button,
+.divForm button:focus{
+  outline: none;
+}
+.divForm input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:18px;
+    height:18px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+    outline: none;
+}
+.divForm input[type='checkbox']:checked {
+    background: #00b5c9;
+}
+
+/* Form Validation */
+  .classDatepicker {
+      z-index: 0 !important;
+    }
+  input:focus ~ .parsley-errors-list {
+      display: none;
+    }
+/*   select ~ .parsley-errors-list, */
+  input[type=number] ~ .parsley-errors-list {
+      right: 25px;
+    }
+  .classDatepicker ~ .parsley-errors-list { 
+      right: 45px;
+    }
+  .parsley-error {
+      border:  2px solid #ff6600 !important;
+    }
+  .parsley-errors-list {
+      border-left: 0;
+      border-radius: 4px;
+      border-right: 0;
+      bottom: 5px;
+      color: transparent;
+      font-size: .8em;
+      font-weight: bold;
+      height: 34px;
+      line-height: 1;
+      list-style: none;
+      pointer-events: none;
+      position: absolute;
+      right: 18px;
+      text-align: right;
+      width: 100%;
+    }
+  .parsley-errors-list:after {
+      content: "Required";
+      display: inline-block;
+      color: #ff6600;
+      padding-right: 5px;
+      line-height: 0;
+      bottom: 8px;
+      right: 0;
+      position: absolute;
+    }
+  .checkbox-inline {
+      display: inline-block;
+    }
+  .checkbox-inline ~ .parsley-errors-list:after {
+      display: none;
+    }

@@ -1,0 +1,13 @@
+﻿.color {
+    color:white;
+}
+
+.textalign {
+    text-align:center;
+}
+.text {
+    content: "hello world";
+    color: black;
+}
+
+ 

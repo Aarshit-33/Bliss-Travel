@@ -1,0 +1,1997 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotNetOpenAuth.OAuth.4.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:DotNetOpenAuth.Messaging.Fakes.StubITamperProtectionChannelBindingElement">
+            <summary>Stub type of DotNetOpenAuth.Messaging.ITamperProtectionChannelBindingElement</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.Messaging.Fakes.StubITamperProtectionChannelBindingElement.#ctor">
+            <summary>Initializes a new instance of type StubITamperProtectionChannelBindingElement</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.Messaging.Fakes.StubITamperProtectionChannelBindingElement.AttachBackingFieldToChannel">
+            <summary>Attaches delegates to emulate StubITamperProtectionChannelBindingElement.Channel as a property with a backing field.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.Messaging.Fakes.StubITamperProtectionChannelBindingElement.AttachBackingFieldToSignatureCallback">
+            <summary>Attaches delegates to emulate StubITamperProtectionChannelBindingElement.SignatureCallback as a property with a backing field.</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.Messaging.Fakes.StubITamperProtectionChannelBindingElement.ChannelGet">
+            <summary>Sets the stub of IChannelBindingElement.get_Channel()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.Messaging.Fakes.StubITamperProtectionChannelBindingElement.ChannelSetChannel">
+            <summary>Sets the stub of IChannelBindingElement.set_Channel(Channel value)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.Messaging.Fakes.StubITamperProtectionChannelBindingElement.Clone">
+            <summary>Sets the stub of ITamperProtectionChannelBindingElement.Clone()</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.Messaging.Fakes.StubITamperProtectionChannelBindingElement.dnoac::DotNetOpenAuth#Messaging#IChannelBindingElement#ProcessIncomingMessage(DotNetOpenAuth.Messaging.IProtocolMessage)">
+            <summary>Sets the stub of IChannelBindingElement.ProcessIncomingMessage(IProtocolMessage message)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.Messaging.Fakes.StubITamperProtectionChannelBindingElement.dnoac::DotNetOpenAuth#Messaging#IChannelBindingElement#ProcessOutgoingMessage(DotNetOpenAuth.Messaging.IProtocolMessage)">
+            <summary>Sets the stub of IChannelBindingElement.ProcessOutgoingMessage(IProtocolMessage message)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.Messaging.Fakes.StubITamperProtectionChannelBindingElement.dnoaoa::DotNetOpenAuth#Messaging#ITamperProtectionChannelBindingElement#Clone">
+            <summary>Sets the stub of ITamperProtectionChannelBindingElement.Clone()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.Messaging.Fakes.StubITamperProtectionChannelBindingElement.ProcessIncomingMessageIProtocolMessage">
+            <summary>Sets the stub of IChannelBindingElement.ProcessIncomingMessage(IProtocolMessage message)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.Messaging.Fakes.StubITamperProtectionChannelBindingElement.ProcessOutgoingMessageIProtocolMessage">
+            <summary>Sets the stub of IChannelBindingElement.ProcessOutgoingMessage(IProtocolMessage message)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.Messaging.Fakes.StubITamperProtectionChannelBindingElement.ProtectionGet">
+            <summary>Sets the stub of IChannelBindingElement.get_Protection()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.Messaging.Fakes.StubITamperProtectionChannelBindingElement.SignatureCallbackGet">
+            <summary>Sets the stub of ITamperProtectionChannelBindingElement.get_SignatureCallback()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.Messaging.Fakes.StubITamperProtectionChannelBindingElement.SignatureCallbackSetActionOfITamperResistantOAuthMessage">
+            <summary>Sets the stub of ITamperProtectionChannelBindingElement.set_SignatureCallback(Action`1&lt;ITamperResistantOAuthMessage&gt; value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.Messaging.Fakes.StubITamperProtectionChannelBindingElement.dnoac::DotNetOpenAuth#Messaging#IChannelBindingElement#Channel">
+            <summary>Sets the stub of IChannelBindingElement.get_Channel()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.Messaging.Fakes.StubITamperProtectionChannelBindingElement.dnoac::DotNetOpenAuth#Messaging#IChannelBindingElement#Protection">
+            <summary>Sets the stub of IChannelBindingElement.get_Protection()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.Messaging.Fakes.StubITamperProtectionChannelBindingElement.dnoaoa::DotNetOpenAuth#Messaging#ITamperProtectionChannelBindingElement#SignatureCallback">
+            <summary>Sets the stub of ITamperProtectionChannelBindingElement.get_SignatureCallback()</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimHmacSha1SigningBindingElement">
+            <summary>Shim type of DotNetOpenAuth.OAuth.ChannelElements.HmacSha1SigningBindingElement</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimHmacSha1SigningBindingElement.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimHmacSha1SigningBindingElement.#ctor(DotNetOpenAuth.OAuth.ChannelElements.HmacSha1SigningBindingElement)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimHmacSha1SigningBindingElement.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimHmacSha1SigningBindingElement.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimHmacSha1SigningBindingElement.Bind(DotNetOpenAuth.Messaging.IChannelBindingElement)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimHmacSha1SigningBindingElement.Bind(DotNetOpenAuth.Messaging.ITamperProtectionChannelBindingElement)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimHmacSha1SigningBindingElement.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimHmacSha1SigningBindingElement.Clone">
+            <summary>Sets the shim of HmacSha1SigningBindingElement.Clone()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimHmacSha1SigningBindingElement.Constructor">
+            <summary>Sets the shim of HmacSha1SigningBindingElement.HmacSha1SigningBindingElement()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimHmacSha1SigningBindingElement.GetSignatureITamperResistantOAuthMessage">
+            <summary>Sets the shim of HmacSha1SigningBindingElement.GetSignature(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimHmacSha1SigningBindingElement.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimHmacSha1SigningBindingElement.AllInstances.Clone">
+            <summary>Sets the shim of HmacSha1SigningBindingElement.Clone()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimHmacSha1SigningBindingElement.AllInstances.GetSignatureITamperResistantOAuthMessage">
+            <summary>Sets the shim of HmacSha1SigningBindingElement.GetSignature(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimPlaintextSigningBindingElement">
+            <summary>Shim type of DotNetOpenAuth.OAuth.ChannelElements.PlaintextSigningBindingElement</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimPlaintextSigningBindingElement.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimPlaintextSigningBindingElement.#ctor(DotNetOpenAuth.OAuth.ChannelElements.PlaintextSigningBindingElement)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimPlaintextSigningBindingElement.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimPlaintextSigningBindingElement.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimPlaintextSigningBindingElement.Bind(DotNetOpenAuth.Messaging.IChannelBindingElement)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimPlaintextSigningBindingElement.Bind(DotNetOpenAuth.Messaging.ITamperProtectionChannelBindingElement)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimPlaintextSigningBindingElement.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimPlaintextSigningBindingElement.Clone">
+            <summary>Sets the shim of PlaintextSigningBindingElement.Clone()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimPlaintextSigningBindingElement.Constructor">
+            <summary>Sets the shim of PlaintextSigningBindingElement.PlaintextSigningBindingElement()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimPlaintextSigningBindingElement.GetSignatureITamperResistantOAuthMessage">
+            <summary>Sets the shim of PlaintextSigningBindingElement.GetSignature(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimPlaintextSigningBindingElement.IsMessageApplicableITamperResistantOAuthMessage">
+            <summary>Sets the shim of PlaintextSigningBindingElement.IsMessageApplicable(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimPlaintextSigningBindingElement.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimPlaintextSigningBindingElement.AllInstances.Clone">
+            <summary>Sets the shim of PlaintextSigningBindingElement.Clone()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimPlaintextSigningBindingElement.AllInstances.GetSignatureITamperResistantOAuthMessage">
+            <summary>Sets the shim of PlaintextSigningBindingElement.GetSignature(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimPlaintextSigningBindingElement.AllInstances.IsMessageApplicableITamperResistantOAuthMessage">
+            <summary>Sets the shim of PlaintextSigningBindingElement.IsMessageApplicable(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1SigningBindingElement">
+            <summary>Shim type of DotNetOpenAuth.OAuth.ChannelElements.RsaSha1SigningBindingElement</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1SigningBindingElement.#ctor(DotNetOpenAuth.OAuth.ChannelElements.RsaSha1SigningBindingElement)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1SigningBindingElement.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1SigningBindingElement.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1SigningBindingElement.Bind(DotNetOpenAuth.Messaging.IChannelBindingElement)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1SigningBindingElement.Bind(DotNetOpenAuth.Messaging.ITamperProtectionChannelBindingElement)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1SigningBindingElement.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1SigningBindingElement.Constructor">
+            <summary>Sets the shim of RsaSha1SigningBindingElement.RsaSha1SigningBindingElement()</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1SigningBindingElement.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase">
+            <summary>Shim type of DotNetOpenAuth.OAuth.ChannelElements.SigningBindingElementBase</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.#ctor(DotNetOpenAuth.OAuth.ChannelElements.SigningBindingElementBase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.Bind(DotNetOpenAuth.Messaging.IChannelBindingElement)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.Bind(DotNetOpenAuth.Messaging.ITamperProtectionChannelBindingElement)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.ChannelGet">
+            <summary>Sets the shim of SigningBindingElementBase.get_Channel()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.ChannelSetChannel">
+            <summary>Sets the shim of SigningBindingElementBase.set_Channel(Channel value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.ConstructorString">
+            <summary>Sets the shim of SigningBindingElementBase.SigningBindingElementBase(String signatureMethod)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.DotNetOpenAuthMessagingITamperProtectionChannelBindingElementClone">
+            <summary>Sets the shim of SigningBindingElementBase.DotNetOpenAuth.Messaging.ITamperProtectionChannelBindingElement.Clone()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.GetConsumerAndTokenSecretStringITamperResistantOAuthMessage">
+            <summary>Sets the shim of SigningBindingElementBase.GetConsumerAndTokenSecretString(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.GetSignatureTestHookITamperResistantOAuthMessage">
+            <summary>Sets the shim of SigningBindingElementBase.GetSignatureTestHook(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.IsMessageApplicableITamperResistantOAuthMessage">
+            <summary>Sets the shim of SigningBindingElementBase.IsMessageApplicable(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.IsSignatureValidITamperResistantOAuthMessage">
+            <summary>Sets the shim of SigningBindingElementBase.IsSignatureValid(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.ProcessIncomingMessageIProtocolMessage">
+            <summary>Sets the shim of SigningBindingElementBase.ProcessIncomingMessage(IProtocolMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.ProcessOutgoingMessageIProtocolMessage">
+            <summary>Sets the shim of SigningBindingElementBase.ProcessOutgoingMessage(IProtocolMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.ProtectionGet">
+            <summary>Sets the shim of SigningBindingElementBase.get_Protection()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.SignatureBaseStringParameterComparerKeyValuePairOfStringStringKeyValuePairOfStringString">
+            <summary>Sets the shim of SigningBindingElementBase.SignatureBaseStringParameterComparer(KeyValuePair`2&lt;String,String&gt; left, KeyValuePair`2&lt;String,String&gt; right)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.SignatureCallbackGet">
+            <summary>Sets the shim of SigningBindingElementBase.get_SignatureCallback()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.SignatureCallbackSetActionOfITamperResistantOAuthMessage">
+            <summary>Sets the shim of SigningBindingElementBase.set_SignatureCallback(Action`1&lt;ITamperResistantOAuthMessage&gt; value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.AllInstances.ChannelGet">
+            <summary>Sets the shim of SigningBindingElementBase.get_Channel()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.AllInstances.ChannelSetChannel">
+            <summary>Sets the shim of SigningBindingElementBase.set_Channel(Channel value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.AllInstances.DotNetOpenAuthMessagingITamperProtectionChannelBindingElementClone">
+            <summary>Sets the shim of SigningBindingElementBase.DotNetOpenAuth.Messaging.ITamperProtectionChannelBindingElement.Clone()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.AllInstances.GetSignatureTestHookITamperResistantOAuthMessage">
+            <summary>Sets the shim of SigningBindingElementBase.GetSignatureTestHook(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.AllInstances.IsMessageApplicableITamperResistantOAuthMessage">
+            <summary>Sets the shim of SigningBindingElementBase.IsMessageApplicable(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.AllInstances.IsSignatureValidITamperResistantOAuthMessage">
+            <summary>Sets the shim of SigningBindingElementBase.IsSignatureValid(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.AllInstances.ProcessIncomingMessageIProtocolMessage">
+            <summary>Sets the shim of SigningBindingElementBase.ProcessIncomingMessage(IProtocolMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.AllInstances.ProcessOutgoingMessageIProtocolMessage">
+            <summary>Sets the shim of SigningBindingElementBase.ProcessOutgoingMessage(IProtocolMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.AllInstances.ProtectionGet">
+            <summary>Sets the shim of SigningBindingElementBase.get_Protection()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.AllInstances.SignatureCallbackGet">
+            <summary>Sets the shim of SigningBindingElementBase.get_SignatureCallback()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimSigningBindingElementBase.AllInstances.SignatureCallbackSetActionOfITamperResistantOAuthMessage">
+            <summary>Sets the shim of SigningBindingElementBase.set_SignatureCallback(Action`1&lt;ITamperResistantOAuthMessage&gt; value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubHmacSha1SigningBindingElement">
+            <summary>Stub type of DotNetOpenAuth.OAuth.ChannelElements.HmacSha1SigningBindingElement</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubHmacSha1SigningBindingElement.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubHmacSha1SigningBindingElement.Clone">
+            <summary>Sets the stub of HmacSha1SigningBindingElement.Clone()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubHmacSha1SigningBindingElement.Clone01">
+            <summary>Sets the stub of HmacSha1SigningBindingElement.Clone()</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubHmacSha1SigningBindingElement.GetSignature(DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage)">
+            <summary>Sets the stub of HmacSha1SigningBindingElement.GetSignature(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubHmacSha1SigningBindingElement.GetSignatureITamperResistantOAuthMessage">
+            <summary>Sets the stub of HmacSha1SigningBindingElement.GetSignature(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubHmacSha1SigningBindingElement.InitializeStub">
+            <summary>Initializes a new instance of type StubHmacSha1SigningBindingElement</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubHmacSha1SigningBindingElement.IsMessageApplicable(DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage)">
+            <summary>Sets the stub of SigningBindingElementBase.IsMessageApplicable(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubHmacSha1SigningBindingElement.IsMessageApplicableITamperResistantOAuthMessage">
+            <summary>Sets the stub of SigningBindingElementBase.IsMessageApplicable(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubHmacSha1SigningBindingElement.IsSignatureValid(DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage)">
+            <summary>Sets the stub of SigningBindingElementBase.IsSignatureValid(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubHmacSha1SigningBindingElement.IsSignatureValidITamperResistantOAuthMessage">
+            <summary>Sets the stub of SigningBindingElementBase.IsSignatureValid(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubHmacSha1SigningBindingElement.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubHmacSha1SigningBindingElement.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubHmacSha1SigningBindingElement.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage">
+            <summary>Stub type of DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.#ctor">
+            <summary>Initializes a new instance of type StubITamperResistantOAuthMessage</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.AttachBackingFieldToConsumerKey">
+            <summary>Attaches delegates to emulate StubITamperResistantOAuthMessage.ConsumerKey as a property with a backing field.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.AttachBackingFieldToConsumerSecret">
+            <summary>Attaches delegates to emulate StubITamperResistantOAuthMessage.ConsumerSecret as a property with a backing field.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.AttachBackingFieldToHttpMethod">
+            <summary>Attaches delegates to emulate StubITamperResistantOAuthMessage.HttpMethod as a property with a backing field.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.AttachBackingFieldToOriginalPayload">
+            <summary>Attaches delegates to emulate StubITamperResistantOAuthMessage.OriginalPayload as a property with a backing field.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.AttachBackingFieldToRecipient">
+            <summary>Attaches delegates to emulate StubITamperResistantOAuthMessage.Recipient as a property with a backing field.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.AttachBackingFieldToSignature">
+            <summary>Attaches delegates to emulate StubITamperResistantOAuthMessage.Signature as a property with a backing field.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.AttachBackingFieldToSignatureMethod">
+            <summary>Attaches delegates to emulate StubITamperResistantOAuthMessage.SignatureMethod as a property with a backing field.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.AttachBackingFieldToTokenSecret">
+            <summary>Attaches delegates to emulate StubITamperResistantOAuthMessage.TokenSecret as a property with a backing field.</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.ConsumerKeyGet">
+            <summary>Sets the stub of ITamperResistantOAuthMessage.get_ConsumerKey()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.ConsumerKeySetString">
+            <summary>Sets the stub of ITamperResistantOAuthMessage.set_ConsumerKey(String value)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.ConsumerSecretGet">
+            <summary>Sets the stub of ITamperResistantOAuthMessage.get_ConsumerSecret()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.ConsumerSecretSetString">
+            <summary>Sets the stub of ITamperResistantOAuthMessage.set_ConsumerSecret(String value)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.dnoac::DotNetOpenAuth#Messaging#IMessage#EnsureValidMessage">
+            <summary>Sets the stub of IMessage.EnsureValidMessage()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.EnsureValidMessage">
+            <summary>Sets the stub of IMessage.EnsureValidMessage()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.ExtraDataGet">
+            <summary>Sets the stub of IMessage.get_ExtraData()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.HttpMethodGet">
+            <summary>Sets the stub of ITamperResistantOAuthMessage.get_HttpMethod()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.HttpMethodSetString">
+            <summary>Sets the stub of ITamperResistantOAuthMessage.set_HttpMethod(String value)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.HttpMethodsGet">
+            <summary>Sets the stub of IDirectedProtocolMessage.get_HttpMethods()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.OriginalPayloadGet">
+            <summary>Sets the stub of IMessageOriginalPayload.get_OriginalPayload()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.OriginalPayloadSetIDictionaryOfStringString">
+            <summary>Sets the stub of IMessageOriginalPayload.set_OriginalPayload(IDictionary`2&lt;String,String&gt; value)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.RecipientGet">
+            <summary>Sets the stub of ITamperResistantOAuthMessage.get_Recipient()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.RecipientGet01">
+            <summary>Sets the stub of IDirectedProtocolMessage.get_Recipient()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.RecipientSetUri">
+            <summary>Sets the stub of ITamperResistantOAuthMessage.set_Recipient(Uri value)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.RequiredProtectionGet">
+            <summary>Sets the stub of IProtocolMessage.get_RequiredProtection()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.SignatureGet">
+            <summary>Sets the stub of ITamperResistantProtocolMessage.get_Signature()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.SignatureMethodGet">
+            <summary>Sets the stub of ITamperResistantOAuthMessage.get_SignatureMethod()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.SignatureMethodSetString">
+            <summary>Sets the stub of ITamperResistantOAuthMessage.set_SignatureMethod(String value)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.SignatureSetString">
+            <summary>Sets the stub of ITamperResistantProtocolMessage.set_Signature(String value)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.TokenSecretGet">
+            <summary>Sets the stub of ITamperResistantOAuthMessage.get_TokenSecret()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.TokenSecretSetString">
+            <summary>Sets the stub of ITamperResistantOAuthMessage.set_TokenSecret(String value)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.TransportGet">
+            <summary>Sets the stub of IProtocolMessage.get_Transport()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.VersionGet">
+            <summary>Sets the stub of IMessage.get_Version()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.dnoaoa::DotNetOpenAuth#OAuth#ChannelElements#ITamperResistantOAuthMessage#ConsumerKey">
+            <summary>Sets the stub of ITamperResistantOAuthMessage.get_ConsumerKey()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.dnoaoa::DotNetOpenAuth#OAuth#ChannelElements#ITamperResistantOAuthMessage#ConsumerSecret">
+            <summary>Sets the stub of ITamperResistantOAuthMessage.get_ConsumerSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.dnoac::DotNetOpenAuth#Messaging#IMessage#ExtraData">
+            <summary>Sets the stub of IMessage.get_ExtraData()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.dnoaoa::DotNetOpenAuth#OAuth#ChannelElements#ITamperResistantOAuthMessage#HttpMethod">
+            <summary>Sets the stub of ITamperResistantOAuthMessage.get_HttpMethod()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.dnoac::DotNetOpenAuth#Messaging#IDirectedProtocolMessage#HttpMethods">
+            <summary>Sets the stub of IDirectedProtocolMessage.get_HttpMethods()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.dnoac::DotNetOpenAuth#Messaging#IMessageOriginalPayload#OriginalPayload">
+            <summary>Sets the stub of IMessageOriginalPayload.get_OriginalPayload()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.dnoaoa::DotNetOpenAuth#OAuth#ChannelElements#ITamperResistantOAuthMessage#Recipient">
+            <summary>Sets the stub of ITamperResistantOAuthMessage.get_Recipient()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.dnoac::DotNetOpenAuth#Messaging#IDirectedProtocolMessage#Recipient">
+            <summary>Sets the stub of IDirectedProtocolMessage.get_Recipient()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.dnoac::DotNetOpenAuth#Messaging#IProtocolMessage#RequiredProtection">
+            <summary>Sets the stub of IProtocolMessage.get_RequiredProtection()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.dnoac::DotNetOpenAuth#Messaging#ITamperResistantProtocolMessage#Signature">
+            <summary>Sets the stub of ITamperResistantProtocolMessage.get_Signature()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.dnoaoa::DotNetOpenAuth#OAuth#ChannelElements#ITamperResistantOAuthMessage#SignatureMethod">
+            <summary>Sets the stub of ITamperResistantOAuthMessage.get_SignatureMethod()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.dnoaoa::DotNetOpenAuth#OAuth#ChannelElements#ITamperResistantOAuthMessage#TokenSecret">
+            <summary>Sets the stub of ITamperResistantOAuthMessage.get_TokenSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.dnoac::DotNetOpenAuth#Messaging#IProtocolMessage#Transport">
+            <summary>Sets the stub of IProtocolMessage.get_Transport()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITamperResistantOAuthMessage.dnoac::DotNetOpenAuth#Messaging#IMessage#Version">
+            <summary>Sets the stub of IMessage.get_Version()</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITokenManager">
+            <summary>Stub type of DotNetOpenAuth.OAuth.ChannelElements.ITokenManager</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITokenManager.#ctor">
+            <summary>Initializes a new instance of type StubITokenManager</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITokenManager.dnoaoa::DotNetOpenAuth#OAuth#ChannelElements#ITokenManager#ExpireRequestTokenAndStoreNewAccessToken(System.String,System.String,System.String,System.String)">
+            <summary>Sets the stub of ITokenManager.ExpireRequestTokenAndStoreNewAccessToken(String consumerKey, String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITokenManager.dnoaoa::DotNetOpenAuth#OAuth#ChannelElements#ITokenManager#GetTokenSecret(System.String)">
+            <summary>Sets the stub of ITokenManager.GetTokenSecret(String token)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITokenManager.dnoaoa::DotNetOpenAuth#OAuth#ChannelElements#ITokenManager#GetTokenType(System.String)">
+            <summary>Sets the stub of ITokenManager.GetTokenType(String token)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITokenManager.dnoaoa::DotNetOpenAuth#OAuth#ChannelElements#ITokenManager#StoreNewRequestToken(DotNetOpenAuth.OAuth.Messages.UnauthorizedTokenRequest,DotNetOpenAuth.OAuth.Messages.ITokenSecretContainingMessage)">
+            <summary>Sets the stub of ITokenManager.StoreNewRequestToken(UnauthorizedTokenRequest request, ITokenSecretContainingMessage response)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITokenManager.ExpireRequestTokenAndStoreNewAccessTokenStringStringStringString">
+            <summary>Sets the stub of ITokenManager.ExpireRequestTokenAndStoreNewAccessToken(String consumerKey, String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITokenManager.GetTokenSecretString">
+            <summary>Sets the stub of ITokenManager.GetTokenSecret(String token)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITokenManager.GetTokenTypeString">
+            <summary>Sets the stub of ITokenManager.GetTokenType(String token)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubITokenManager.StoreNewRequestTokenUnauthorizedTokenRequestITokenSecretContainingMessage">
+            <summary>Sets the stub of ITokenManager.StoreNewRequestToken(UnauthorizedTokenRequest request, ITokenSecretContainingMessage response)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubPlaintextSigningBindingElement">
+            <summary>Stub type of DotNetOpenAuth.OAuth.ChannelElements.PlaintextSigningBindingElement</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubPlaintextSigningBindingElement.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubPlaintextSigningBindingElement.Clone">
+            <summary>Sets the stub of PlaintextSigningBindingElement.Clone()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubPlaintextSigningBindingElement.Clone01">
+            <summary>Sets the stub of PlaintextSigningBindingElement.Clone()</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubPlaintextSigningBindingElement.GetSignature(DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage)">
+            <summary>Sets the stub of PlaintextSigningBindingElement.GetSignature(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubPlaintextSigningBindingElement.GetSignatureITamperResistantOAuthMessage">
+            <summary>Sets the stub of PlaintextSigningBindingElement.GetSignature(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubPlaintextSigningBindingElement.InitializeStub">
+            <summary>Initializes a new instance of type StubPlaintextSigningBindingElement</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubPlaintextSigningBindingElement.IsMessageApplicable(DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage)">
+            <summary>Sets the stub of PlaintextSigningBindingElement.IsMessageApplicable(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubPlaintextSigningBindingElement.IsMessageApplicableITamperResistantOAuthMessage">
+            <summary>Sets the stub of PlaintextSigningBindingElement.IsMessageApplicable(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubPlaintextSigningBindingElement.IsSignatureValid(DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage)">
+            <summary>Sets the stub of SigningBindingElementBase.IsSignatureValid(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubPlaintextSigningBindingElement.IsSignatureValidITamperResistantOAuthMessage">
+            <summary>Sets the stub of SigningBindingElementBase.IsSignatureValid(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubPlaintextSigningBindingElement.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubPlaintextSigningBindingElement.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubPlaintextSigningBindingElement.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1SigningBindingElement">
+            <summary>Stub type of DotNetOpenAuth.OAuth.ChannelElements.RsaSha1SigningBindingElement</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1SigningBindingElement.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1SigningBindingElement.Clone">
+            <summary>Sets the stub of SigningBindingElementBase.Clone()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1SigningBindingElement.Clone01">
+            <summary>Sets the stub of SigningBindingElementBase.Clone()</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1SigningBindingElement.GetSignature(DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage)">
+            <summary>Sets the stub of SigningBindingElementBase.GetSignature(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1SigningBindingElement.GetSignatureITamperResistantOAuthMessage">
+            <summary>Sets the stub of SigningBindingElementBase.GetSignature(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1SigningBindingElement.InitializeStub">
+            <summary>Initializes a new instance of type StubRsaSha1SigningBindingElement</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1SigningBindingElement.IsMessageApplicable(DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage)">
+            <summary>Sets the stub of SigningBindingElementBase.IsMessageApplicable(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1SigningBindingElement.IsMessageApplicableITamperResistantOAuthMessage">
+            <summary>Sets the stub of SigningBindingElementBase.IsMessageApplicable(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1SigningBindingElement.IsSignatureValid(DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage)">
+            <summary>Sets the stub of SigningBindingElementBase.IsSignatureValid(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1SigningBindingElement.IsSignatureValidITamperResistantOAuthMessage">
+            <summary>Sets the stub of SigningBindingElementBase.IsSignatureValid(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1SigningBindingElement.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1SigningBindingElement.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1SigningBindingElement.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Fakes.ShimSecuritySettings">
+            <summary>Shim type of DotNetOpenAuth.OAuth.SecuritySettings</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimSecuritySettings.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimSecuritySettings.#ctor(DotNetOpenAuth.OAuth.SecuritySettings)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimSecuritySettings.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimSecuritySettings.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimSecuritySettings.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimSecuritySettings.Constructor">
+            <summary>Sets the shim of SecuritySettings.SecuritySettings()</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Fakes.ShimSecuritySettings.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription">
+            <summary>Shim type of DotNetOpenAuth.OAuth.ServiceProviderDescription</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.#ctor(DotNetOpenAuth.OAuth.ServiceProviderDescription)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.AccessTokenEndpointGet">
+            <summary>Sets the shim of ServiceProviderDescription.get_AccessTokenEndpoint()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.AccessTokenEndpointSetMessageReceivingEndpoint">
+            <summary>Sets the shim of ServiceProviderDescription.set_AccessTokenEndpoint(MessageReceivingEndpoint value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.Constructor">
+            <summary>Sets the shim of ServiceProviderDescription.ServiceProviderDescription()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.CreateTamperProtectionElement">
+            <summary>Sets the shim of ServiceProviderDescription.CreateTamperProtectionElement()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.ProtocolVersionGet">
+            <summary>Sets the shim of ServiceProviderDescription.get_ProtocolVersion()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.ProtocolVersionSetProtocolVersion">
+            <summary>Sets the shim of ServiceProviderDescription.set_ProtocolVersion(ProtocolVersion value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.RequestTokenEndpointGet">
+            <summary>Sets the shim of ServiceProviderDescription.get_RequestTokenEndpoint()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.RequestTokenEndpointSetMessageReceivingEndpoint">
+            <summary>Sets the shim of ServiceProviderDescription.set_RequestTokenEndpoint(MessageReceivingEndpoint value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.TamperProtectionElementsGet">
+            <summary>Sets the shim of ServiceProviderDescription.get_TamperProtectionElements()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.TamperProtectionElementsSetITamperProtectionChannelBindingElementArray">
+            <summary>Sets the shim of ServiceProviderDescription.set_TamperProtectionElements(ITamperProtectionChannelBindingElement[] value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.UserAuthorizationEndpointGet">
+            <summary>Sets the shim of ServiceProviderDescription.get_UserAuthorizationEndpoint()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.UserAuthorizationEndpointSetMessageReceivingEndpoint">
+            <summary>Sets the shim of ServiceProviderDescription.set_UserAuthorizationEndpoint(MessageReceivingEndpoint value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.VersionGet">
+            <summary>Sets the shim of ServiceProviderDescription.get_Version()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription._CreateTamperProtectionElementb__0ITamperProtectionChannelBindingElement">
+            <summary>Sets the shim of ServiceProviderDescription.&lt;CreateTamperProtectionElement&gt;b__0(ITamperProtectionChannelBindingElement el)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.AllInstances.AccessTokenEndpointGet">
+            <summary>Sets the shim of ServiceProviderDescription.get_AccessTokenEndpoint()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.AllInstances.AccessTokenEndpointSetMessageReceivingEndpoint">
+            <summary>Sets the shim of ServiceProviderDescription.set_AccessTokenEndpoint(MessageReceivingEndpoint value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.AllInstances.CreateTamperProtectionElement">
+            <summary>Sets the shim of ServiceProviderDescription.CreateTamperProtectionElement()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.AllInstances.ProtocolVersionGet">
+            <summary>Sets the shim of ServiceProviderDescription.get_ProtocolVersion()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.AllInstances.ProtocolVersionSetProtocolVersion">
+            <summary>Sets the shim of ServiceProviderDescription.set_ProtocolVersion(ProtocolVersion value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.AllInstances.RequestTokenEndpointGet">
+            <summary>Sets the shim of ServiceProviderDescription.get_RequestTokenEndpoint()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.AllInstances.RequestTokenEndpointSetMessageReceivingEndpoint">
+            <summary>Sets the shim of ServiceProviderDescription.set_RequestTokenEndpoint(MessageReceivingEndpoint value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.AllInstances.TamperProtectionElementsGet">
+            <summary>Sets the shim of ServiceProviderDescription.get_TamperProtectionElements()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.AllInstances.TamperProtectionElementsSetITamperProtectionChannelBindingElementArray">
+            <summary>Sets the shim of ServiceProviderDescription.set_TamperProtectionElements(ITamperProtectionChannelBindingElement[] value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.AllInstances.UserAuthorizationEndpointGet">
+            <summary>Sets the shim of ServiceProviderDescription.get_UserAuthorizationEndpoint()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.AllInstances.UserAuthorizationEndpointSetMessageReceivingEndpoint">
+            <summary>Sets the shim of ServiceProviderDescription.set_UserAuthorizationEndpoint(MessageReceivingEndpoint value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderDescription.AllInstances.VersionGet">
+            <summary>Sets the shim of ServiceProviderDescription.get_Version()</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderSecuritySettings">
+            <summary>Shim type of DotNetOpenAuth.OAuth.ServiceProviderSecuritySettings</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderSecuritySettings.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderSecuritySettings.#ctor(DotNetOpenAuth.OAuth.ServiceProviderSecuritySettings)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderSecuritySettings.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderSecuritySettings.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderSecuritySettings.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderSecuritySettings.Constructor">
+            <summary>Sets the shim of ServiceProviderSecuritySettings.ServiceProviderSecuritySettings()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderSecuritySettings.MaximumRequestTokenTimeToLiveGet">
+            <summary>Sets the shim of ServiceProviderSecuritySettings.get_MaximumRequestTokenTimeToLive()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderSecuritySettings.MaximumRequestTokenTimeToLiveSetTimeSpan">
+            <summary>Sets the shim of ServiceProviderSecuritySettings.set_MaximumRequestTokenTimeToLive(TimeSpan value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderSecuritySettings.MinimumRequiredOAuthVersionGet">
+            <summary>Sets the shim of ServiceProviderSecuritySettings.get_MinimumRequiredOAuthVersion()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderSecuritySettings.MinimumRequiredOAuthVersionSetProtocolVersion">
+            <summary>Sets the shim of ServiceProviderSecuritySettings.set_MinimumRequiredOAuthVersion(ProtocolVersion value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderSecuritySettings.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderSecuritySettings.AllInstances.MaximumRequestTokenTimeToLiveGet">
+            <summary>Sets the shim of ServiceProviderSecuritySettings.get_MaximumRequestTokenTimeToLive()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderSecuritySettings.AllInstances.MaximumRequestTokenTimeToLiveSetTimeSpan">
+            <summary>Sets the shim of ServiceProviderSecuritySettings.set_MaximumRequestTokenTimeToLive(TimeSpan value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderSecuritySettings.AllInstances.MinimumRequiredOAuthVersionGet">
+            <summary>Sets the shim of ServiceProviderSecuritySettings.get_MinimumRequiredOAuthVersion()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimServiceProviderSecuritySettings.AllInstances.MinimumRequiredOAuthVersionSetProtocolVersion">
+            <summary>Sets the shim of ServiceProviderSecuritySettings.set_MinimumRequiredOAuthVersion(ProtocolVersion value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Fakes.StubSecuritySettings">
+            <summary>Stub type of DotNetOpenAuth.OAuth.SecuritySettings</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.StubSecuritySettings.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.StubSecuritySettings.InitializeStub">
+            <summary>Initializes a new instance of type StubSecuritySettings</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.StubSecuritySettings.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.StubSecuritySettings.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.StubSecuritySettings.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Fakes.StubServiceProviderDescription">
+            <summary>Stub type of DotNetOpenAuth.OAuth.ServiceProviderDescription</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.StubServiceProviderDescription.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.StubServiceProviderDescription.InitializeStub">
+            <summary>Initializes a new instance of type StubServiceProviderDescription</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.StubServiceProviderDescription.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.StubServiceProviderDescription.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.StubServiceProviderDescription.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest">
+            <summary>Shim type of DotNetOpenAuth.OAuth.Messages.AccessProtectedResourceRequest</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.#ctor(DotNetOpenAuth.OAuth.Messages.AccessProtectedResourceRequest)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.Bind(DotNetOpenAuth.Messaging.IDirectResponseProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.Bind(DotNetOpenAuth.Messaging.IDirectedProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.Bind(DotNetOpenAuth.Messaging.IMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.Bind(DotNetOpenAuth.Messaging.IMessageOriginalPayload)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.Bind(DotNetOpenAuth.Messaging.IMessageWithBinaryData)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.Bind(DotNetOpenAuth.Messaging.IProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.Bind(DotNetOpenAuth.Messaging.ITamperResistantProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.Bind(DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.Bind(DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.AccessTokenGet">
+            <summary>Sets the shim of AccessProtectedResourceRequest.get_AccessToken()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.AccessTokenSetString">
+            <summary>Sets the shim of AccessProtectedResourceRequest.set_AccessToken(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.BinaryDataGet">
+            <summary>Sets the shim of AccessProtectedResourceRequest.get_BinaryData()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.ConstructorMessageReceivingEndpointVersion">
+            <summary>Sets the shim of AccessProtectedResourceRequest.AccessProtectedResourceRequest(MessageReceivingEndpoint serviceProvider, Version version)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.SendAsMultipartGet">
+            <summary>Sets the shim of AccessProtectedResourceRequest.get_SendAsMultipart()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessageget">
+            <summary>Sets the shim of AccessProtectedResourceRequest.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.get_Token()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessagesetString">
+            <summary>Sets the shim of AccessProtectedResourceRequest.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.set_Token(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.AllInstances.AccessTokenGet">
+            <summary>Sets the shim of AccessProtectedResourceRequest.get_AccessToken()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.AllInstances.AccessTokenSetString">
+            <summary>Sets the shim of AccessProtectedResourceRequest.set_AccessToken(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.AllInstances.BinaryDataGet">
+            <summary>Sets the shim of AccessProtectedResourceRequest.get_BinaryData()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.AllInstances.SendAsMultipartGet">
+            <summary>Sets the shim of AccessProtectedResourceRequest.get_SendAsMultipart()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.AllInstances.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessageget">
+            <summary>Sets the shim of AccessProtectedResourceRequest.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.get_Token()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAccessProtectedResourceRequest.AllInstances.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessagesetString">
+            <summary>Sets the shim of AccessProtectedResourceRequest.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.set_Token(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest">
+            <summary>Shim type of DotNetOpenAuth.OAuth.Messages.AuthorizedTokenRequest</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.#ctor(DotNetOpenAuth.OAuth.Messages.AuthorizedTokenRequest)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.Bind(DotNetOpenAuth.Messaging.IDirectResponseProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.Bind(DotNetOpenAuth.Messaging.IDirectedProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.Bind(DotNetOpenAuth.Messaging.IMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.Bind(DotNetOpenAuth.Messaging.IMessageOriginalPayload)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.Bind(DotNetOpenAuth.Messaging.IProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.Bind(DotNetOpenAuth.Messaging.ITamperResistantProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.Bind(DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.Bind(DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.ConstructorMessageReceivingEndpointVersion">
+            <summary>Sets the shim of AuthorizedTokenRequest.AuthorizedTokenRequest(MessageReceivingEndpoint serviceProvider, Version version)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.EnsureValidMessage">
+            <summary>Sets the shim of AuthorizedTokenRequest.EnsureValidMessage()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.RequestTokenGet">
+            <summary>Sets the shim of AuthorizedTokenRequest.get_RequestToken()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.RequestTokenSetString">
+            <summary>Sets the shim of AuthorizedTokenRequest.set_RequestToken(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessageget">
+            <summary>Sets the shim of AuthorizedTokenRequest.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.get_Token()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessagesetString">
+            <summary>Sets the shim of AuthorizedTokenRequest.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.set_Token(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.VerificationCodeGet">
+            <summary>Sets the shim of AuthorizedTokenRequest.get_VerificationCode()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.VerificationCodeSetString">
+            <summary>Sets the shim of AuthorizedTokenRequest.set_VerificationCode(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.AllInstances.EnsureValidMessage">
+            <summary>Sets the shim of AuthorizedTokenRequest.EnsureValidMessage()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.AllInstances.RequestTokenGet">
+            <summary>Sets the shim of AuthorizedTokenRequest.get_RequestToken()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.AllInstances.RequestTokenSetString">
+            <summary>Sets the shim of AuthorizedTokenRequest.set_RequestToken(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.AllInstances.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessageget">
+            <summary>Sets the shim of AuthorizedTokenRequest.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.get_Token()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.AllInstances.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessagesetString">
+            <summary>Sets the shim of AuthorizedTokenRequest.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.set_Token(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.AllInstances.VerificationCodeGet">
+            <summary>Sets the shim of AuthorizedTokenRequest.get_VerificationCode()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenRequest.AllInstances.VerificationCodeSetString">
+            <summary>Sets the shim of AuthorizedTokenRequest.set_VerificationCode(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse">
+            <summary>Shim type of DotNetOpenAuth.OAuth.Messages.AuthorizedTokenResponse</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.#ctor(DotNetOpenAuth.OAuth.Messages.AuthorizedTokenResponse)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.Bind(DotNetOpenAuth.Messaging.IDirectResponseProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.Bind(DotNetOpenAuth.Messaging.IDirectedProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.Bind(DotNetOpenAuth.Messaging.IMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.Bind(DotNetOpenAuth.Messaging.IProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.Bind(DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.Bind(DotNetOpenAuth.OAuth.Messages.ITokenSecretContainingMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.AccessTokenGet">
+            <summary>Sets the shim of AuthorizedTokenResponse.get_AccessToken()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.AccessTokenSetString">
+            <summary>Sets the shim of AuthorizedTokenResponse.set_AccessToken(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.ConstructorAuthorizedTokenRequest">
+            <summary>Sets the shim of AuthorizedTokenResponse.AuthorizedTokenResponse(AuthorizedTokenRequest originatingRequest)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.ExtraDataGet">
+            <summary>Sets the shim of AuthorizedTokenResponse.get_ExtraData()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessageget">
+            <summary>Sets the shim of AuthorizedTokenResponse.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.get_Token()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessagesetString">
+            <summary>Sets the shim of AuthorizedTokenResponse.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.set_Token(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.TokenSecretDotNetOpenAuthOAuthMessagesITokenSecretContainingMessageget">
+            <summary>Sets the shim of AuthorizedTokenResponse.DotNetOpenAuth.OAuth.Messages.ITokenSecretContainingMessage.get_TokenSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.TokenSecretDotNetOpenAuthOAuthMessagesITokenSecretContainingMessagesetString">
+            <summary>Sets the shim of AuthorizedTokenResponse.DotNetOpenAuth.OAuth.Messages.ITokenSecretContainingMessage.set_TokenSecret(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.TokenSecretGet">
+            <summary>Sets the shim of AuthorizedTokenResponse.get_TokenSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.TokenSecretSetString">
+            <summary>Sets the shim of AuthorizedTokenResponse.set_TokenSecret(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.AllInstances.AccessTokenGet">
+            <summary>Sets the shim of AuthorizedTokenResponse.get_AccessToken()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.AllInstances.AccessTokenSetString">
+            <summary>Sets the shim of AuthorizedTokenResponse.set_AccessToken(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.AllInstances.ExtraDataGet">
+            <summary>Sets the shim of AuthorizedTokenResponse.get_ExtraData()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.AllInstances.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessageget">
+            <summary>Sets the shim of AuthorizedTokenResponse.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.get_Token()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.AllInstances.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessagesetString">
+            <summary>Sets the shim of AuthorizedTokenResponse.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.set_Token(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.AllInstances.TokenSecretDotNetOpenAuthOAuthMessagesITokenSecretContainingMessageget">
+            <summary>Sets the shim of AuthorizedTokenResponse.DotNetOpenAuth.OAuth.Messages.ITokenSecretContainingMessage.get_TokenSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.AllInstances.TokenSecretDotNetOpenAuthOAuthMessagesITokenSecretContainingMessagesetString">
+            <summary>Sets the shim of AuthorizedTokenResponse.DotNetOpenAuth.OAuth.Messages.ITokenSecretContainingMessage.set_TokenSecret(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.AllInstances.TokenSecretGet">
+            <summary>Sets the shim of AuthorizedTokenResponse.get_TokenSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimAuthorizedTokenResponse.AllInstances.TokenSecretSetString">
+            <summary>Sets the shim of AuthorizedTokenResponse.set_TokenSecret(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase">
+            <summary>Shim type of DotNetOpenAuth.OAuth.Messages.MessageBase</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.#ctor(DotNetOpenAuth.OAuth.Messages.MessageBase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.Bind(DotNetOpenAuth.Messaging.IDirectResponseProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.Bind(DotNetOpenAuth.Messaging.IDirectedProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.Bind(DotNetOpenAuth.Messaging.IMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.Bind(DotNetOpenAuth.Messaging.IProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.ConstructorMessageProtectionsIDirectedProtocolMessageVersion">
+            <summary>Sets the shim of MessageBase.MessageBase(MessageProtections protectionRequired, IDirectedProtocolMessage originatingRequest, Version version)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.ConstructorMessageProtectionsMessageTransportMessageReceivingEndpointVersion">
+            <summary>Sets the shim of MessageBase.MessageBase(MessageProtections protectionRequired, MessageTransport transport, MessageReceivingEndpoint recipient, Version version)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.DotNetOpenAuthMessagingIMessageEnsureValidMessage">
+            <summary>Sets the shim of MessageBase.DotNetOpenAuth.Messaging.IMessage.EnsureValidMessage()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.EnsureValidMessage">
+            <summary>Sets the shim of MessageBase.EnsureValidMessage()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.ExtraDataDotNetOpenAuthMessagingIMessageget">
+            <summary>Sets the shim of MessageBase.DotNetOpenAuth.Messaging.IMessage.get_ExtraData()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.ExtraDataGet">
+            <summary>Sets the shim of MessageBase.get_ExtraData()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.HttpMethodsDotNetOpenAuthMessagingIDirectedProtocolMessageget">
+            <summary>Sets the shim of MessageBase.DotNetOpenAuth.Messaging.IDirectedProtocolMessage.get_HttpMethods()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.HttpMethodsGet">
+            <summary>Sets the shim of MessageBase.get_HttpMethods()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.IncomingGet">
+            <summary>Sets the shim of MessageBase.get_Incoming()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.LowSecurityModeGet">
+            <summary>Sets the shim of MessageBase.get_LowSecurityMode()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.LowSecurityModeSetBoolean">
+            <summary>Sets the shim of MessageBase.set_LowSecurityMode(Boolean value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.OriginatingRequestDotNetOpenAuthMessagingIDirectResponseProtocolMessageget">
+            <summary>Sets the shim of MessageBase.DotNetOpenAuth.Messaging.IDirectResponseProtocolMessage.get_OriginatingRequest()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.OriginatingRequestGet">
+            <summary>Sets the shim of MessageBase.get_OriginatingRequest()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.RecipientDotNetOpenAuthMessagingIDirectedProtocolMessageget">
+            <summary>Sets the shim of MessageBase.DotNetOpenAuth.Messaging.IDirectedProtocolMessage.get_Recipient()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.RecipientGet">
+            <summary>Sets the shim of MessageBase.get_Recipient()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.RecipientSetUri">
+            <summary>Sets the shim of MessageBase.set_Recipient(Uri value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.RequiredProtectionDotNetOpenAuthMessagingIProtocolMessageget">
+            <summary>Sets the shim of MessageBase.DotNetOpenAuth.Messaging.IProtocolMessage.get_RequiredProtection()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.RequiredProtectionGet">
+            <summary>Sets the shim of MessageBase.get_RequiredProtection()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.SetAsIncoming">
+            <summary>Sets the shim of MessageBase.SetAsIncoming()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.ToStringChannel">
+            <summary>Sets the shim of MessageBase.ToString(Channel channel)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.TransportDotNetOpenAuthMessagingIProtocolMessageget">
+            <summary>Sets the shim of MessageBase.DotNetOpenAuth.Messaging.IProtocolMessage.get_Transport()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.TransportGet">
+            <summary>Sets the shim of MessageBase.get_Transport()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.VersionDotNetOpenAuthMessagingIMessageget">
+            <summary>Sets the shim of MessageBase.DotNetOpenAuth.Messaging.IMessage.get_Version()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.VersionGet">
+            <summary>Sets the shim of MessageBase.get_Version()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.VersionSetVersion">
+            <summary>Sets the shim of MessageBase.set_Version(Version value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.DotNetOpenAuthMessagingIMessageEnsureValidMessage">
+            <summary>Sets the shim of MessageBase.DotNetOpenAuth.Messaging.IMessage.EnsureValidMessage()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.EnsureValidMessage">
+            <summary>Sets the shim of MessageBase.EnsureValidMessage()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.ExtraDataDotNetOpenAuthMessagingIMessageget">
+            <summary>Sets the shim of MessageBase.DotNetOpenAuth.Messaging.IMessage.get_ExtraData()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.ExtraDataGet">
+            <summary>Sets the shim of MessageBase.get_ExtraData()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.HttpMethodsDotNetOpenAuthMessagingIDirectedProtocolMessageget">
+            <summary>Sets the shim of MessageBase.DotNetOpenAuth.Messaging.IDirectedProtocolMessage.get_HttpMethods()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.HttpMethodsGet">
+            <summary>Sets the shim of MessageBase.get_HttpMethods()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.IncomingGet">
+            <summary>Sets the shim of MessageBase.get_Incoming()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.OriginatingRequestDotNetOpenAuthMessagingIDirectResponseProtocolMessageget">
+            <summary>Sets the shim of MessageBase.DotNetOpenAuth.Messaging.IDirectResponseProtocolMessage.get_OriginatingRequest()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.OriginatingRequestGet">
+            <summary>Sets the shim of MessageBase.get_OriginatingRequest()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.RecipientDotNetOpenAuthMessagingIDirectedProtocolMessageget">
+            <summary>Sets the shim of MessageBase.DotNetOpenAuth.Messaging.IDirectedProtocolMessage.get_Recipient()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.RecipientGet">
+            <summary>Sets the shim of MessageBase.get_Recipient()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.RecipientSetUri">
+            <summary>Sets the shim of MessageBase.set_Recipient(Uri value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.RequiredProtectionDotNetOpenAuthMessagingIProtocolMessageget">
+            <summary>Sets the shim of MessageBase.DotNetOpenAuth.Messaging.IProtocolMessage.get_RequiredProtection()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.RequiredProtectionGet">
+            <summary>Sets the shim of MessageBase.get_RequiredProtection()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.SetAsIncoming">
+            <summary>Sets the shim of MessageBase.SetAsIncoming()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.ToStringChannel">
+            <summary>Sets the shim of MessageBase.ToString(Channel channel)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.TransportDotNetOpenAuthMessagingIProtocolMessageget">
+            <summary>Sets the shim of MessageBase.DotNetOpenAuth.Messaging.IProtocolMessage.get_Transport()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.TransportGet">
+            <summary>Sets the shim of MessageBase.get_Transport()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.VersionDotNetOpenAuthMessagingIMessageget">
+            <summary>Sets the shim of MessageBase.DotNetOpenAuth.Messaging.IMessage.get_Version()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.VersionGet">
+            <summary>Sets the shim of MessageBase.get_Version()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimMessageBase.AllInstances.VersionSetVersion">
+            <summary>Sets the shim of MessageBase.set_Version(Version value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase">
+            <summary>Shim type of DotNetOpenAuth.OAuth.Messages.SignedMessageBase</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.#ctor(DotNetOpenAuth.OAuth.Messages.SignedMessageBase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.Bind(DotNetOpenAuth.Messaging.IDirectResponseProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.Bind(DotNetOpenAuth.Messaging.IDirectedProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.Bind(DotNetOpenAuth.Messaging.IMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.Bind(DotNetOpenAuth.Messaging.IMessageOriginalPayload)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.Bind(DotNetOpenAuth.Messaging.IProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.Bind(DotNetOpenAuth.Messaging.ITamperResistantProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.Bind(DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.ConstructorMessageTransportMessageReceivingEndpointVersion">
+            <summary>Sets the shim of SignedMessageBase.SignedMessageBase(MessageTransport transport, MessageReceivingEndpoint recipient, Version version)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.ConsumerKeyGet">
+            <summary>Sets the shim of SignedMessageBase.get_ConsumerKey()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.ConsumerKeySetString">
+            <summary>Sets the shim of SignedMessageBase.set_ConsumerKey(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.ConsumerSecretDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessageget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.get_ConsumerSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.ConsumerSecretDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessagesetString">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.set_ConsumerSecret(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.ConsumerSecretGet">
+            <summary>Sets the shim of SignedMessageBase.get_ConsumerSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.ConsumerSecretSetString">
+            <summary>Sets the shim of SignedMessageBase.set_ConsumerSecret(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.HttpMethodDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessageget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.get_HttpMethod()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.HttpMethodDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessagesetString">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.set_HttpMethod(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.HttpMethodGet">
+            <summary>Sets the shim of SignedMessageBase.get_HttpMethod()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.HttpMethodSetString">
+            <summary>Sets the shim of SignedMessageBase.set_HttpMethod(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.NonceContextDotNetOpenAuthMessagingBindingsIReplayProtectedProtocolMessageget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.Messaging.Bindings.IReplayProtectedProtocolMessage.get_NonceContext()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.NonceDotNetOpenAuthMessagingBindingsIReplayProtectedProtocolMessageget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.Messaging.Bindings.IReplayProtectedProtocolMessage.get_Nonce()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.NonceDotNetOpenAuthMessagingBindingsIReplayProtectedProtocolMessagesetString">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.Messaging.Bindings.IReplayProtectedProtocolMessage.set_Nonce(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.OAuthVersionGet">
+            <summary>Sets the shim of SignedMessageBase.get_OAuthVersion()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.OAuthVersionSetString">
+            <summary>Sets the shim of SignedMessageBase.set_OAuthVersion(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.OriginalPayloadDotNetOpenAuthMessagingIMessageOriginalPayloadget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.Messaging.IMessageOriginalPayload.get_OriginalPayload()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.OriginalPayloadDotNetOpenAuthMessagingIMessageOriginalPayloadsetIDictionaryOfStringString">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.Messaging.IMessageOriginalPayload.set_OriginalPayload(IDictionary`2&lt;String,String&gt; value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.OriginalPayloadGet">
+            <summary>Sets the shim of SignedMessageBase.get_OriginalPayload()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.OriginalPayloadSetIDictionaryOfStringString">
+            <summary>Sets the shim of SignedMessageBase.set_OriginalPayload(IDictionary`2&lt;String,String&gt; value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.RecipientDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessageget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.get_Recipient()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.RecipientDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessagesetUri">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.set_Recipient(Uri value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.SignatureDotNetOpenAuthMessagingITamperResistantProtocolMessageget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.Messaging.ITamperResistantProtocolMessage.get_Signature()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.SignatureDotNetOpenAuthMessagingITamperResistantProtocolMessagesetString">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.Messaging.ITamperResistantProtocolMessage.set_Signature(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.SignatureGet">
+            <summary>Sets the shim of SignedMessageBase.get_Signature()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.SignatureMethodDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessageget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.get_SignatureMethod()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.SignatureMethodDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessagesetString">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.set_SignatureMethod(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.SignatureMethodGet">
+            <summary>Sets the shim of SignedMessageBase.get_SignatureMethod()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.SignatureMethodSetString">
+            <summary>Sets the shim of SignedMessageBase.set_SignatureMethod(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.SignatureSetString">
+            <summary>Sets the shim of SignedMessageBase.set_Signature(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.StaticConstructor">
+            <summary>Sets the shim of SignedMessageBase.SignedMessageBase()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.TokenSecretDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessageget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.get_TokenSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.TokenSecretDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessagesetString">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.set_TokenSecret(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.TokenSecretGet">
+            <summary>Sets the shim of SignedMessageBase.get_TokenSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.TokenSecretSetString">
+            <summary>Sets the shim of SignedMessageBase.set_TokenSecret(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.UtcCreationDateDotNetOpenAuthMessagingBindingsIExpiringProtocolMessageget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.Messaging.Bindings.IExpiringProtocolMessage.get_UtcCreationDate()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.UtcCreationDateDotNetOpenAuthMessagingBindingsIExpiringProtocolMessagesetDateTime">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.Messaging.Bindings.IExpiringProtocolMessage.set_UtcCreationDate(DateTime value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.ConsumerKeyGet">
+            <summary>Sets the shim of SignedMessageBase.get_ConsumerKey()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.ConsumerKeySetString">
+            <summary>Sets the shim of SignedMessageBase.set_ConsumerKey(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.ConsumerSecretDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessageget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.get_ConsumerSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.ConsumerSecretDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessagesetString">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.set_ConsumerSecret(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.ConsumerSecretGet">
+            <summary>Sets the shim of SignedMessageBase.get_ConsumerSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.ConsumerSecretSetString">
+            <summary>Sets the shim of SignedMessageBase.set_ConsumerSecret(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.HttpMethodDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessageget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.get_HttpMethod()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.HttpMethodDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessagesetString">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.set_HttpMethod(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.HttpMethodGet">
+            <summary>Sets the shim of SignedMessageBase.get_HttpMethod()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.HttpMethodSetString">
+            <summary>Sets the shim of SignedMessageBase.set_HttpMethod(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.NonceContextDotNetOpenAuthMessagingBindingsIReplayProtectedProtocolMessageget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.Messaging.Bindings.IReplayProtectedProtocolMessage.get_NonceContext()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.NonceDotNetOpenAuthMessagingBindingsIReplayProtectedProtocolMessageget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.Messaging.Bindings.IReplayProtectedProtocolMessage.get_Nonce()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.NonceDotNetOpenAuthMessagingBindingsIReplayProtectedProtocolMessagesetString">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.Messaging.Bindings.IReplayProtectedProtocolMessage.set_Nonce(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.OAuthVersionGet">
+            <summary>Sets the shim of SignedMessageBase.get_OAuthVersion()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.OAuthVersionSetString">
+            <summary>Sets the shim of SignedMessageBase.set_OAuthVersion(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.OriginalPayloadDotNetOpenAuthMessagingIMessageOriginalPayloadget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.Messaging.IMessageOriginalPayload.get_OriginalPayload()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.OriginalPayloadDotNetOpenAuthMessagingIMessageOriginalPayloadsetIDictionaryOfStringString">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.Messaging.IMessageOriginalPayload.set_OriginalPayload(IDictionary`2&lt;String,String&gt; value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.OriginalPayloadGet">
+            <summary>Sets the shim of SignedMessageBase.get_OriginalPayload()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.OriginalPayloadSetIDictionaryOfStringString">
+            <summary>Sets the shim of SignedMessageBase.set_OriginalPayload(IDictionary`2&lt;String,String&gt; value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.RecipientDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessageget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.get_Recipient()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.RecipientDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessagesetUri">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.set_Recipient(Uri value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.SignatureDotNetOpenAuthMessagingITamperResistantProtocolMessageget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.Messaging.ITamperResistantProtocolMessage.get_Signature()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.SignatureDotNetOpenAuthMessagingITamperResistantProtocolMessagesetString">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.Messaging.ITamperResistantProtocolMessage.set_Signature(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.SignatureGet">
+            <summary>Sets the shim of SignedMessageBase.get_Signature()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.SignatureMethodDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessageget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.get_SignatureMethod()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.SignatureMethodDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessagesetString">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.set_SignatureMethod(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.SignatureMethodGet">
+            <summary>Sets the shim of SignedMessageBase.get_SignatureMethod()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.SignatureMethodSetString">
+            <summary>Sets the shim of SignedMessageBase.set_SignatureMethod(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.SignatureSetString">
+            <summary>Sets the shim of SignedMessageBase.set_Signature(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.TokenSecretDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessageget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.get_TokenSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.TokenSecretDotNetOpenAuthOAuthChannelElementsITamperResistantOAuthMessagesetString">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.set_TokenSecret(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.TokenSecretGet">
+            <summary>Sets the shim of SignedMessageBase.get_TokenSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.TokenSecretSetString">
+            <summary>Sets the shim of SignedMessageBase.set_TokenSecret(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.UtcCreationDateDotNetOpenAuthMessagingBindingsIExpiringProtocolMessageget">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.Messaging.Bindings.IExpiringProtocolMessage.get_UtcCreationDate()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimSignedMessageBase.AllInstances.UtcCreationDateDotNetOpenAuthMessagingBindingsIExpiringProtocolMessagesetDateTime">
+            <summary>Sets the shim of SignedMessageBase.DotNetOpenAuth.Messaging.Bindings.IExpiringProtocolMessage.set_UtcCreationDate(DateTime value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest">
+            <summary>Shim type of DotNetOpenAuth.OAuth.Messages.UnauthorizedTokenRequest</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.#ctor(DotNetOpenAuth.OAuth.Messages.UnauthorizedTokenRequest)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.Bind(DotNetOpenAuth.Messaging.IDirectResponseProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.Bind(DotNetOpenAuth.Messaging.IDirectedProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.Bind(DotNetOpenAuth.Messaging.IMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.Bind(DotNetOpenAuth.Messaging.IMessageOriginalPayload)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.Bind(DotNetOpenAuth.Messaging.IProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.Bind(DotNetOpenAuth.Messaging.ITamperResistantProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.Bind(DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.CallbackGet">
+            <summary>Sets the shim of UnauthorizedTokenRequest.get_Callback()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.CallbackSetUri">
+            <summary>Sets the shim of UnauthorizedTokenRequest.set_Callback(Uri value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.ConstructorMessageReceivingEndpointVersion">
+            <summary>Sets the shim of UnauthorizedTokenRequest.UnauthorizedTokenRequest(MessageReceivingEndpoint serviceProvider, Version version)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.ExtraDataGet">
+            <summary>Sets the shim of UnauthorizedTokenRequest.get_ExtraData()</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.AllInstances.CallbackGet">
+            <summary>Sets the shim of UnauthorizedTokenRequest.get_Callback()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.AllInstances.CallbackSetUri">
+            <summary>Sets the shim of UnauthorizedTokenRequest.set_Callback(Uri value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenRequest.AllInstances.ExtraDataGet">
+            <summary>Sets the shim of UnauthorizedTokenRequest.get_ExtraData()</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse">
+            <summary>Shim type of DotNetOpenAuth.OAuth.Messages.UnauthorizedTokenResponse</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.#ctor(DotNetOpenAuth.OAuth.Messages.UnauthorizedTokenResponse)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.Bind(DotNetOpenAuth.Messaging.IDirectResponseProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.Bind(DotNetOpenAuth.Messaging.IDirectedProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.Bind(DotNetOpenAuth.Messaging.IMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.Bind(DotNetOpenAuth.Messaging.IProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.Bind(DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.Bind(DotNetOpenAuth.OAuth.Messages.ITokenSecretContainingMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.CallbackConfirmedGet">
+            <summary>Sets the shim of UnauthorizedTokenResponse.get_CallbackConfirmed()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.ConstructorUnauthorizedTokenRequestStringString">
+            <summary>Sets the shim of UnauthorizedTokenResponse.UnauthorizedTokenResponse(UnauthorizedTokenRequest requestMessage, String requestToken, String tokenSecret)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.ConstructorUnauthorizedTokenRequestVersion">
+            <summary>Sets the shim of UnauthorizedTokenResponse.UnauthorizedTokenResponse(UnauthorizedTokenRequest originatingRequest, Version version)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.ExtraDataGet">
+            <summary>Sets the shim of UnauthorizedTokenResponse.get_ExtraData()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.RequestMessageGet">
+            <summary>Sets the shim of UnauthorizedTokenResponse.get_RequestMessage()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.RequestTokenGet">
+            <summary>Sets the shim of UnauthorizedTokenResponse.get_RequestToken()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.RequestTokenSetString">
+            <summary>Sets the shim of UnauthorizedTokenResponse.set_RequestToken(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessageget">
+            <summary>Sets the shim of UnauthorizedTokenResponse.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.get_Token()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessagesetString">
+            <summary>Sets the shim of UnauthorizedTokenResponse.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.set_Token(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.TokenSecretDotNetOpenAuthOAuthMessagesITokenSecretContainingMessageget">
+            <summary>Sets the shim of UnauthorizedTokenResponse.DotNetOpenAuth.OAuth.Messages.ITokenSecretContainingMessage.get_TokenSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.TokenSecretDotNetOpenAuthOAuthMessagesITokenSecretContainingMessagesetString">
+            <summary>Sets the shim of UnauthorizedTokenResponse.DotNetOpenAuth.OAuth.Messages.ITokenSecretContainingMessage.set_TokenSecret(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.TokenSecretGet">
+            <summary>Sets the shim of UnauthorizedTokenResponse.get_TokenSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.TokenSecretSetString">
+            <summary>Sets the shim of UnauthorizedTokenResponse.set_TokenSecret(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.AllInstances.CallbackConfirmedGet">
+            <summary>Sets the shim of UnauthorizedTokenResponse.get_CallbackConfirmed()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.AllInstances.ExtraDataGet">
+            <summary>Sets the shim of UnauthorizedTokenResponse.get_ExtraData()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.AllInstances.RequestMessageGet">
+            <summary>Sets the shim of UnauthorizedTokenResponse.get_RequestMessage()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.AllInstances.RequestTokenGet">
+            <summary>Sets the shim of UnauthorizedTokenResponse.get_RequestToken()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.AllInstances.RequestTokenSetString">
+            <summary>Sets the shim of UnauthorizedTokenResponse.set_RequestToken(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.AllInstances.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessageget">
+            <summary>Sets the shim of UnauthorizedTokenResponse.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.get_Token()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.AllInstances.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessagesetString">
+            <summary>Sets the shim of UnauthorizedTokenResponse.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.set_Token(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.AllInstances.TokenSecretDotNetOpenAuthOAuthMessagesITokenSecretContainingMessageget">
+            <summary>Sets the shim of UnauthorizedTokenResponse.DotNetOpenAuth.OAuth.Messages.ITokenSecretContainingMessage.get_TokenSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.AllInstances.TokenSecretDotNetOpenAuthOAuthMessagesITokenSecretContainingMessagesetString">
+            <summary>Sets the shim of UnauthorizedTokenResponse.DotNetOpenAuth.OAuth.Messages.ITokenSecretContainingMessage.set_TokenSecret(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.AllInstances.TokenSecretGet">
+            <summary>Sets the shim of UnauthorizedTokenResponse.get_TokenSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUnauthorizedTokenResponse.AllInstances.TokenSecretSetString">
+            <summary>Sets the shim of UnauthorizedTokenResponse.set_TokenSecret(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest">
+            <summary>Shim type of DotNetOpenAuth.OAuth.Messages.UserAuthorizationRequest</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.#ctor(DotNetOpenAuth.OAuth.Messages.UserAuthorizationRequest)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.Bind(DotNetOpenAuth.Messaging.IDirectResponseProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.Bind(DotNetOpenAuth.Messaging.IDirectedProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.Bind(DotNetOpenAuth.Messaging.IMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.Bind(DotNetOpenAuth.Messaging.IProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.Bind(DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.CallbackGet">
+            <summary>Sets the shim of UserAuthorizationRequest.get_Callback()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.CallbackSetUri">
+            <summary>Sets the shim of UserAuthorizationRequest.set_Callback(Uri value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.ConstructorMessageReceivingEndpointStringVersion">
+            <summary>Sets the shim of UserAuthorizationRequest.UserAuthorizationRequest(MessageReceivingEndpoint serviceProvider, String requestToken, Version version)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.ConstructorMessageReceivingEndpointVersion">
+            <summary>Sets the shim of UserAuthorizationRequest.UserAuthorizationRequest(MessageReceivingEndpoint serviceProvider, Version version)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.ExtraDataGet">
+            <summary>Sets the shim of UserAuthorizationRequest.get_ExtraData()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.IsUnsafeRequestGet">
+            <summary>Sets the shim of UserAuthorizationRequest.get_IsUnsafeRequest()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.RequestTokenGet">
+            <summary>Sets the shim of UserAuthorizationRequest.get_RequestToken()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.RequestTokenSetString">
+            <summary>Sets the shim of UserAuthorizationRequest.set_RequestToken(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessageget">
+            <summary>Sets the shim of UserAuthorizationRequest.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.get_Token()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessagesetString">
+            <summary>Sets the shim of UserAuthorizationRequest.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.set_Token(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.AllInstances.CallbackGet">
+            <summary>Sets the shim of UserAuthorizationRequest.get_Callback()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.AllInstances.CallbackSetUri">
+            <summary>Sets the shim of UserAuthorizationRequest.set_Callback(Uri value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.AllInstances.ExtraDataGet">
+            <summary>Sets the shim of UserAuthorizationRequest.get_ExtraData()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.AllInstances.IsUnsafeRequestGet">
+            <summary>Sets the shim of UserAuthorizationRequest.get_IsUnsafeRequest()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.AllInstances.RequestTokenGet">
+            <summary>Sets the shim of UserAuthorizationRequest.get_RequestToken()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.AllInstances.RequestTokenSetString">
+            <summary>Sets the shim of UserAuthorizationRequest.set_RequestToken(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.AllInstances.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessageget">
+            <summary>Sets the shim of UserAuthorizationRequest.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.get_Token()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationRequest.AllInstances.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessagesetString">
+            <summary>Sets the shim of UserAuthorizationRequest.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.set_Token(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse">
+            <summary>Shim type of DotNetOpenAuth.OAuth.Messages.UserAuthorizationResponse</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.#ctor(DotNetOpenAuth.OAuth.Messages.UserAuthorizationResponse)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.Bind(DotNetOpenAuth.Messaging.IDirectResponseProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.Bind(DotNetOpenAuth.Messaging.IDirectedProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.Bind(DotNetOpenAuth.Messaging.IMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.Bind(DotNetOpenAuth.Messaging.IProtocolMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.Bind(DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.ConstructorUriVersion">
+            <summary>Sets the shim of UserAuthorizationResponse.UserAuthorizationResponse(Uri consumer, Version version)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.RequestTokenGet">
+            <summary>Sets the shim of UserAuthorizationResponse.get_RequestToken()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.RequestTokenSetString">
+            <summary>Sets the shim of UserAuthorizationResponse.set_RequestToken(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessageget">
+            <summary>Sets the shim of UserAuthorizationResponse.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.get_Token()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessagesetString">
+            <summary>Sets the shim of UserAuthorizationResponse.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.set_Token(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.VerificationCodeGet">
+            <summary>Sets the shim of UserAuthorizationResponse.get_VerificationCode()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.VerificationCodeSetString">
+            <summary>Sets the shim of UserAuthorizationResponse.set_VerificationCode(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.AllInstances.RequestTokenGet">
+            <summary>Sets the shim of UserAuthorizationResponse.get_RequestToken()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.AllInstances.RequestTokenSetString">
+            <summary>Sets the shim of UserAuthorizationResponse.set_RequestToken(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.AllInstances.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessageget">
+            <summary>Sets the shim of UserAuthorizationResponse.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.get_Token()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.AllInstances.TokenDotNetOpenAuthOAuthMessagesITokenContainingMessagesetString">
+            <summary>Sets the shim of UserAuthorizationResponse.DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage.set_Token(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.AllInstances.VerificationCodeGet">
+            <summary>Sets the shim of UserAuthorizationResponse.get_VerificationCode()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.ShimUserAuthorizationResponse.AllInstances.VerificationCodeSetString">
+            <summary>Sets the shim of UserAuthorizationResponse.set_VerificationCode(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.StubAccessProtectedResourceRequest">
+            <summary>Stub type of DotNetOpenAuth.OAuth.Messages.AccessProtectedResourceRequest</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubAccessProtectedResourceRequest.#ctor(DotNetOpenAuth.Messaging.MessageReceivingEndpoint,System.Version)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubAccessProtectedResourceRequest.EnsureValidMessage">
+            <summary>Sets the stub of MessageBase.EnsureValidMessage()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.Messages.Fakes.StubAccessProtectedResourceRequest.EnsureValidMessage01">
+            <summary>Sets the stub of MessageBase.EnsureValidMessage()</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubAccessProtectedResourceRequest.InitializeStub">
+            <summary>Initializes a new instance of type StubAccessProtectedResourceRequest</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.StubAccessProtectedResourceRequest.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.StubAccessProtectedResourceRequest.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.StubAccessProtectedResourceRequest.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.StubAuthorizedTokenResponse">
+            <summary>Stub type of DotNetOpenAuth.OAuth.Messages.AuthorizedTokenResponse</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubAuthorizedTokenResponse.#ctor(DotNetOpenAuth.OAuth.Messages.AuthorizedTokenRequest)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubAuthorizedTokenResponse.EnsureValidMessage">
+            <summary>Sets the stub of MessageBase.EnsureValidMessage()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.Messages.Fakes.StubAuthorizedTokenResponse.EnsureValidMessage01">
+            <summary>Sets the stub of MessageBase.EnsureValidMessage()</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubAuthorizedTokenResponse.InitializeStub">
+            <summary>Initializes a new instance of type StubAuthorizedTokenResponse</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.StubAuthorizedTokenResponse.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.StubAuthorizedTokenResponse.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.StubAuthorizedTokenResponse.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.StubITokenContainingMessage">
+            <summary>Stub type of DotNetOpenAuth.OAuth.Messages.ITokenContainingMessage</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubITokenContainingMessage.#ctor">
+            <summary>Initializes a new instance of type StubITokenContainingMessage</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubITokenContainingMessage.AttachBackingFieldToToken">
+            <summary>Attaches delegates to emulate StubITokenContainingMessage.Token as a property with a backing field.</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.Messages.Fakes.StubITokenContainingMessage.TokenGet">
+            <summary>Sets the stub of ITokenContainingMessage.get_Token()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.Messages.Fakes.StubITokenContainingMessage.TokenSetString">
+            <summary>Sets the stub of ITokenContainingMessage.set_Token(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.StubITokenContainingMessage.dnoaoa::DotNetOpenAuth#OAuth#Messages#ITokenContainingMessage#Token">
+            <summary>Sets the stub of ITokenContainingMessage.get_Token()</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.StubITokenSecretContainingMessage">
+            <summary>Stub type of DotNetOpenAuth.OAuth.Messages.ITokenSecretContainingMessage</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubITokenSecretContainingMessage.#ctor">
+            <summary>Initializes a new instance of type StubITokenSecretContainingMessage</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubITokenSecretContainingMessage.AttachBackingFieldToToken">
+            <summary>Attaches delegates to emulate StubITokenSecretContainingMessage.Token as a property with a backing field.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubITokenSecretContainingMessage.AttachBackingFieldToTokenSecret">
+            <summary>Attaches delegates to emulate StubITokenSecretContainingMessage.TokenSecret as a property with a backing field.</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.Messages.Fakes.StubITokenSecretContainingMessage.TokenGet">
+            <summary>Sets the stub of ITokenContainingMessage.get_Token()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.Messages.Fakes.StubITokenSecretContainingMessage.TokenSecretGet">
+            <summary>Sets the stub of ITokenSecretContainingMessage.get_TokenSecret()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.Messages.Fakes.StubITokenSecretContainingMessage.TokenSecretSetString">
+            <summary>Sets the stub of ITokenSecretContainingMessage.set_TokenSecret(String value)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.Messages.Fakes.StubITokenSecretContainingMessage.TokenSetString">
+            <summary>Sets the stub of ITokenContainingMessage.set_Token(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.StubITokenSecretContainingMessage.dnoaoa::DotNetOpenAuth#OAuth#Messages#ITokenContainingMessage#Token">
+            <summary>Sets the stub of ITokenContainingMessage.get_Token()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.StubITokenSecretContainingMessage.dnoaoa::DotNetOpenAuth#OAuth#Messages#ITokenSecretContainingMessage#TokenSecret">
+            <summary>Sets the stub of ITokenSecretContainingMessage.get_TokenSecret()</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.StubMessageBase">
+            <summary>Stub type of DotNetOpenAuth.OAuth.Messages.MessageBase</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubMessageBase.#ctor(DotNetOpenAuth.Messaging.MessageProtections,DotNetOpenAuth.Messaging.IDirectedProtocolMessage,System.Version)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubMessageBase.#ctor(DotNetOpenAuth.Messaging.MessageProtections,DotNetOpenAuth.Messaging.MessageTransport,DotNetOpenAuth.Messaging.MessageReceivingEndpoint,System.Version)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubMessageBase.EnsureValidMessage">
+            <summary>Sets the stub of MessageBase.EnsureValidMessage()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.Messages.Fakes.StubMessageBase.EnsureValidMessage01">
+            <summary>Sets the stub of MessageBase.EnsureValidMessage()</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubMessageBase.InitializeStub">
+            <summary>Initializes a new instance of type StubMessageBase</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.StubMessageBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.StubMessageBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.StubMessageBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.StubUnauthorizedTokenRequest">
+            <summary>Stub type of DotNetOpenAuth.OAuth.Messages.UnauthorizedTokenRequest</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubUnauthorizedTokenRequest.#ctor(DotNetOpenAuth.Messaging.MessageReceivingEndpoint,System.Version)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubUnauthorizedTokenRequest.EnsureValidMessage">
+            <summary>Sets the stub of MessageBase.EnsureValidMessage()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.Messages.Fakes.StubUnauthorizedTokenRequest.EnsureValidMessage01">
+            <summary>Sets the stub of MessageBase.EnsureValidMessage()</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubUnauthorizedTokenRequest.InitializeStub">
+            <summary>Initializes a new instance of type StubUnauthorizedTokenRequest</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.StubUnauthorizedTokenRequest.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.StubUnauthorizedTokenRequest.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.StubUnauthorizedTokenRequest.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Messages.Fakes.StubUnauthorizedTokenResponse">
+            <summary>Stub type of DotNetOpenAuth.OAuth.Messages.UnauthorizedTokenResponse</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubUnauthorizedTokenResponse.#ctor(DotNetOpenAuth.OAuth.Messages.UnauthorizedTokenRequest,System.Version)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubUnauthorizedTokenResponse.#ctor(DotNetOpenAuth.OAuth.Messages.UnauthorizedTokenRequest,System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubUnauthorizedTokenResponse.EnsureValidMessage">
+            <summary>Sets the stub of MessageBase.EnsureValidMessage()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.Messages.Fakes.StubUnauthorizedTokenResponse.EnsureValidMessage01">
+            <summary>Sets the stub of MessageBase.EnsureValidMessage()</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Messages.Fakes.StubUnauthorizedTokenResponse.InitializeStub">
+            <summary>Initializes a new instance of type StubUnauthorizedTokenResponse</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.StubUnauthorizedTokenResponse.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.StubUnauthorizedTokenResponse.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Messages.Fakes.StubUnauthorizedTokenResponse.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

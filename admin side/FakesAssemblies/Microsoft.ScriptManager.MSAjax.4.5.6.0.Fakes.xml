@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.ScriptManager.MSAjax.4.5.6.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.ScriptManager.MSAjaxv45.Fakes.ShimPreApplicationStartCode">
+            <summary>Shim type of Microsoft.ScriptManager.MSAjaxv45.PreApplicationStartCode</summary>
+        </member>
+        <member name="M:Microsoft.ScriptManager.MSAjaxv45.Fakes.ShimPreApplicationStartCode.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.ScriptManager.MSAjaxv45.Fakes.ShimPreApplicationStartCode.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.ScriptManager.MSAjaxv45.Fakes.ShimPreApplicationStartCode.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.ScriptManager.MSAjaxv45.Fakes.ShimPreApplicationStartCode.AddMsAjaxMappingStringString">
+            <summary>Sets the shim of PreApplicationStartCode.AddMsAjaxMapping(String name, String loadSuccessExpression)</summary>
+        </member>
+        <member name="P:Microsoft.ScriptManager.MSAjaxv45.Fakes.ShimPreApplicationStartCode.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.ScriptManager.MSAjaxv45.Fakes.ShimPreApplicationStartCode.Start">
+            <summary>Sets the shim of PreApplicationStartCode.Start()</summary>
+        </member>
+    </members>
+</doc>

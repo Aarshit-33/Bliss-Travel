@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AspNet.ScriptManager.jQuery.1.7.1.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:AspNet.ScriptManager.jQuery.Fakes.ShimPreApplicationStartCode">
+            <summary>Shim type of AspNet.ScriptManager.jQuery.PreApplicationStartCode</summary>
+        </member>
+        <member name="M:AspNet.ScriptManager.jQuery.Fakes.ShimPreApplicationStartCode.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AspNet.ScriptManager.jQuery.Fakes.ShimPreApplicationStartCode.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AspNet.ScriptManager.jQuery.Fakes.ShimPreApplicationStartCode.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AspNet.ScriptManager.jQuery.Fakes.ShimPreApplicationStartCode.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AspNet.ScriptManager.jQuery.Fakes.ShimPreApplicationStartCode.Start">
+            <summary>Sets the shim of PreApplicationStartCode.Start()</summary>
+        </member>
+    </members>
+</doc>

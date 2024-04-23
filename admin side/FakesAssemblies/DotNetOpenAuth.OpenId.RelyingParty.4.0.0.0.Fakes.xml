@@ -1,0 +1,767 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotNetOpenAuth.OpenId.RelyingParty.4.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService">
+            <summary>Shim type of DotNetOpenAuth.OpenId.HostMetaDiscoveryService</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.#ctor(DotNetOpenAuth.OpenId.HostMetaDiscoveryService)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.Bind(DotNetOpenAuth.OpenId.IIdentifierDiscoveryService)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.Constructor">
+            <summary>Sets the shim of HostMetaDiscoveryService.HostMetaDiscoveryService()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.DiscoverIdentifierIDirectWebRequestHandlerBooleanOut">
+            <summary>Sets the shim of HostMetaDiscoveryService.Discover(Identifier identifier, IDirectWebRequestHandler requestHandler, Boolean&amp; abortDiscoveryChain)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.GetHostMetaLocationsUriIdentifier">
+            <summary>Sets the shim of HostMetaDiscoveryService.GetHostMetaLocations(UriIdentifier identifier)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.GetHostMetaUriIdentifierIDirectWebRequestHandlerStringOut">
+            <summary>Sets the shim of HostMetaDiscoveryService.GetHostMeta(UriIdentifier identifier, IDirectWebRequestHandler requestHandler, String&amp; signingHost)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.GetXrdsLocationUriIdentifierIDirectWebRequestHandlerStringOut">
+            <summary>Sets the shim of HostMetaDiscoveryService.GetXrdsLocation(UriIdentifier identifier, IDirectWebRequestHandler requestHandler, String&amp; signingHost)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.GetXrdsResponseUriIdentifierIDirectWebRequestHandlerStringOut">
+            <summary>Sets the shim of HostMetaDiscoveryService.GetXrdsResponse(UriIdentifier identifier, IDirectWebRequestHandler requestHandler, String&amp; signingHost)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.GetXrdsResponseUriIdentifierIDirectWebRequestHandlerUri">
+            <summary>Sets the shim of HostMetaDiscoveryService.GetXrdsResponse(UriIdentifier identifier, IDirectWebRequestHandler requestHandler, Uri xrdsLocation)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.StaticConstructor">
+            <summary>Sets the shim of HostMetaDiscoveryService.HostMetaDiscoveryService()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.TrustedHostMetaProxiesGet">
+            <summary>Sets the shim of HostMetaDiscoveryService.get_TrustedHostMetaProxies()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.TrustedHostMetaProxiesSetIListOfHostMetaDiscoveryServiceHostMetaProxy">
+            <summary>Sets the shim of HostMetaDiscoveryService.set_TrustedHostMetaProxies(IList`1&lt;HostMetaProxy&gt; value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.UseGoogleHostedHostMetaGet">
+            <summary>Sets the shim of HostMetaDiscoveryService.get_UseGoogleHostedHostMeta()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.UseGoogleHostedHostMetaSetBoolean">
+            <summary>Sets the shim of HostMetaDiscoveryService.set_UseGoogleHostedHostMeta(Boolean value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.VerifyCertChainListOfX509Certificate2">
+            <summary>Sets the shim of HostMetaDiscoveryService.VerifyCertChain(List`1&lt;X509Certificate2&gt; certs)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService._ValidateXmlDSigb__aXPathNavigator">
+            <summary>Sets the shim of HostMetaDiscoveryService.&lt;ValidateXmlDSig&gt;b__a(XPathNavigator n)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService._VerifyCertChainb__cX509ChainStatus">
+            <summary>Sets the shim of HostMetaDiscoveryService.&lt;VerifyCertChain&gt;b__c(X509ChainStatus status)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.AllInstances.DiscoverIdentifierIDirectWebRequestHandlerBooleanOut">
+            <summary>Sets the shim of HostMetaDiscoveryService.Discover(Identifier identifier, IDirectWebRequestHandler requestHandler, Boolean&amp; abortDiscoveryChain)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.AllInstances.GetHostMetaLocationsUriIdentifier">
+            <summary>Sets the shim of HostMetaDiscoveryService.GetHostMetaLocations(UriIdentifier identifier)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.AllInstances.GetHostMetaUriIdentifierIDirectWebRequestHandlerStringOut">
+            <summary>Sets the shim of HostMetaDiscoveryService.GetHostMeta(UriIdentifier identifier, IDirectWebRequestHandler requestHandler, String&amp; signingHost)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.AllInstances.GetXrdsLocationUriIdentifierIDirectWebRequestHandlerStringOut">
+            <summary>Sets the shim of HostMetaDiscoveryService.GetXrdsLocation(UriIdentifier identifier, IDirectWebRequestHandler requestHandler, String&amp; signingHost)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.AllInstances.GetXrdsResponseUriIdentifierIDirectWebRequestHandlerStringOut">
+            <summary>Sets the shim of HostMetaDiscoveryService.GetXrdsResponse(UriIdentifier identifier, IDirectWebRequestHandler requestHandler, String&amp; signingHost)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.AllInstances.TrustedHostMetaProxiesGet">
+            <summary>Sets the shim of HostMetaDiscoveryService.get_TrustedHostMetaProxies()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.AllInstances.TrustedHostMetaProxiesSetIListOfHostMetaDiscoveryServiceHostMetaProxy">
+            <summary>Sets the shim of HostMetaDiscoveryService.set_TrustedHostMetaProxies(IList`1&lt;HostMetaProxy&gt; value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.AllInstances.UseGoogleHostedHostMetaGet">
+            <summary>Sets the shim of HostMetaDiscoveryService.get_UseGoogleHostedHostMeta()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.AllInstances.UseGoogleHostedHostMetaSetBoolean">
+            <summary>Sets the shim of HostMetaDiscoveryService.set_UseGoogleHostedHostMeta(Boolean value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy">
+            <summary>Shim type of DotNetOpenAuth.OpenId.HostMetaDiscoveryService+HostMetaProxy</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.#ctor(DotNetOpenAuth.OpenId.HostMetaDiscoveryService.HostMetaProxy)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.ConstructorStringString">
+            <summary>Sets the shim of HostMetaProxy.HostMetaProxy(String proxyFormat, String signingHostFormat)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.EqualsObject">
+            <summary>Sets the shim of HostMetaProxy.Equals(Object obj)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.GetHashCode">
+            <summary>Sets the shim of HostMetaProxy.GetHashCode()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.GetProxyUriIdentifier">
+            <summary>Sets the shim of HostMetaProxy.GetProxy(UriIdentifier identifier)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.GetSigningHostUriIdentifier">
+            <summary>Sets the shim of HostMetaProxy.GetSigningHost(UriIdentifier identifier)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.ProxyFormatGet">
+            <summary>Sets the shim of HostMetaProxy.get_ProxyFormat()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.ProxyFormatSetString">
+            <summary>Sets the shim of HostMetaProxy.set_ProxyFormat(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.SigningHostFormatGet">
+            <summary>Sets the shim of HostMetaProxy.get_SigningHostFormat()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.SigningHostFormatSetString">
+            <summary>Sets the shim of HostMetaProxy.set_SigningHostFormat(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.AllInstances.EqualsObject">
+            <summary>Sets the shim of HostMetaProxy.Equals(Object obj)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.AllInstances.GetHashCode01">
+            <summary>Sets the shim of HostMetaProxy.GetHashCode()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.AllInstances.GetProxyUriIdentifier">
+            <summary>Sets the shim of HostMetaProxy.GetProxy(UriIdentifier identifier)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.AllInstances.GetSigningHostUriIdentifier">
+            <summary>Sets the shim of HostMetaProxy.GetSigningHost(UriIdentifier identifier)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.AllInstances.ProxyFormatGet">
+            <summary>Sets the shim of HostMetaProxy.get_ProxyFormat()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.AllInstances.ProxyFormatSetString">
+            <summary>Sets the shim of HostMetaProxy.set_ProxyFormat(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.AllInstances.SigningHostFormatGet">
+            <summary>Sets the shim of HostMetaProxy.get_SigningHostFormat()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.ShimHostMetaDiscoveryService.ShimHostMetaProxy.AllInstances.SigningHostFormatSetString">
+            <summary>Sets the shim of HostMetaProxy.set_SigningHostFormat(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.Fakes.StubHostMetaDiscoveryService">
+            <summary>Stub type of DotNetOpenAuth.OpenId.HostMetaDiscoveryService</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.Fakes.StubHostMetaDiscoveryService.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.Fakes.StubHostMetaDiscoveryService.InitializeStub">
+            <summary>Initializes a new instance of type StubHostMetaDiscoveryService</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.StubHostMetaDiscoveryService.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.StubHostMetaDiscoveryService.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.Fakes.StubHostMetaDiscoveryService.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.Interop.Fakes.StubIOpenIdRelyingParty">
+            <summary>Stub type of DotNetOpenAuth.OpenId.Interop.IOpenIdRelyingParty</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.Interop.Fakes.StubIOpenIdRelyingParty.#ctor">
+            <summary>Initializes a new instance of type StubIOpenIdRelyingParty</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OpenId.Interop.Fakes.StubIOpenIdRelyingParty.CreateRequestStringStringString">
+            <summary>Sets the stub of IOpenIdRelyingParty.CreateRequest(String userSuppliedIdentifier, String realm, String returnToUrl)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OpenId.Interop.Fakes.StubIOpenIdRelyingParty.CreateRequestWithSimpleRegistrationStringStringStringStringString">
+            <summary>Sets the stub of IOpenIdRelyingParty.CreateRequestWithSimpleRegistration(String userSuppliedIdentifier, String realm, String returnToUrl, String optionalSreg, String requiredSreg)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.Interop.Fakes.StubIOpenIdRelyingParty.dnoaoirp::DotNetOpenAuth#OpenId#Interop#IOpenIdRelyingParty#CreateRequest(System.String,System.String,System.String)">
+            <summary>Sets the stub of IOpenIdRelyingParty.CreateRequest(String userSuppliedIdentifier, String realm, String returnToUrl)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.Interop.Fakes.StubIOpenIdRelyingParty.dnoaoirp::DotNetOpenAuth#OpenId#Interop#IOpenIdRelyingParty#CreateRequestWithSimpleRegistration(System.String,System.String,System.String,System.String,System.String)">
+            <summary>Sets the stub of IOpenIdRelyingParty.CreateRequestWithSimpleRegistration(String userSuppliedIdentifier, String realm, String returnToUrl, String optionalSreg, String requiredSreg)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.Interop.Fakes.StubIOpenIdRelyingParty.dnoaoirp::DotNetOpenAuth#OpenId#Interop#IOpenIdRelyingParty#ProcessAuthentication(System.String,System.String)">
+            <summary>Sets the stub of IOpenIdRelyingParty.ProcessAuthentication(String url, String form)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OpenId.Interop.Fakes.StubIOpenIdRelyingParty.ProcessAuthenticationStringString">
+            <summary>Sets the stub of IOpenIdRelyingParty.ProcessAuthentication(String url, String form)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimAXFetchAsSregTransform">
+            <summary>Shim type of DotNetOpenAuth.OpenId.RelyingParty.Behaviors.AXFetchAsSregTransform</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimAXFetchAsSregTransform.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimAXFetchAsSregTransform.#ctor(DotNetOpenAuth.OpenId.RelyingParty.Behaviors.AXFetchAsSregTransform)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimAXFetchAsSregTransform.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimAXFetchAsSregTransform.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimAXFetchAsSregTransform.Bind(DotNetOpenAuth.OpenId.RelyingParty.IRelyingPartyBehavior)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimAXFetchAsSregTransform.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimAXFetchAsSregTransform.Constructor">
+            <summary>Sets the shim of AXFetchAsSregTransform.AXFetchAsSregTransform()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimAXFetchAsSregTransform.DotNetOpenAuthOpenIdRelyingPartyIRelyingPartyBehaviorApplySecuritySettingsRelyingPartySecuritySettings">
+            <summary>Sets the shim of AXFetchAsSregTransform.DotNetOpenAuth.OpenId.RelyingParty.IRelyingPartyBehavior.ApplySecuritySettings(RelyingPartySecuritySettings securitySettings)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimAXFetchAsSregTransform.DotNetOpenAuthOpenIdRelyingPartyIRelyingPartyBehaviorOnIncomingPositiveAssertionIAuthenticationResponse">
+            <summary>Sets the shim of AXFetchAsSregTransform.DotNetOpenAuth.OpenId.RelyingParty.IRelyingPartyBehavior.OnIncomingPositiveAssertion(IAuthenticationResponse assertion)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimAXFetchAsSregTransform.DotNetOpenAuthOpenIdRelyingPartyIRelyingPartyBehaviorOnOutgoingAuthenticationRequestIAuthenticationRequest">
+            <summary>Sets the shim of AXFetchAsSregTransform.DotNetOpenAuth.OpenId.RelyingParty.IRelyingPartyBehavior.OnOutgoingAuthenticationRequest(IAuthenticationRequest request)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimAXFetchAsSregTransform.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimAXFetchAsSregTransform.AllInstances.DotNetOpenAuthOpenIdRelyingPartyIRelyingPartyBehaviorApplySecuritySettingsRelyingPartySecuritySettings">
+            <summary>Sets the shim of AXFetchAsSregTransform.DotNetOpenAuth.OpenId.RelyingParty.IRelyingPartyBehavior.ApplySecuritySettings(RelyingPartySecuritySettings securitySettings)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimAXFetchAsSregTransform.AllInstances.DotNetOpenAuthOpenIdRelyingPartyIRelyingPartyBehaviorOnIncomingPositiveAssertionIAuthenticationResponse">
+            <summary>Sets the shim of AXFetchAsSregTransform.DotNetOpenAuth.OpenId.RelyingParty.IRelyingPartyBehavior.OnIncomingPositiveAssertion(IAuthenticationResponse assertion)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimAXFetchAsSregTransform.AllInstances.DotNetOpenAuthOpenIdRelyingPartyIRelyingPartyBehaviorOnOutgoingAuthenticationRequestIAuthenticationRequest">
+            <summary>Sets the shim of AXFetchAsSregTransform.DotNetOpenAuth.OpenId.RelyingParty.IRelyingPartyBehavior.OnOutgoingAuthenticationRequest(IAuthenticationRequest request)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimGsaIcamProfile">
+            <summary>Shim type of DotNetOpenAuth.OpenId.RelyingParty.Behaviors.GsaIcamProfile</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimGsaIcamProfile.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimGsaIcamProfile.#ctor(DotNetOpenAuth.OpenId.RelyingParty.Behaviors.GsaIcamProfile)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimGsaIcamProfile.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimGsaIcamProfile.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimGsaIcamProfile.Bind(DotNetOpenAuth.OpenId.RelyingParty.IRelyingPartyBehavior)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimGsaIcamProfile.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimGsaIcamProfile.Constructor">
+            <summary>Sets the shim of GsaIcamProfile.GsaIcamProfile()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimGsaIcamProfile.DotNetOpenAuthOpenIdRelyingPartyIRelyingPartyBehaviorApplySecuritySettingsRelyingPartySecuritySettings">
+            <summary>Sets the shim of GsaIcamProfile.DotNetOpenAuth.OpenId.RelyingParty.IRelyingPartyBehavior.ApplySecuritySettings(RelyingPartySecuritySettings securitySettings)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimGsaIcamProfile.DotNetOpenAuthOpenIdRelyingPartyIRelyingPartyBehaviorOnIncomingPositiveAssertionIAuthenticationResponse">
+            <summary>Sets the shim of GsaIcamProfile.DotNetOpenAuth.OpenId.RelyingParty.IRelyingPartyBehavior.OnIncomingPositiveAssertion(IAuthenticationResponse assertion)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimGsaIcamProfile.DotNetOpenAuthOpenIdRelyingPartyIRelyingPartyBehaviorOnOutgoingAuthenticationRequestIAuthenticationRequest">
+            <summary>Sets the shim of GsaIcamProfile.DotNetOpenAuth.OpenId.RelyingParty.IRelyingPartyBehavior.OnOutgoingAuthenticationRequest(IAuthenticationRequest request)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimGsaIcamProfile.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimGsaIcamProfile.AllInstances.DotNetOpenAuthOpenIdRelyingPartyIRelyingPartyBehaviorApplySecuritySettingsRelyingPartySecuritySettings">
+            <summary>Sets the shim of GsaIcamProfile.DotNetOpenAuth.OpenId.RelyingParty.IRelyingPartyBehavior.ApplySecuritySettings(RelyingPartySecuritySettings securitySettings)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimGsaIcamProfile.AllInstances.DotNetOpenAuthOpenIdRelyingPartyIRelyingPartyBehaviorOnIncomingPositiveAssertionIAuthenticationResponse">
+            <summary>Sets the shim of GsaIcamProfile.DotNetOpenAuth.OpenId.RelyingParty.IRelyingPartyBehavior.OnIncomingPositiveAssertion(IAuthenticationResponse assertion)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Behaviors.Fakes.ShimGsaIcamProfile.AllInstances.DotNetOpenAuthOpenIdRelyingPartyIRelyingPartyBehaviorOnOutgoingAuthenticationRequestIAuthenticationRequest">
+            <summary>Sets the shim of GsaIcamProfile.DotNetOpenAuth.OpenId.RelyingParty.IRelyingPartyBehavior.OnOutgoingAuthenticationRequest(IAuthenticationRequest request)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.RelyingParty.Extensions.Fakes.ShimExtensionsInteropHelper">
+            <summary>Shim type of DotNetOpenAuth.OpenId.RelyingParty.Extensions.ExtensionsInteropHelper</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Extensions.Fakes.ShimExtensionsInteropHelper.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Extensions.Fakes.ShimExtensionsInteropHelper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Extensions.Fakes.ShimExtensionsInteropHelper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Extensions.Fakes.ShimExtensionsInteropHelper.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Extensions.Fakes.ShimExtensionsInteropHelper.GetAttributeValueFetchResponseStringAXAttributeFormats">
+            <summary>Sets the shim of ExtensionsInteropHelper.GetAttributeValue(FetchResponse fetchResponse, String typeUri, AXAttributeFormats formats)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Extensions.Fakes.ShimExtensionsInteropHelper.SpreadSregToAXIAuthenticationRequestAXAttributeFormats">
+            <summary>Sets the shim of ExtensionsInteropHelper.SpreadSregToAX(IAuthenticationRequest request, AXAttributeFormats attributeFormats)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Extensions.Fakes.ShimExtensionsInteropHelper.TryDetectOPAttributeFormatIAuthenticationRequestAXAttributeFormatsOut">
+            <summary>Sets the shim of ExtensionsInteropHelper.TryDetectOPAttributeFormat(IAuthenticationRequest request, AXAttributeFormats&amp; attributeFormat)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Extensions.Fakes.ShimExtensionsInteropHelper.UnifyExtensionsAsSregIAuthenticationResponseBoolean">
+            <summary>Sets the shim of ExtensionsInteropHelper.UnifyExtensionsAsSreg(IAuthenticationResponse response, Boolean allowUnsigned)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Extensions.Fakes.ShimExtensionsInteropHelper._GetAttributeValueb__1String">
+            <summary>Sets the shim of ExtensionsInteropHelper.&lt;GetAttributeValue&gt;b__1(String s)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty">
+            <summary>Shim type of DotNetOpenAuth.OpenId.RelyingParty.OpenIdRelyingParty</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.#ctor(DotNetOpenAuth.OpenId.RelyingParty.OpenIdRelyingParty)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.RegisterClientScriptExtensionOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.String})">
+            <summary>Sets the shim of OpenIdRelyingParty.RegisterClientScriptExtension(String propertyName)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.BehaviorsGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_Behaviors()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.CanSignCallbackArgumentsGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_CanSignCallbackArguments()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.ChannelGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_Channel()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.ChannelSetChannel">
+            <summary>Sets the shim of OpenIdRelyingParty.set_Channel(Channel value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.Constructor">
+            <summary>Sets the shim of OpenIdRelyingParty.OpenIdRelyingParty()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.ConstructorICryptoKeyStoreINonceStore">
+            <summary>Sets the shim of OpenIdRelyingParty.OpenIdRelyingParty(ICryptoKeyStore cryptoKeyStore, INonceStore nonceStore)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.ConstructorIOpenIdApplicationStore">
+            <summary>Sets the shim of OpenIdRelyingParty.OpenIdRelyingParty(IOpenIdApplicationStore applicationStore)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.CreateNonVerifying">
+            <summary>Sets the shim of OpenIdRelyingParty.CreateNonVerifying()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.CreateRequestIdentifier">
+            <summary>Sets the shim of OpenIdRelyingParty.CreateRequest(Identifier userSuppliedIdentifier)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.CreateRequestIdentifierRealm">
+            <summary>Sets the shim of OpenIdRelyingParty.CreateRequest(Identifier userSuppliedIdentifier, Realm realm)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.CreateRequestIdentifierRealmUri">
+            <summary>Sets the shim of OpenIdRelyingParty.CreateRequest(Identifier userSuppliedIdentifier, Realm realm, Uri returnToUrl)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.CreateRequestsIdentifier">
+            <summary>Sets the shim of OpenIdRelyingParty.CreateRequests(Identifier userSuppliedIdentifier)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.CreateRequestsIdentifierRealm">
+            <summary>Sets the shim of OpenIdRelyingParty.CreateRequests(Identifier userSuppliedIdentifier, Realm realm)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.CreateRequestsIdentifierRealmUri">
+            <summary>Sets the shim of OpenIdRelyingParty.CreateRequests(Identifier userSuppliedIdentifier, Realm realm, Uri returnToUrl)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.DefaultEndpointOrderGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_DefaultEndpointOrder()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.DiscoverIdentifier">
+            <summary>Sets the shim of OpenIdRelyingParty.Discover(Identifier identifier)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.DiscoveryServicesGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_DiscoveryServices()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.Dispose">
+            <summary>Sets the shim of OpenIdRelyingParty.Dispose()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.DisposeBoolean">
+            <summary>Sets the shim of OpenIdRelyingParty.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.EndpointFilterGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_EndpointFilter()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.EndpointFilterSetEndpointSelector">
+            <summary>Sets the shim of OpenIdRelyingParty.set_EndpointFilter(EndpointSelector value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.EndpointOrderGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_EndpointOrder()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.EndpointOrderSetComparisonOfIdentifierDiscoveryResult">
+            <summary>Sets the shim of OpenIdRelyingParty.set_EndpointOrder(Comparison`1&lt;IdentifierDiscoveryResult&gt; value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.ExtensionFactoriesGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_ExtensionFactories()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.FilterEndpointIProviderEndpoint">
+            <summary>Sets the shim of OpenIdRelyingParty.FilterEndpoint(IProviderEndpoint endpoint)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.GetResponse">
+            <summary>Sets the shim of OpenIdRelyingParty.GetResponse()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.GetResponseHttpRequestBase">
+            <summary>Sets the shim of OpenIdRelyingParty.GetResponse(HttpRequestBase httpRequestInfo)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.HttpApplicationStoreGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_HttpApplicationStore()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.InvokeParentPageScriptString">
+            <summary>Sets the shim of OpenIdRelyingParty.InvokeParentPageScript(String methodCall)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.IsOpenIdSupportingParameterString">
+            <summary>Sets the shim of OpenIdRelyingParty.IsOpenIdSupportingParameter(String parameterName)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.NonVerifyingRelyingPartyGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_NonVerifyingRelyingParty()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.OnBehaviorsChangedObjectNotifyCollectionChangedEventArgs">
+            <summary>Sets the shim of OpenIdRelyingParty.OnBehaviorsChanged(Object sender, NotifyCollectionChangedEventArgs e)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.ProcessResponseFromPopup">
+            <summary>Sets the shim of OpenIdRelyingParty.ProcessResponseFromPopup()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.ProcessResponseFromPopupHttpRequestBase">
+            <summary>Sets the shim of OpenIdRelyingParty.ProcessResponseFromPopup(HttpRequestBase request)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.ProcessResponseFromPopupHttpRequestBaseActionOfAuthenticationStatus">
+            <summary>Sets the shim of OpenIdRelyingParty.ProcessResponseFromPopup(HttpRequestBase request, Action`1&lt;AuthenticationStatus&gt; callback)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.SecuritySettingsDotNetOpenAuthOpenIdIOpenIdHostget">
+            <summary>Sets the shim of OpenIdRelyingParty.DotNetOpenAuth.OpenId.IOpenIdHost.get_SecuritySettings()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.SecuritySettingsGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_SecuritySettings()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.SecuritySettingsSetRelyingPartySecuritySettings">
+            <summary>Sets the shim of OpenIdRelyingParty.set_SecuritySettings(RelyingPartySecuritySettings value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.WebRequestHandlerDotNetOpenAuthOpenIdIOpenIdHostget">
+            <summary>Sets the shim of OpenIdRelyingParty.DotNetOpenAuth.OpenId.IOpenIdHost.get_WebRequestHandler()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.WebRequestHandlerGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_WebRequestHandler()</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.RegisterClientScriptExtensionOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{DotNetOpenAuth.OpenId.RelyingParty.OpenIdRelyingParty,System.String})">
+            <summary>Sets the shim of OpenIdRelyingParty.RegisterClientScriptExtension(String propertyName)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.BehaviorsGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_Behaviors()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.CanSignCallbackArgumentsGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_CanSignCallbackArguments()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.ChannelGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_Channel()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.ChannelSetChannel">
+            <summary>Sets the shim of OpenIdRelyingParty.set_Channel(Channel value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.CreateRequestIdentifier">
+            <summary>Sets the shim of OpenIdRelyingParty.CreateRequest(Identifier userSuppliedIdentifier)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.CreateRequestIdentifierRealm">
+            <summary>Sets the shim of OpenIdRelyingParty.CreateRequest(Identifier userSuppliedIdentifier, Realm realm)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.CreateRequestIdentifierRealmUri">
+            <summary>Sets the shim of OpenIdRelyingParty.CreateRequest(Identifier userSuppliedIdentifier, Realm realm, Uri returnToUrl)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.CreateRequestsIdentifier">
+            <summary>Sets the shim of OpenIdRelyingParty.CreateRequests(Identifier userSuppliedIdentifier)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.CreateRequestsIdentifierRealm">
+            <summary>Sets the shim of OpenIdRelyingParty.CreateRequests(Identifier userSuppliedIdentifier, Realm realm)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.CreateRequestsIdentifierRealmUri">
+            <summary>Sets the shim of OpenIdRelyingParty.CreateRequests(Identifier userSuppliedIdentifier, Realm realm, Uri returnToUrl)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.DiscoverIdentifier">
+            <summary>Sets the shim of OpenIdRelyingParty.Discover(Identifier identifier)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.DiscoveryServicesGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_DiscoveryServices()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.Dispose">
+            <summary>Sets the shim of OpenIdRelyingParty.Dispose()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of OpenIdRelyingParty.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.EndpointFilterGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_EndpointFilter()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.EndpointFilterSetEndpointSelector">
+            <summary>Sets the shim of OpenIdRelyingParty.set_EndpointFilter(EndpointSelector value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.EndpointOrderGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_EndpointOrder()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.EndpointOrderSetComparisonOfIdentifierDiscoveryResult">
+            <summary>Sets the shim of OpenIdRelyingParty.set_EndpointOrder(Comparison`1&lt;IdentifierDiscoveryResult&gt; value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.ExtensionFactoriesGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_ExtensionFactories()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.FilterEndpointIProviderEndpoint">
+            <summary>Sets the shim of OpenIdRelyingParty.FilterEndpoint(IProviderEndpoint endpoint)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.GetResponse">
+            <summary>Sets the shim of OpenIdRelyingParty.GetResponse()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.GetResponseHttpRequestBase">
+            <summary>Sets the shim of OpenIdRelyingParty.GetResponse(HttpRequestBase httpRequestInfo)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.NonVerifyingRelyingPartyGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_NonVerifyingRelyingParty()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.OnBehaviorsChangedObjectNotifyCollectionChangedEventArgs">
+            <summary>Sets the shim of OpenIdRelyingParty.OnBehaviorsChanged(Object sender, NotifyCollectionChangedEventArgs e)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.ProcessResponseFromPopup">
+            <summary>Sets the shim of OpenIdRelyingParty.ProcessResponseFromPopup()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.ProcessResponseFromPopupHttpRequestBase">
+            <summary>Sets the shim of OpenIdRelyingParty.ProcessResponseFromPopup(HttpRequestBase request)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.ProcessResponseFromPopupHttpRequestBaseActionOfAuthenticationStatus">
+            <summary>Sets the shim of OpenIdRelyingParty.ProcessResponseFromPopup(HttpRequestBase request, Action`1&lt;AuthenticationStatus&gt; callback)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.SecuritySettingsDotNetOpenAuthOpenIdIOpenIdHostget">
+            <summary>Sets the shim of OpenIdRelyingParty.DotNetOpenAuth.OpenId.IOpenIdHost.get_SecuritySettings()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.SecuritySettingsGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_SecuritySettings()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.SecuritySettingsSetRelyingPartySecuritySettings">
+            <summary>Sets the shim of OpenIdRelyingParty.set_SecuritySettings(RelyingPartySecuritySettings value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.WebRequestHandlerDotNetOpenAuthOpenIdIOpenIdHostget">
+            <summary>Sets the shim of OpenIdRelyingParty.DotNetOpenAuth.OpenId.IOpenIdHost.get_WebRequestHandler()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimOpenIdRelyingParty.AllInstances.WebRequestHandlerGet">
+            <summary>Sets the shim of OpenIdRelyingParty.get_WebRequestHandler()</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore">
+            <summary>Shim type of DotNetOpenAuth.OpenId.RelyingParty.StandardRelyingPartyApplicationStore</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.#ctor(DotNetOpenAuth.OpenId.RelyingParty.StandardRelyingPartyApplicationStore)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.Bind(DotNetOpenAuth.Messaging.Bindings.ICryptoKeyStore)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.Bind(DotNetOpenAuth.Messaging.Bindings.INonceStore)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.Bind(DotNetOpenAuth.OpenId.IOpenIdApplicationStore)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.Constructor">
+            <summary>Sets the shim of StandardRelyingPartyApplicationStore.StandardRelyingPartyApplicationStore()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.GetKeyStringString">
+            <summary>Sets the shim of StandardRelyingPartyApplicationStore.GetKey(String bucket, String handle)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.GetKeysString">
+            <summary>Sets the shim of StandardRelyingPartyApplicationStore.GetKeys(String bucket)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.RemoveKeyStringString">
+            <summary>Sets the shim of StandardRelyingPartyApplicationStore.RemoveKey(String bucket, String handle)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.StoreKeyStringStringCryptoKey">
+            <summary>Sets the shim of StandardRelyingPartyApplicationStore.StoreKey(String bucket, String handle, CryptoKey key)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.StoreNonceStringStringDateTime">
+            <summary>Sets the shim of StandardRelyingPartyApplicationStore.StoreNonce(String context, String nonce, DateTime timestampUtc)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.AllInstances.GetKeyStringString">
+            <summary>Sets the shim of StandardRelyingPartyApplicationStore.GetKey(String bucket, String handle)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.AllInstances.GetKeysString">
+            <summary>Sets the shim of StandardRelyingPartyApplicationStore.GetKeys(String bucket)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.AllInstances.RemoveKeyStringString">
+            <summary>Sets the shim of StandardRelyingPartyApplicationStore.RemoveKey(String bucket, String handle)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.AllInstances.StoreKeyStringStringCryptoKey">
+            <summary>Sets the shim of StandardRelyingPartyApplicationStore.StoreKey(String bucket, String handle, CryptoKey key)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimStandardRelyingPartyApplicationStore.AllInstances.StoreNonceStringStringDateTime">
+            <summary>Sets the shim of StandardRelyingPartyApplicationStore.StoreNonce(String context, String nonce, DateTime timestampUtc)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimWellKnownProviders">
+            <summary>Shim type of DotNetOpenAuth.OpenId.RelyingParty.WellKnownProviders</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimWellKnownProviders.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimWellKnownProviders.#ctor(DotNetOpenAuth.OpenId.RelyingParty.WellKnownProviders)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimWellKnownProviders.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimWellKnownProviders.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimWellKnownProviders.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimWellKnownProviders.Constructor">
+            <summary>Sets the shim of WellKnownProviders.WellKnownProviders()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimWellKnownProviders.StaticConstructor">
+            <summary>Sets the shim of WellKnownProviders.WellKnownProviders()</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.RelyingParty.Fakes.ShimWellKnownProviders.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubIRelyingPartyAssociationStore">
+            <summary>Stub type of DotNetOpenAuth.OpenId.RelyingParty.IRelyingPartyAssociationStore</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubIRelyingPartyAssociationStore.#ctor">
+            <summary>Initializes a new instance of type StubIRelyingPartyAssociationStore</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubIRelyingPartyAssociationStore.dnoaoirp::DotNetOpenAuth#OpenId#RelyingParty#IRelyingPartyAssociationStore#GetAssociation(System.Uri,DotNetOpenAuth.OpenId.SecuritySettings)">
+            <summary>Sets the stub of IRelyingPartyAssociationStore.GetAssociation(Uri providerEndpoint, SecuritySettings securityRequirements)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubIRelyingPartyAssociationStore.dnoaoirp::DotNetOpenAuth#OpenId#RelyingParty#IRelyingPartyAssociationStore#GetAssociation(System.Uri,System.String)">
+            <summary>Sets the stub of IRelyingPartyAssociationStore.GetAssociation(Uri providerEndpoint, String handle)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubIRelyingPartyAssociationStore.dnoaoirp::DotNetOpenAuth#OpenId#RelyingParty#IRelyingPartyAssociationStore#RemoveAssociation(System.Uri,System.String)">
+            <summary>Sets the stub of IRelyingPartyAssociationStore.RemoveAssociation(Uri providerEndpoint, String handle)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubIRelyingPartyAssociationStore.dnoaoirp::DotNetOpenAuth#OpenId#RelyingParty#IRelyingPartyAssociationStore#StoreAssociation(System.Uri,DotNetOpenAuth.OpenId.Association)">
+            <summary>Sets the stub of IRelyingPartyAssociationStore.StoreAssociation(Uri providerEndpoint, Association association)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubIRelyingPartyAssociationStore.GetAssociationUriSecuritySettings">
+            <summary>Sets the stub of IRelyingPartyAssociationStore.GetAssociation(Uri providerEndpoint, SecuritySettings securityRequirements)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubIRelyingPartyAssociationStore.GetAssociationUriString">
+            <summary>Sets the stub of IRelyingPartyAssociationStore.GetAssociation(Uri providerEndpoint, String handle)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubIRelyingPartyAssociationStore.RemoveAssociationUriString">
+            <summary>Sets the stub of IRelyingPartyAssociationStore.RemoveAssociation(Uri providerEndpoint, String handle)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubIRelyingPartyAssociationStore.StoreAssociationUriAssociation">
+            <summary>Sets the stub of IRelyingPartyAssociationStore.StoreAssociation(Uri providerEndpoint, Association association)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubISetupRequiredAuthenticationResponse">
+            <summary>Stub type of DotNetOpenAuth.OpenId.RelyingParty.ISetupRequiredAuthenticationResponse</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubISetupRequiredAuthenticationResponse.#ctor">
+            <summary>Initializes a new instance of type StubISetupRequiredAuthenticationResponse</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubISetupRequiredAuthenticationResponse.UserSuppliedIdentifierGet">
+            <summary>Sets the stub of ISetupRequiredAuthenticationResponse.get_UserSuppliedIdentifier()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubISetupRequiredAuthenticationResponse.dnoaoirp::DotNetOpenAuth#OpenId#RelyingParty#ISetupRequiredAuthenticationResponse#UserSuppliedIdentifier">
+            <summary>Sets the stub of ISetupRequiredAuthenticationResponse.get_UserSuppliedIdentifier()</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubOpenIdRelyingParty">
+            <summary>Stub type of DotNetOpenAuth.OpenId.RelyingParty.OpenIdRelyingParty</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubOpenIdRelyingParty.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubOpenIdRelyingParty.#ctor(DotNetOpenAuth.OpenId.IOpenIdApplicationStore)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubOpenIdRelyingParty.CreateRequests(DotNetOpenAuth.OpenId.Identifier,DotNetOpenAuth.OpenId.Realm,System.Uri)">
+            <summary>Sets the stub of OpenIdRelyingParty.CreateRequests(Identifier userSuppliedIdentifier, Realm realm, Uri returnToUrl)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubOpenIdRelyingParty.CreateRequestsIdentifierRealmUri">
+            <summary>Sets the stub of OpenIdRelyingParty.CreateRequests(Identifier userSuppliedIdentifier, Realm realm, Uri returnToUrl)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubOpenIdRelyingParty.Dispose(System.Boolean)">
+            <summary>Sets the stub of OpenIdRelyingParty.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubOpenIdRelyingParty.DisposeBoolean">
+            <summary>Sets the stub of OpenIdRelyingParty.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubOpenIdRelyingParty.InitializeStub">
+            <summary>Initializes a new instance of type StubOpenIdRelyingParty</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubOpenIdRelyingParty.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubOpenIdRelyingParty.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubOpenIdRelyingParty.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubStandardRelyingPartyApplicationStore">
+            <summary>Stub type of DotNetOpenAuth.OpenId.RelyingParty.StandardRelyingPartyApplicationStore</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubStandardRelyingPartyApplicationStore.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubStandardRelyingPartyApplicationStore.InitializeStub">
+            <summary>Initializes a new instance of type StubStandardRelyingPartyApplicationStore</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubStandardRelyingPartyApplicationStore.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubStandardRelyingPartyApplicationStore.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OpenId.RelyingParty.Fakes.StubStandardRelyingPartyApplicationStore.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

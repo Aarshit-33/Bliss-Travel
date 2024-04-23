@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Web.Infrastructure.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Web.Infrastructure.DynamicModuleHelper.Fakes.ShimDynamicModuleUtility">
+            <summary>Shim type of Microsoft.Web.Infrastructure.DynamicModuleHelper.DynamicModuleUtility</summary>
+        </member>
+        <member name="M:Microsoft.Web.Infrastructure.DynamicModuleHelper.Fakes.ShimDynamicModuleUtility.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Web.Infrastructure.DynamicModuleHelper.Fakes.ShimDynamicModuleUtility.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Web.Infrastructure.DynamicModuleHelper.Fakes.ShimDynamicModuleUtility.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Web.Infrastructure.DynamicModuleHelper.Fakes.ShimDynamicModuleUtility.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Web.Infrastructure.DynamicModuleHelper.Fakes.ShimDynamicModuleUtility.RegisterModuleType">
+            <summary>Sets the shim of DynamicModuleUtility.RegisterModule(Type moduleType)</summary>
+        </member>
+        <member name="T:Microsoft.Web.Infrastructure.DynamicValidationHelper.Fakes.ShimValidationUtility">
+            <summary>Shim type of Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationUtility</summary>
+        </member>
+        <member name="M:Microsoft.Web.Infrastructure.DynamicValidationHelper.Fakes.ShimValidationUtility.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Web.Infrastructure.DynamicValidationHelper.Fakes.ShimValidationUtility.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Web.Infrastructure.DynamicValidationHelper.Fakes.ShimValidationUtility.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Web.Infrastructure.DynamicValidationHelper.Fakes.ShimValidationUtility.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Web.Infrastructure.DynamicValidationHelper.Fakes.ShimValidationUtility.EnableDynamicValidationHttpContext">
+            <summary>Sets the shim of ValidationUtility.EnableDynamicValidation(HttpContext context)</summary>
+        </member>
+        <member name="P:Microsoft.Web.Infrastructure.DynamicValidationHelper.Fakes.ShimValidationUtility.GetUnvalidatedCollectionsHttpContextFuncOfNameValueCollectionOutFuncOfNameValueCollectionOut">
+            <summary>Sets the shim of ValidationUtility.GetUnvalidatedCollections(HttpContext context, Func`1&lt;NameValueCollection&gt;&amp; formGetter, Func`1&lt;NameValueCollection&gt;&amp; queryStringGetter)</summary>
+        </member>
+        <member name="P:Microsoft.Web.Infrastructure.DynamicValidationHelper.Fakes.ShimValidationUtility.IsValidationEnabledHttpContext">
+            <summary>Sets the shim of ValidationUtility.IsValidationEnabled(HttpContext context)</summary>
+        </member>
+        <member name="T:Microsoft.Web.Infrastructure.Fakes.ShimHttpContextHelper">
+            <summary>Shim type of Microsoft.Web.Infrastructure.HttpContextHelper</summary>
+        </member>
+        <member name="M:Microsoft.Web.Infrastructure.Fakes.ShimHttpContextHelper.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Web.Infrastructure.Fakes.ShimHttpContextHelper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Web.Infrastructure.Fakes.ShimHttpContextHelper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Web.Infrastructure.Fakes.ShimHttpContextHelper.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Web.Infrastructure.Fakes.ShimHttpContextHelper.ExecuteInNullContextAction">
+            <summary>Sets the shim of HttpContextHelper.ExecuteInNullContext(Action action)</summary>
+        </member>
+        <member name="P:Microsoft.Web.Infrastructure.Fakes.ShimHttpContextHelper.SetCurrentContextHttpContext">
+            <summary>Sets the shim of HttpContextHelper.SetCurrentContext(HttpContext context)</summary>
+        </member>
+        <member name="T:Microsoft.Web.Infrastructure.Fakes.ShimInfrastructureHelper">
+            <summary>Shim type of Microsoft.Web.Infrastructure.InfrastructureHelper</summary>
+        </member>
+        <member name="M:Microsoft.Web.Infrastructure.Fakes.ShimInfrastructureHelper.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Web.Infrastructure.Fakes.ShimInfrastructureHelper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Web.Infrastructure.Fakes.ShimInfrastructureHelper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Web.Infrastructure.Fakes.ShimInfrastructureHelper.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Web.Infrastructure.Fakes.ShimInfrastructureHelper.IsCodeDomDefinedExtensionString">
+            <summary>Sets the shim of InfrastructureHelper.IsCodeDomDefinedExtension(String extension)</summary>
+        </member>
+        <member name="P:Microsoft.Web.Infrastructure.Fakes.ShimInfrastructureHelper.UnloadAppDomain">
+            <summary>Sets the shim of InfrastructureHelper.UnloadAppDomain()</summary>
+        </member>
+    </members>
+</doc>

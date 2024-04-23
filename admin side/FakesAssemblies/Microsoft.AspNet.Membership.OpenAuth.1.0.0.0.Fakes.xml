@@ -1,0 +1,1310 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.AspNet.Membership.OpenAuth.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount">
+            <summary>Shim type of Microsoft.AspNet.Membership.OpenAuth.Data.OpenAuthAccount</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.#ctor(Microsoft.AspNet.Membership.OpenAuth.Data.OpenAuthAccount)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.ApplicationNameGet">
+            <summary>Sets the shim of OpenAuthAccount.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.ApplicationNameSetString">
+            <summary>Sets the shim of OpenAuthAccount.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.Constructor">
+            <summary>Sets the shim of OpenAuthAccount.OpenAuthAccount()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.LastUsedUtcGet">
+            <summary>Sets the shim of OpenAuthAccount.get_LastUsedUtc()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.LastUsedUtcSetNullableOfDateTime">
+            <summary>Sets the shim of OpenAuthAccount.set_LastUsedUtc(Nullable`1&lt;DateTime&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.MembershipUserNameGet">
+            <summary>Sets the shim of OpenAuthAccount.get_MembershipUserName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.MembershipUserNameSetString">
+            <summary>Sets the shim of OpenAuthAccount.set_MembershipUserName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.ProviderNameGet">
+            <summary>Sets the shim of OpenAuthAccount.get_ProviderName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.ProviderNameSetString">
+            <summary>Sets the shim of OpenAuthAccount.set_ProviderName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.ProviderUserIdGet">
+            <summary>Sets the shim of OpenAuthAccount.get_ProviderUserId()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.ProviderUserIdSetString">
+            <summary>Sets the shim of OpenAuthAccount.set_ProviderUserId(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.ProviderUserNameGet">
+            <summary>Sets the shim of OpenAuthAccount.get_ProviderUserName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.ProviderUserNameSetString">
+            <summary>Sets the shim of OpenAuthAccount.set_ProviderUserName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.UserDataGet">
+            <summary>Sets the shim of OpenAuthAccount.get_UserData()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.UserDataSetOpenAuthUserData">
+            <summary>Sets the shim of OpenAuthAccount.set_UserData(OpenAuthUserData value)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.AllInstances.ApplicationNameGet">
+            <summary>Sets the shim of OpenAuthAccount.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.AllInstances.ApplicationNameSetString">
+            <summary>Sets the shim of OpenAuthAccount.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.AllInstances.LastUsedUtcGet">
+            <summary>Sets the shim of OpenAuthAccount.get_LastUsedUtc()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.AllInstances.LastUsedUtcSetNullableOfDateTime">
+            <summary>Sets the shim of OpenAuthAccount.set_LastUsedUtc(Nullable`1&lt;DateTime&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.AllInstances.MembershipUserNameGet">
+            <summary>Sets the shim of OpenAuthAccount.get_MembershipUserName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.AllInstances.MembershipUserNameSetString">
+            <summary>Sets the shim of OpenAuthAccount.set_MembershipUserName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.AllInstances.ProviderNameGet">
+            <summary>Sets the shim of OpenAuthAccount.get_ProviderName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.AllInstances.ProviderNameSetString">
+            <summary>Sets the shim of OpenAuthAccount.set_ProviderName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.AllInstances.ProviderUserIdGet">
+            <summary>Sets the shim of OpenAuthAccount.get_ProviderUserId()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.AllInstances.ProviderUserIdSetString">
+            <summary>Sets the shim of OpenAuthAccount.set_ProviderUserId(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.AllInstances.ProviderUserNameGet">
+            <summary>Sets the shim of OpenAuthAccount.get_ProviderUserName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.AllInstances.ProviderUserNameSetString">
+            <summary>Sets the shim of OpenAuthAccount.set_ProviderUserName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.AllInstances.UserDataGet">
+            <summary>Sets the shim of OpenAuthAccount.get_UserData()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthAccount.AllInstances.UserDataSetOpenAuthUserData">
+            <summary>Sets the shim of OpenAuthAccount.set_UserData(OpenAuthUserData value)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData">
+            <summary>Shim type of Microsoft.AspNet.Membership.OpenAuth.Data.OpenAuthUserData</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.#ctor(Microsoft.AspNet.Membership.OpenAuth.Data.OpenAuthUserData)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.AccountsGet">
+            <summary>Sets the shim of OpenAuthUserData.get_Accounts()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.AccountsSetICollectionOfOpenAuthAccount">
+            <summary>Sets the shim of OpenAuthUserData.set_Accounts(ICollection`1&lt;OpenAuthAccount&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.ApplicationNameGet">
+            <summary>Sets the shim of OpenAuthUserData.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.ApplicationNameSetString">
+            <summary>Sets the shim of OpenAuthUserData.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.Constructor">
+            <summary>Sets the shim of OpenAuthUserData.OpenAuthUserData()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.HasLocalPasswordGet">
+            <summary>Sets the shim of OpenAuthUserData.get_HasLocalPassword()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.HasLocalPasswordSetBoolean">
+            <summary>Sets the shim of OpenAuthUserData.set_HasLocalPassword(Boolean value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.MembershipUserNameGet">
+            <summary>Sets the shim of OpenAuthUserData.get_MembershipUserName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.MembershipUserNameSetString">
+            <summary>Sets the shim of OpenAuthUserData.set_MembershipUserName(String value)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.AllInstances.AccountsGet">
+            <summary>Sets the shim of OpenAuthUserData.get_Accounts()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.AllInstances.AccountsSetICollectionOfOpenAuthAccount">
+            <summary>Sets the shim of OpenAuthUserData.set_Accounts(ICollection`1&lt;OpenAuthAccount&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.AllInstances.ApplicationNameGet">
+            <summary>Sets the shim of OpenAuthUserData.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.AllInstances.ApplicationNameSetString">
+            <summary>Sets the shim of OpenAuthUserData.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.AllInstances.HasLocalPasswordGet">
+            <summary>Sets the shim of OpenAuthUserData.get_HasLocalPassword()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.AllInstances.HasLocalPasswordSetBoolean">
+            <summary>Sets the shim of OpenAuthUserData.set_HasLocalPassword(Boolean value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.AllInstances.MembershipUserNameGet">
+            <summary>Sets the shim of OpenAuthUserData.get_MembershipUserName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.ShimOpenAuthUserData.AllInstances.MembershipUserNameSetString">
+            <summary>Sets the shim of OpenAuthUserData.set_MembershipUserName(String value)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.StubOpenAuthAccount">
+            <summary>Stub type of Microsoft.AspNet.Membership.OpenAuth.Data.OpenAuthAccount</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.StubOpenAuthAccount.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.StubOpenAuthAccount.InitializeStub">
+            <summary>Initializes a new instance of type StubOpenAuthAccount</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.StubOpenAuthAccount.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.StubOpenAuthAccount.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.StubOpenAuthAccount.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.StubOpenAuthUserData">
+            <summary>Stub type of Microsoft.AspNet.Membership.OpenAuth.Data.OpenAuthUserData</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.StubOpenAuthUserData.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.StubOpenAuthUserData.AccountsGet">
+            <summary>Sets the stub of OpenAuthUserData.get_Accounts()</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.StubOpenAuthUserData.AccountsSetICollectionOfOpenAuthAccount">
+            <summary>Sets the stub of OpenAuthUserData.set_Accounts(ICollection`1&lt;OpenAuthAccount&gt; value)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.StubOpenAuthUserData.AttachBackingFieldToAccounts">
+            <summary>Attaches delegates to emulate StubOpenAuthUserData.Accounts as a property with a backing field.</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.StubOpenAuthUserData.InitializeStub">
+            <summary>Initializes a new instance of type StubOpenAuthUserData</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.StubOpenAuthUserData.Accounts">
+            <summary>Sets the stub of OpenAuthUserData.get_Accounts()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.StubOpenAuthUserData.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.StubOpenAuthUserData.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Data.Fakes.StubOpenAuthUserData.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager">
+            <summary>Shim type of Microsoft.AspNet.Membership.OpenAuth.AuthenticationClientManager</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.#ctor(Microsoft.AspNet.Membership.OpenAuth.AuthenticationClientManager)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.AddStringFuncOfIAuthenticationClient">
+            <summary>Sets the shim of AuthenticationClientManager.Add(String displayName, Func`1&lt;IAuthenticationClient&gt; factoryMethod)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.AddStringFuncOfIAuthenticationClientIDictionaryOfStringString">
+            <summary>Sets the shim of AuthenticationClientManager.Add(String displayName, Func`1&lt;IAuthenticationClient&gt; factoryMethod, IDictionary`2&lt;String,String&gt; extraData)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.AddStringFuncOfIAuthenticationClientObject">
+            <summary>Sets the shim of AuthenticationClientManager.Add(String displayName, Func`1&lt;IAuthenticationClient&gt; factoryMethod, Object extraData)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.Constructor">
+            <summary>Sets the shim of AuthenticationClientManager.AuthenticationClientManager()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.GetAll">
+            <summary>Sets the shim of AuthenticationClientManager.GetAll()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.GetByProviderNameString">
+            <summary>Sets the shim of AuthenticationClientManager.GetByProviderName(String providerName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.GetDisplayNameString">
+            <summary>Sets the shim of AuthenticationClientManager.GetDisplayName(String providerName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.TryGetByProviderNameStringIAuthenticationClientOut">
+            <summary>Sets the shim of AuthenticationClientManager.TryGetByProviderName(String providerName, IAuthenticationClient&amp; authenticationClient)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager._Addb__0PropertyInfo">
+            <summary>Sets the shim of AuthenticationClientManager.&lt;Add&gt;b__0(PropertyInfo property)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.AllInstances.AddStringFuncOfIAuthenticationClient">
+            <summary>Sets the shim of AuthenticationClientManager.Add(String displayName, Func`1&lt;IAuthenticationClient&gt; factoryMethod)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.AllInstances.AddStringFuncOfIAuthenticationClientIDictionaryOfStringString">
+            <summary>Sets the shim of AuthenticationClientManager.Add(String displayName, Func`1&lt;IAuthenticationClient&gt; factoryMethod, IDictionary`2&lt;String,String&gt; extraData)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.AllInstances.AddStringFuncOfIAuthenticationClientObject">
+            <summary>Sets the shim of AuthenticationClientManager.Add(String displayName, Func`1&lt;IAuthenticationClient&gt; factoryMethod, Object extraData)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.AllInstances.GetAll">
+            <summary>Sets the shim of AuthenticationClientManager.GetAll()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.AllInstances.GetByProviderNameString">
+            <summary>Sets the shim of AuthenticationClientManager.GetByProviderName(String providerName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.AllInstances.GetDisplayNameString">
+            <summary>Sets the shim of AuthenticationClientManager.GetDisplayName(String providerName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManager.AllInstances.TryGetByProviderNameStringIAuthenticationClientOut">
+            <summary>Sets the shim of AuthenticationClientManager.TryGetByProviderName(String providerName, IAuthenticationClient&amp; authenticationClient)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManagerExtensions">
+            <summary>Shim type of Microsoft.AspNet.Membership.OpenAuth.AuthenticationClientManagerExtensions</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManagerExtensions.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManagerExtensions.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManagerExtensions.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManagerExtensions.AddFacebookAuthenticationClientManagerStringString">
+            <summary>Sets the shim of AuthenticationClientManagerExtensions.AddFacebook(AuthenticationClientManager clients, String appId, String appSecret)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManagerExtensions.AddFacebookAuthenticationClientManagerStringStringObject">
+            <summary>Sets the shim of AuthenticationClientManagerExtensions.AddFacebook(AuthenticationClientManager clients, String appId, String appSecret, Object extraData)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManagerExtensions.AddGoogleAuthenticationClientManager">
+            <summary>Sets the shim of AuthenticationClientManagerExtensions.AddGoogle(AuthenticationClientManager clients)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManagerExtensions.AddGoogleAuthenticationClientManagerObject">
+            <summary>Sets the shim of AuthenticationClientManagerExtensions.AddGoogle(AuthenticationClientManager clients, Object extraData)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManagerExtensions.AddMicrosoftAuthenticationClientManagerStringString">
+            <summary>Sets the shim of AuthenticationClientManagerExtensions.AddMicrosoft(AuthenticationClientManager clients, String clientId, String clientSecret)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManagerExtensions.AddMicrosoftAuthenticationClientManagerStringStringObject">
+            <summary>Sets the shim of AuthenticationClientManagerExtensions.AddMicrosoft(AuthenticationClientManager clients, String clientId, String clientSecret, Object extraData)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManagerExtensions.AddTwitterAuthenticationClientManagerStringString">
+            <summary>Sets the shim of AuthenticationClientManagerExtensions.AddTwitter(AuthenticationClientManager clients, String consumerKey, String consumerSecret)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManagerExtensions.AddTwitterAuthenticationClientManagerStringStringObject">
+            <summary>Sets the shim of AuthenticationClientManagerExtensions.AddTwitter(AuthenticationClientManager clients, String consumerKey, String consumerSecret, Object extraData)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManagerExtensions.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimAuthenticationClientManagerExtensions._AddGoogleb__9">
+            <summary>Sets the shim of AuthenticationClientManagerExtensions.&lt;AddGoogle&gt;b__9()</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimCreateResult">
+            <summary>Shim type of Microsoft.AspNet.Membership.OpenAuth.CreateResult</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimCreateResult.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimCreateResult.#ctor(Microsoft.AspNet.Membership.OpenAuth.CreateResult)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimCreateResult.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimCreateResult.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimCreateResult.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimCreateResult.ConstructorBooleanString">
+            <summary>Sets the shim of CreateResult.CreateResult(Boolean isSuccessful, String errorMessage)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimCreateResult.ErrorMessageGet">
+            <summary>Sets the shim of CreateResult.get_ErrorMessage()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimCreateResult.ErrorMessageSetString">
+            <summary>Sets the shim of CreateResult.set_ErrorMessage(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimCreateResult.IsSuccessfulGet">
+            <summary>Sets the shim of CreateResult.get_IsSuccessful()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimCreateResult.IsSuccessfulSetBoolean">
+            <summary>Sets the shim of CreateResult.set_IsSuccessful(Boolean value)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimCreateResult.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimCreateResult.AllInstances.ErrorMessageGet">
+            <summary>Sets the shim of CreateResult.get_ErrorMessage()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimCreateResult.AllInstances.ErrorMessageSetString">
+            <summary>Sets the shim of CreateResult.set_ErrorMessage(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimCreateResult.AllInstances.IsSuccessfulGet">
+            <summary>Sets the shim of CreateResult.get_IsSuccessful()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimCreateResult.AllInstances.IsSuccessfulSetBoolean">
+            <summary>Sets the shim of CreateResult.set_IsSuccessful(Boolean value)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase">
+            <summary>Shim type of Microsoft.AspNet.Membership.OpenAuth.EFOpenAuthMembershipDatabase</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase.#ctor(Microsoft.AspNet.Membership.OpenAuth.EFOpenAuthMembershipDatabase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase.AddAccountStringStringStringStringBoolean">
+            <summary>Sets the shim of EFOpenAuthMembershipDatabase.AddAccount(String providerName, String providerUserId, String providerUserName, String membershipUserName, Boolean isNewMembershipUser)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase.ConstructorStringStringFuncOfStringString">
+            <summary>Sets the shim of EFOpenAuthMembershipDatabase.EFOpenAuthMembershipDatabase(String applicationName, String nameOrConnectionString, Func`2&lt;String,String&gt; getProviderDisplayName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase.DeleteAccountStringStringString">
+            <summary>Sets the shim of EFOpenAuthMembershipDatabase.DeleteAccount(String membershipUserName, String providerName, String providerUserId)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase.GetAccountsForUserString">
+            <summary>Sets the shim of EFOpenAuthMembershipDatabase.GetAccountsForUser(String membershipUserName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase.GetMembershipUserNameStringStringBoolean">
+            <summary>Sets the shim of EFOpenAuthMembershipDatabase.GetMembershipUserName(String providerName, String providerUserId, Boolean updateLastUsed)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase.HasLocalPasswordString">
+            <summary>Sets the shim of EFOpenAuthMembershipDatabase.HasLocalPassword(String membershipUserName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase.SetHasLocalPasswordStringBoolean">
+            <summary>Sets the shim of EFOpenAuthMembershipDatabase.SetHasLocalPassword(String membershipUserName, Boolean value)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase.AllInstances.AddAccountStringStringStringStringBoolean">
+            <summary>Sets the shim of EFOpenAuthMembershipDatabase.AddAccount(String providerName, String providerUserId, String providerUserName, String membershipUserName, Boolean isNewMembershipUser)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase.AllInstances.DeleteAccountStringStringString">
+            <summary>Sets the shim of EFOpenAuthMembershipDatabase.DeleteAccount(String membershipUserName, String providerName, String providerUserId)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase.AllInstances.GetAccountsForUserString">
+            <summary>Sets the shim of EFOpenAuthMembershipDatabase.GetAccountsForUser(String membershipUserName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase.AllInstances.GetMembershipUserNameStringStringBoolean">
+            <summary>Sets the shim of EFOpenAuthMembershipDatabase.GetMembershipUserName(String providerName, String providerUserId, Boolean updateLastUsed)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase.AllInstances.HasLocalPasswordString">
+            <summary>Sets the shim of EFOpenAuthMembershipDatabase.HasLocalPassword(String membershipUserName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimEFOpenAuthMembershipDatabase.AllInstances.SetHasLocalPasswordStringBoolean">
+            <summary>Sets the shim of EFOpenAuthMembershipDatabase.SetHasLocalPassword(String membershipUserName, Boolean value)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter">
+            <summary>Shim type of Microsoft.AspNet.Membership.OpenAuth.MembershipAdapter</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.#ctor(Microsoft.AspNet.Membership.OpenAuth.MembershipAdapter)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.Bind(Microsoft.AspNet.Membership.OpenAuth.IMembership)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.ApplicationNameGet">
+            <summary>Sets the shim of MembershipAdapter.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.Constructor">
+            <summary>Sets the shim of MembershipAdapter.MembershipAdapter()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.CreateUserStringStringStringStringStringBooleanMembershipCreateStatusOut">
+            <summary>Sets the shim of MembershipAdapter.CreateUser(String userName, String password, String email, String passwordQuestion, String passwordAnswer, Boolean isApproved, MembershipCreateStatus&amp; status)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.DeleteUserObjectBoolean">
+            <summary>Sets the shim of MembershipAdapter.DeleteUser(Object providerUserKey, Boolean deleteAllRelatedData)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.DeleteUserStringBoolean">
+            <summary>Sets the shim of MembershipAdapter.DeleteUser(String userName, Boolean deleteAllRelatedData)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.GeneratePasswordInt32Int32">
+            <summary>Sets the shim of MembershipAdapter.GeneratePassword(Int32 length, Int32 numberOfNonAlphanumericCharacters)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.GetUserObject">
+            <summary>Sets the shim of MembershipAdapter.GetUser(Object providerUserKey)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.GetUserString">
+            <summary>Sets the shim of MembershipAdapter.GetUser(String userName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.UpdateUserMembershipUser">
+            <summary>Sets the shim of MembershipAdapter.UpdateUser(MembershipUser membershipUser)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.AllInstances.ApplicationNameGet">
+            <summary>Sets the shim of MembershipAdapter.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.AllInstances.CreateUserStringStringStringStringStringBooleanMembershipCreateStatusOut">
+            <summary>Sets the shim of MembershipAdapter.CreateUser(String userName, String password, String email, String passwordQuestion, String passwordAnswer, Boolean isApproved, MembershipCreateStatus&amp; status)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.AllInstances.DeleteUserObjectBoolean">
+            <summary>Sets the shim of MembershipAdapter.DeleteUser(Object providerUserKey, Boolean deleteAllRelatedData)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.AllInstances.DeleteUserStringBoolean">
+            <summary>Sets the shim of MembershipAdapter.DeleteUser(String userName, Boolean deleteAllRelatedData)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.AllInstances.GeneratePasswordInt32Int32">
+            <summary>Sets the shim of MembershipAdapter.GeneratePassword(Int32 length, Int32 numberOfNonAlphanumericCharacters)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.AllInstances.GetUserObject">
+            <summary>Sets the shim of MembershipAdapter.GetUser(Object providerUserKey)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.AllInstances.GetUserString">
+            <summary>Sets the shim of MembershipAdapter.GetUser(String userName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimMembershipAdapter.AllInstances.UpdateUserMembershipUser">
+            <summary>Sets the shim of MembershipAdapter.UpdateUser(MembershipUser membershipUser)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth">
+            <summary>Shim type of Microsoft.AspNet.Membership.OpenAuth.OpenAuth</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.AddAccountToExistingUserStringStringStringString">
+            <summary>Sets the shim of OpenAuth.AddAccountToExistingUser(String providerName, String providerUserId, String providerUserName, String membershipUserName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.AddLocalPasswordStringString">
+            <summary>Sets the shim of OpenAuth.AddLocalPassword(String userName, String password)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.AuthenticationClientsGet">
+            <summary>Sets the shim of OpenAuth.get_AuthenticationClients()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.AuthenticationClientsSetAuthenticationClientManager">
+            <summary>Sets the shim of OpenAuth.set_AuthenticationClients(AuthenticationClientManager value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.ConnectionStringGet">
+            <summary>Sets the shim of OpenAuth.get_ConnectionString()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.ConnectionStringSetString">
+            <summary>Sets the shim of OpenAuth.set_ConnectionString(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.CreateUserStringStringStringString">
+            <summary>Sets the shim of OpenAuth.CreateUser(String providerName, String providerUserId, String providerUserName, String membershipUserName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.CreateUserStringStringStringStringStringStringStringString">
+            <summary>Sets the shim of OpenAuth.CreateUser(String providerName, String providerUserId, String providerUserName, String userName, String password, String email, String passwordQuestion, String passwordAnswer)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.DeleteAccountStringStringString">
+            <summary>Sets the shim of OpenAuth.DeleteAccount(String membershipUserName, String providerName, String providerUserId)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.GetAccountsForUserString">
+            <summary>Sets the shim of OpenAuth.GetAccountsForUser(String membershipUserName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.GetProviderDisplayNameString">
+            <summary>Sets the shim of OpenAuth.GetProviderDisplayName(String providerName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.GetProviderNameFromCurrentRequest">
+            <summary>Sets the shim of OpenAuth.GetProviderNameFromCurrentRequest()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.HasLocalPasswordString">
+            <summary>Sets the shim of OpenAuth.HasLocalPassword(String membershipUserName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.IsLocalUrlString">
+            <summary>Sets the shim of OpenAuth.IsLocalUrl(String url)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.LoginStringStringBoolean">
+            <summary>Sets the shim of OpenAuth.Login(String providerName, String providerUserId, Boolean createPersistentCookie)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.RequestAuthenticationStringString">
+            <summary>Sets the shim of OpenAuth.RequestAuthentication(String providerName, String returnUrl)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.StaticConstructor">
+            <summary>Sets the shim of OpenAuth.OpenAuth()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.UsersAccountsTableNameGet">
+            <summary>Sets the shim of OpenAuth.get_UsersAccountsTableName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.UsersAccountsTableNameSetString">
+            <summary>Sets the shim of OpenAuth.set_UsersAccountsTableName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.UsersDataTableNameGet">
+            <summary>Sets the shim of OpenAuth.get_UsersDataTableName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.UsersDataTableNameSetString">
+            <summary>Sets the shim of OpenAuth.set_UsersDataTableName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth.VerifyAuthenticationString">
+            <summary>Sets the shim of OpenAuth.VerifyAuthentication(String returnUrl)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuth._cctorb__0">
+            <summary>Sets the shim of OpenAuth.&lt;.cctor&gt;b__0()</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData">
+            <summary>Shim type of Microsoft.AspNet.Membership.OpenAuth.OpenAuthAccountData</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.#ctor(Microsoft.AspNet.Membership.OpenAuth.OpenAuthAccountData)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.ConstructorStringStringStringStringNullableOfDateTime">
+            <summary>Sets the shim of OpenAuthAccountData.OpenAuthAccountData(String providerName, String providerDisplayName, String providerUserId, String providerUserName, Nullable`1&lt;DateTime&gt; lastUsedUtc)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.LastUsedUtcGet">
+            <summary>Sets the shim of OpenAuthAccountData.get_LastUsedUtc()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.LastUsedUtcSetNullableOfDateTime">
+            <summary>Sets the shim of OpenAuthAccountData.set_LastUsedUtc(Nullable`1&lt;DateTime&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.ProviderDisplayNameGet">
+            <summary>Sets the shim of OpenAuthAccountData.get_ProviderDisplayName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.ProviderDisplayNameSetString">
+            <summary>Sets the shim of OpenAuthAccountData.set_ProviderDisplayName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.ProviderNameGet">
+            <summary>Sets the shim of OpenAuthAccountData.get_ProviderName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.ProviderNameSetString">
+            <summary>Sets the shim of OpenAuthAccountData.set_ProviderName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.ProviderUserIdGet">
+            <summary>Sets the shim of OpenAuthAccountData.get_ProviderUserId()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.ProviderUserIdSetString">
+            <summary>Sets the shim of OpenAuthAccountData.set_ProviderUserId(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.ProviderUserNameGet">
+            <summary>Sets the shim of OpenAuthAccountData.get_ProviderUserName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.ProviderUserNameSetString">
+            <summary>Sets the shim of OpenAuthAccountData.set_ProviderUserName(String value)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.AllInstances.LastUsedUtcGet">
+            <summary>Sets the shim of OpenAuthAccountData.get_LastUsedUtc()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.AllInstances.LastUsedUtcSetNullableOfDateTime">
+            <summary>Sets the shim of OpenAuthAccountData.set_LastUsedUtc(Nullable`1&lt;DateTime&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.AllInstances.ProviderDisplayNameGet">
+            <summary>Sets the shim of OpenAuthAccountData.get_ProviderDisplayName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.AllInstances.ProviderDisplayNameSetString">
+            <summary>Sets the shim of OpenAuthAccountData.set_ProviderDisplayName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.AllInstances.ProviderNameGet">
+            <summary>Sets the shim of OpenAuthAccountData.get_ProviderName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.AllInstances.ProviderNameSetString">
+            <summary>Sets the shim of OpenAuthAccountData.set_ProviderName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.AllInstances.ProviderUserIdGet">
+            <summary>Sets the shim of OpenAuthAccountData.get_ProviderUserId()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.AllInstances.ProviderUserIdSetString">
+            <summary>Sets the shim of OpenAuthAccountData.set_ProviderUserId(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.AllInstances.ProviderUserNameGet">
+            <summary>Sets the shim of OpenAuthAccountData.get_ProviderUserName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthAccountData.AllInstances.ProviderUserNameSetString">
+            <summary>Sets the shim of OpenAuthAccountData.set_ProviderUserName(String value)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager">
+            <summary>Shim type of Microsoft.AspNet.Membership.OpenAuth.OpenAuthManager</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.#ctor(Microsoft.AspNet.Membership.OpenAuth.OpenAuthManager)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.AddAccountToExistingUserStringStringStringString">
+            <summary>Sets the shim of OpenAuthManager.AddAccountToExistingUser(String providerName, String providerUserId, String providerUserName, String membershipUserName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.AddLocalPasswordStringString">
+            <summary>Sets the shim of OpenAuthManager.AddLocalPassword(String userName, String password)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.ConstructorIMembershipOpenAuthMembershipDatabaseAuthenticationClientManager">
+            <summary>Sets the shim of OpenAuthManager.OpenAuthManager(IMembership membership, OpenAuthMembershipDatabase dbGateway, AuthenticationClientManager authenticationClientManager)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.CreateRandomPassword">
+            <summary>Sets the shim of OpenAuthManager.CreateRandomPassword()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.CreateUserStringStringStringString">
+            <summary>Sets the shim of OpenAuthManager.CreateUser(String providerName, String providerUserId, String providerUserName, String membershipUserName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.CreateUserStringStringStringStringStringStringStringString">
+            <summary>Sets the shim of OpenAuthManager.CreateUser(String providerName, String providerUserId, String providerUserName, String userName, String password, String email, String passwordQuestion, String passwordAnswer)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.DeleteAccountStringStringString">
+            <summary>Sets the shim of OpenAuthManager.DeleteAccount(String membershipUserName, String providerName, String providerUserId)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.GetAccountsForUserString">
+            <summary>Sets the shim of OpenAuthManager.GetAccountsForUser(String membershipUserName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.GetErrorMessageFromCreateStatusMembershipCreateStatus">
+            <summary>Sets the shim of OpenAuthManager.GetErrorMessageFromCreateStatus(MembershipCreateStatus createStatus)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.GetProviderDisplayNameString">
+            <summary>Sets the shim of OpenAuthManager.GetProviderDisplayName(String providerName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.GetProviderNameHttpContextBase">
+            <summary>Sets the shim of OpenAuthManager.GetProviderName(HttpContextBase context)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.HasLocalPasswordString">
+            <summary>Sets the shim of OpenAuthManager.HasLocalPassword(String membershipUserName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.IsLocalUrlString">
+            <summary>Sets the shim of OpenAuthManager.IsLocalUrl(String url)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.LoginHttpContextBaseStringStringBoolean">
+            <summary>Sets the shim of OpenAuthManager.Login(HttpContextBase context, String providerName, String providerUserId, Boolean createPersistentCookie)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.RequestAuthenticationHttpContextBaseStringString">
+            <summary>Sets the shim of OpenAuthManager.RequestAuthentication(HttpContextBase context, String providerName, String returnUrl)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.VerifyAuthenticationHttpContextBaseString">
+            <summary>Sets the shim of OpenAuthManager.VerifyAuthentication(HttpContextBase context, String returnUrl)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.AllInstances.AddAccountToExistingUserStringStringStringString">
+            <summary>Sets the shim of OpenAuthManager.AddAccountToExistingUser(String providerName, String providerUserId, String providerUserName, String membershipUserName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.AllInstances.AddLocalPasswordStringString">
+            <summary>Sets the shim of OpenAuthManager.AddLocalPassword(String userName, String password)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.AllInstances.CreateRandomPassword">
+            <summary>Sets the shim of OpenAuthManager.CreateRandomPassword()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.AllInstances.CreateUserStringStringStringString">
+            <summary>Sets the shim of OpenAuthManager.CreateUser(String providerName, String providerUserId, String providerUserName, String membershipUserName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.AllInstances.CreateUserStringStringStringStringStringStringStringString">
+            <summary>Sets the shim of OpenAuthManager.CreateUser(String providerName, String providerUserId, String providerUserName, String userName, String password, String email, String passwordQuestion, String passwordAnswer)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.AllInstances.DeleteAccountStringStringString">
+            <summary>Sets the shim of OpenAuthManager.DeleteAccount(String membershipUserName, String providerName, String providerUserId)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.AllInstances.GetAccountsForUserString">
+            <summary>Sets the shim of OpenAuthManager.GetAccountsForUser(String membershipUserName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.AllInstances.GetProviderDisplayNameString">
+            <summary>Sets the shim of OpenAuthManager.GetProviderDisplayName(String providerName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.AllInstances.GetProviderNameHttpContextBase">
+            <summary>Sets the shim of OpenAuthManager.GetProviderName(HttpContextBase context)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.AllInstances.HasLocalPasswordString">
+            <summary>Sets the shim of OpenAuthManager.HasLocalPassword(String membershipUserName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.AllInstances.IsLocalUrlString">
+            <summary>Sets the shim of OpenAuthManager.IsLocalUrl(String url)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.AllInstances.LoginHttpContextBaseStringStringBoolean">
+            <summary>Sets the shim of OpenAuthManager.Login(HttpContextBase context, String providerName, String providerUserId, Boolean createPersistentCookie)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.AllInstances.RequestAuthenticationHttpContextBaseStringString">
+            <summary>Sets the shim of OpenAuthManager.RequestAuthentication(HttpContextBase context, String providerName, String returnUrl)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthManager.AllInstances.VerifyAuthenticationHttpContextBaseString">
+            <summary>Sets the shim of OpenAuthManager.VerifyAuthentication(HttpContextBase context, String returnUrl)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthMembershipDatabase">
+            <summary>Shim type of Microsoft.AspNet.Membership.OpenAuth.OpenAuthMembershipDatabase</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthMembershipDatabase.#ctor(Microsoft.AspNet.Membership.OpenAuth.OpenAuthMembershipDatabase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthMembershipDatabase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthMembershipDatabase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthMembershipDatabase.ApplicationNameGet">
+            <summary>Sets the shim of OpenAuthMembershipDatabase.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthMembershipDatabase.ApplicationNameSetString">
+            <summary>Sets the shim of OpenAuthMembershipDatabase.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthMembershipDatabase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthMembershipDatabase.ConstructorString">
+            <summary>Sets the shim of OpenAuthMembershipDatabase.OpenAuthMembershipDatabase(String applicationName)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthMembershipDatabase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthMembershipDatabase.AllInstances.ApplicationNameGet">
+            <summary>Sets the shim of OpenAuthMembershipDatabase.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimOpenAuthMembershipDatabase.AllInstances.ApplicationNameSetString">
+            <summary>Sets the shim of OpenAuthMembershipDatabase.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails">
+            <summary>Shim type of Microsoft.AspNet.Membership.OpenAuth.ProviderDetails</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.#ctor(Microsoft.AspNet.Membership.OpenAuth.ProviderDetails)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.ConstructorStringString">
+            <summary>Sets the shim of ProviderDetails.ProviderDetails(String providerName, String providerDisplayName)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.DataBagGet">
+            <summary>Sets the shim of ProviderDetails.get_DataBag()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.DataBagSetObject">
+            <summary>Sets the shim of ProviderDetails.set_DataBag(Object value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.ExtraDataGet">
+            <summary>Sets the shim of ProviderDetails.get_ExtraData()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.ExtraDataSetIDictionaryOfStringString">
+            <summary>Sets the shim of ProviderDetails.set_ExtraData(IDictionary`2&lt;String,String&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.ProviderDisplayNameGet">
+            <summary>Sets the shim of ProviderDetails.get_ProviderDisplayName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.ProviderDisplayNameSetString">
+            <summary>Sets the shim of ProviderDetails.set_ProviderDisplayName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.ProviderNameGet">
+            <summary>Sets the shim of ProviderDetails.get_ProviderName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.ProviderNameSetString">
+            <summary>Sets the shim of ProviderDetails.set_ProviderName(String value)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.AllInstances.DataBagGet">
+            <summary>Sets the shim of ProviderDetails.get_DataBag()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.AllInstances.DataBagSetObject">
+            <summary>Sets the shim of ProviderDetails.set_DataBag(Object value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.AllInstances.ExtraDataGet">
+            <summary>Sets the shim of ProviderDetails.get_ExtraData()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.AllInstances.ExtraDataSetIDictionaryOfStringString">
+            <summary>Sets the shim of ProviderDetails.set_ExtraData(IDictionary`2&lt;String,String&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.AllInstances.ProviderDisplayNameGet">
+            <summary>Sets the shim of ProviderDetails.get_ProviderDisplayName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.AllInstances.ProviderDisplayNameSetString">
+            <summary>Sets the shim of ProviderDetails.set_ProviderDisplayName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.AllInstances.ProviderNameGet">
+            <summary>Sets the shim of ProviderDetails.get_ProviderName()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimProviderDetails.AllInstances.ProviderNameSetString">
+            <summary>Sets the shim of ProviderDetails.set_ProviderName(String value)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimSetPasswordResult">
+            <summary>Shim type of Microsoft.AspNet.Membership.OpenAuth.SetPasswordResult</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimSetPasswordResult.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimSetPasswordResult.#ctor(Microsoft.AspNet.Membership.OpenAuth.SetPasswordResult)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimSetPasswordResult.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimSetPasswordResult.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimSetPasswordResult.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimSetPasswordResult.ConstructorBooleanString">
+            <summary>Sets the shim of SetPasswordResult.SetPasswordResult(Boolean isSuccessful, String errorMessage)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimSetPasswordResult.ErrorMessageGet">
+            <summary>Sets the shim of SetPasswordResult.get_ErrorMessage()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimSetPasswordResult.ErrorMessageSetString">
+            <summary>Sets the shim of SetPasswordResult.set_ErrorMessage(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimSetPasswordResult.IsSuccessfulGet">
+            <summary>Sets the shim of SetPasswordResult.get_IsSuccessful()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimSetPasswordResult.IsSuccessfulSetBoolean">
+            <summary>Sets the shim of SetPasswordResult.set_IsSuccessful(Boolean value)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimSetPasswordResult.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimSetPasswordResult.AllInstances.ErrorMessageGet">
+            <summary>Sets the shim of SetPasswordResult.get_ErrorMessage()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimSetPasswordResult.AllInstances.ErrorMessageSetString">
+            <summary>Sets the shim of SetPasswordResult.set_ErrorMessage(String value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimSetPasswordResult.AllInstances.IsSuccessfulGet">
+            <summary>Sets the shim of SetPasswordResult.get_IsSuccessful()</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.ShimSetPasswordResult.AllInstances.IsSuccessfulSetBoolean">
+            <summary>Sets the shim of SetPasswordResult.set_IsSuccessful(Boolean value)</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubAuthenticationClientManager">
+            <summary>Stub type of Microsoft.AspNet.Membership.OpenAuth.AuthenticationClientManager</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubAuthenticationClientManager.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubAuthenticationClientManager.Add(System.String,System.Func{DotNetOpenAuth.AspNet.IAuthenticationClient})">
+            <summary>Sets the stub of AuthenticationClientManager.Add(String displayName, Func`1&lt;IAuthenticationClient&gt; factoryMethod)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubAuthenticationClientManager.Add(System.String,System.Func{DotNetOpenAuth.AspNet.IAuthenticationClient},System.Object)">
+            <summary>Sets the stub of AuthenticationClientManager.Add(String displayName, Func`1&lt;IAuthenticationClient&gt; factoryMethod, Object extraData)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubAuthenticationClientManager.Add(System.String,System.Func{DotNetOpenAuth.AspNet.IAuthenticationClient},System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>Sets the stub of AuthenticationClientManager.Add(String displayName, Func`1&lt;IAuthenticationClient&gt; factoryMethod, IDictionary`2&lt;String,String&gt; extraData)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubAuthenticationClientManager.AddStringFuncOfIAuthenticationClient">
+            <summary>Sets the stub of AuthenticationClientManager.Add(String displayName, Func`1&lt;IAuthenticationClient&gt; factoryMethod)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubAuthenticationClientManager.AddStringFuncOfIAuthenticationClientIDictionaryOfStringString">
+            <summary>Sets the stub of AuthenticationClientManager.Add(String displayName, Func`1&lt;IAuthenticationClient&gt; factoryMethod, IDictionary`2&lt;String,String&gt; extraData)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubAuthenticationClientManager.AddStringFuncOfIAuthenticationClientObject">
+            <summary>Sets the stub of AuthenticationClientManager.Add(String displayName, Func`1&lt;IAuthenticationClient&gt; factoryMethod, Object extraData)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubAuthenticationClientManager.GetByProviderName(System.String)">
+            <summary>Sets the stub of AuthenticationClientManager.GetByProviderName(String providerName)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubAuthenticationClientManager.GetByProviderNameString">
+            <summary>Sets the stub of AuthenticationClientManager.GetByProviderName(String providerName)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubAuthenticationClientManager.GetDisplayName(System.String)">
+            <summary>Sets the stub of AuthenticationClientManager.GetDisplayName(String providerName)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubAuthenticationClientManager.GetDisplayNameString">
+            <summary>Sets the stub of AuthenticationClientManager.GetDisplayName(String providerName)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubAuthenticationClientManager.InitializeStub">
+            <summary>Initializes a new instance of type StubAuthenticationClientManager</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubAuthenticationClientManager.TryGetByProviderName(System.String,DotNetOpenAuth.AspNet.IAuthenticationClient@)">
+            <summary>Sets the stub of AuthenticationClientManager.TryGetByProviderName(String providerName, IAuthenticationClient&amp; authenticationClient)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubAuthenticationClientManager.TryGetByProviderNameStringIAuthenticationClientOut">
+            <summary>Sets the stub of AuthenticationClientManager.TryGetByProviderName(String providerName, IAuthenticationClient&amp; authenticationClient)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubAuthenticationClientManager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubAuthenticationClientManager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubAuthenticationClientManager.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubEFOpenAuthMembershipDatabase">
+            <summary>Stub type of Microsoft.AspNet.Membership.OpenAuth.EFOpenAuthMembershipDatabase</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubEFOpenAuthMembershipDatabase.#ctor(System.String,System.String,System.Func{System.String,System.String})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubEFOpenAuthMembershipDatabase.AddAccount(System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>Sets the stub of EFOpenAuthMembershipDatabase.AddAccount(String providerName, String providerUserId, String providerUserName, String membershipUserName, Boolean isNewMembershipUser)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubEFOpenAuthMembershipDatabase.AddAccountStringStringStringStringBoolean">
+            <summary>Sets the stub of EFOpenAuthMembershipDatabase.AddAccount(String providerName, String providerUserId, String providerUserName, String membershipUserName, Boolean isNewMembershipUser)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubEFOpenAuthMembershipDatabase.DeleteAccount(System.String,System.String,System.String)">
+            <summary>Sets the stub of EFOpenAuthMembershipDatabase.DeleteAccount(String membershipUserName, String providerName, String providerUserId)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubEFOpenAuthMembershipDatabase.DeleteAccountStringStringString">
+            <summary>Sets the stub of EFOpenAuthMembershipDatabase.DeleteAccount(String membershipUserName, String providerName, String providerUserId)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubEFOpenAuthMembershipDatabase.GetAccountsForUser(System.String)">
+            <summary>Sets the stub of EFOpenAuthMembershipDatabase.GetAccountsForUser(String membershipUserName)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubEFOpenAuthMembershipDatabase.GetAccountsForUserString">
+            <summary>Sets the stub of EFOpenAuthMembershipDatabase.GetAccountsForUser(String membershipUserName)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubEFOpenAuthMembershipDatabase.GetMembershipUserName(System.String,System.String,System.Boolean)">
+            <summary>Sets the stub of EFOpenAuthMembershipDatabase.GetMembershipUserName(String providerName, String providerUserId, Boolean updateLastUsed)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubEFOpenAuthMembershipDatabase.GetMembershipUserNameStringStringBoolean">
+            <summary>Sets the stub of EFOpenAuthMembershipDatabase.GetMembershipUserName(String providerName, String providerUserId, Boolean updateLastUsed)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubEFOpenAuthMembershipDatabase.HasLocalPassword(System.String)">
+            <summary>Sets the stub of EFOpenAuthMembershipDatabase.HasLocalPassword(String membershipUserName)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubEFOpenAuthMembershipDatabase.HasLocalPasswordString">
+            <summary>Sets the stub of EFOpenAuthMembershipDatabase.HasLocalPassword(String membershipUserName)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubEFOpenAuthMembershipDatabase.InitializeStub">
+            <summary>Initializes a new instance of type StubEFOpenAuthMembershipDatabase</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubEFOpenAuthMembershipDatabase.SetHasLocalPassword(System.String,System.Boolean)">
+            <summary>Sets the stub of EFOpenAuthMembershipDatabase.SetHasLocalPassword(String membershipUserName, Boolean value)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubEFOpenAuthMembershipDatabase.SetHasLocalPasswordStringBoolean">
+            <summary>Sets the stub of EFOpenAuthMembershipDatabase.SetHasLocalPassword(String membershipUserName, Boolean value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubEFOpenAuthMembershipDatabase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubEFOpenAuthMembershipDatabase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubEFOpenAuthMembershipDatabase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubIMembership">
+            <summary>Stub type of Microsoft.AspNet.Membership.OpenAuth.IMembership</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubIMembership.#ctor">
+            <summary>Initializes a new instance of type StubIMembership</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubIMembership.ApplicationNameGet">
+            <summary>Sets the stub of IMembership.get_ApplicationName()</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubIMembership.CreateUserStringStringStringStringStringBooleanMembershipCreateStatusOut">
+            <summary>Sets the stub of IMembership.CreateUser(String userName, String password, String email, String passwordQuestion, String passwordAnswer, Boolean isApproved, MembershipCreateStatus&amp; status)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubIMembership.DeleteUserObjectBoolean">
+            <summary>Sets the stub of IMembership.DeleteUser(Object providerUserKey, Boolean deleteAllRelatedData)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubIMembership.DeleteUserStringBoolean">
+            <summary>Sets the stub of IMembership.DeleteUser(String userName, Boolean deleteAllRelatedData)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubIMembership.GeneratePasswordInt32Int32">
+            <summary>Sets the stub of IMembership.GeneratePassword(Int32 length, Int32 numberOfNonAlphanumericCharacters)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubIMembership.GetUserString">
+            <summary>Sets the stub of IMembership.GetUser(String userName)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubIMembership.manmoa::Microsoft#AspNet#Membership#OpenAuth#IMembership#CreateUser(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Web.Security.MembershipCreateStatus@)">
+            <summary>Sets the stub of IMembership.CreateUser(String userName, String password, String email, String passwordQuestion, String passwordAnswer, Boolean isApproved, MembershipCreateStatus&amp; status)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubIMembership.manmoa::Microsoft#AspNet#Membership#OpenAuth#IMembership#DeleteUser(System.Object,System.Boolean)">
+            <summary>Sets the stub of IMembership.DeleteUser(Object providerUserKey, Boolean deleteAllRelatedData)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubIMembership.manmoa::Microsoft#AspNet#Membership#OpenAuth#IMembership#DeleteUser(System.String,System.Boolean)">
+            <summary>Sets the stub of IMembership.DeleteUser(String userName, Boolean deleteAllRelatedData)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubIMembership.manmoa::Microsoft#AspNet#Membership#OpenAuth#IMembership#GeneratePassword(System.Int32,System.Int32)">
+            <summary>Sets the stub of IMembership.GeneratePassword(Int32 length, Int32 numberOfNonAlphanumericCharacters)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubIMembership.manmoa::Microsoft#AspNet#Membership#OpenAuth#IMembership#GetUser(System.String)">
+            <summary>Sets the stub of IMembership.GetUser(String userName)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubIMembership.manmoa::Microsoft#AspNet#Membership#OpenAuth#IMembership#UpdateUser(System.Web.Security.MembershipUser)">
+            <summary>Sets the stub of IMembership.UpdateUser(MembershipUser membershipUser)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubIMembership.UpdateUserMembershipUser">
+            <summary>Sets the stub of IMembership.UpdateUser(MembershipUser membershipUser)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubIMembership.manmoa::Microsoft#AspNet#Membership#OpenAuth#IMembership#ApplicationName">
+            <summary>Sets the stub of IMembership.get_ApplicationName()</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubMembershipAdapter">
+            <summary>Stub type of Microsoft.AspNet.Membership.OpenAuth.MembershipAdapter</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubMembershipAdapter.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubMembershipAdapter.InitializeStub">
+            <summary>Initializes a new instance of type StubMembershipAdapter</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubMembershipAdapter.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubMembershipAdapter.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubMembershipAdapter.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthAccountData">
+            <summary>Stub type of Microsoft.AspNet.Membership.OpenAuth.OpenAuthAccountData</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthAccountData.#ctor(System.String,System.String,System.String,System.String,System.Nullable{System.DateTime})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthAccountData.InitializeStub">
+            <summary>Initializes a new instance of type StubOpenAuthAccountData</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthAccountData.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthAccountData.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthAccountData.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager">
+            <summary>Stub type of Microsoft.AspNet.Membership.OpenAuth.OpenAuthManager</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.#ctor(Microsoft.AspNet.Membership.OpenAuth.IMembership,Microsoft.AspNet.Membership.OpenAuth.OpenAuthMembershipDatabase,Microsoft.AspNet.Membership.OpenAuth.AuthenticationClientManager)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.AddAccountToExistingUser(System.String,System.String,System.String,System.String)">
+            <summary>Sets the stub of OpenAuthManager.AddAccountToExistingUser(String providerName, String providerUserId, String providerUserName, String membershipUserName)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.AddAccountToExistingUserStringStringStringString">
+            <summary>Sets the stub of OpenAuthManager.AddAccountToExistingUser(String providerName, String providerUserId, String providerUserName, String membershipUserName)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.AddLocalPassword(System.String,System.String)">
+            <summary>Sets the stub of OpenAuthManager.AddLocalPassword(String userName, String password)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.AddLocalPasswordStringString">
+            <summary>Sets the stub of OpenAuthManager.AddLocalPassword(String userName, String password)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.CreateRandomPassword">
+            <summary>Sets the stub of OpenAuthManager.CreateRandomPassword()</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.CreateRandomPassword01">
+            <summary>Sets the stub of OpenAuthManager.CreateRandomPassword()</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.CreateUser(System.String,System.String,System.String,System.String)">
+            <summary>Sets the stub of OpenAuthManager.CreateUser(String providerName, String providerUserId, String providerUserName, String membershipUserName)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.CreateUser(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>Sets the stub of OpenAuthManager.CreateUser(String providerName, String providerUserId, String providerUserName, String userName, String password, String email, String passwordQuestion, String passwordAnswer)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.CreateUserStringStringStringString">
+            <summary>Sets the stub of OpenAuthManager.CreateUser(String providerName, String providerUserId, String providerUserName, String membershipUserName)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.CreateUserStringStringStringStringStringStringStringString">
+            <summary>Sets the stub of OpenAuthManager.CreateUser(String providerName, String providerUserId, String providerUserName, String userName, String password, String email, String passwordQuestion, String passwordAnswer)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.DeleteAccount(System.String,System.String,System.String)">
+            <summary>Sets the stub of OpenAuthManager.DeleteAccount(String membershipUserName, String providerName, String providerUserId)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.DeleteAccountStringStringString">
+            <summary>Sets the stub of OpenAuthManager.DeleteAccount(String membershipUserName, String providerName, String providerUserId)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.GetAccountsForUser(System.String)">
+            <summary>Sets the stub of OpenAuthManager.GetAccountsForUser(String membershipUserName)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.GetAccountsForUserString">
+            <summary>Sets the stub of OpenAuthManager.GetAccountsForUser(String membershipUserName)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.GetProviderDisplayName(System.String)">
+            <summary>Sets the stub of OpenAuthManager.GetProviderDisplayName(String providerName)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.GetProviderDisplayNameString">
+            <summary>Sets the stub of OpenAuthManager.GetProviderDisplayName(String providerName)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.GetProviderName(System.Web.HttpContextBase)">
+            <summary>Sets the stub of OpenAuthManager.GetProviderName(HttpContextBase context)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.GetProviderNameHttpContextBase">
+            <summary>Sets the stub of OpenAuthManager.GetProviderName(HttpContextBase context)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.HasLocalPassword(System.String)">
+            <summary>Sets the stub of OpenAuthManager.HasLocalPassword(String membershipUserName)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.HasLocalPasswordString">
+            <summary>Sets the stub of OpenAuthManager.HasLocalPassword(String membershipUserName)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.InitializeStub">
+            <summary>Initializes a new instance of type StubOpenAuthManager</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.IsLocalUrl(System.String)">
+            <summary>Sets the stub of OpenAuthManager.IsLocalUrl(String url)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.IsLocalUrlString">
+            <summary>Sets the stub of OpenAuthManager.IsLocalUrl(String url)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.Login(System.Web.HttpContextBase,System.String,System.String,System.Boolean)">
+            <summary>Sets the stub of OpenAuthManager.Login(HttpContextBase context, String providerName, String providerUserId, Boolean createPersistentCookie)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.LoginHttpContextBaseStringStringBoolean">
+            <summary>Sets the stub of OpenAuthManager.Login(HttpContextBase context, String providerName, String providerUserId, Boolean createPersistentCookie)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.RequestAuthentication(System.Web.HttpContextBase,System.String,System.String)">
+            <summary>Sets the stub of OpenAuthManager.RequestAuthentication(HttpContextBase context, String providerName, String returnUrl)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.RequestAuthenticationHttpContextBaseStringString">
+            <summary>Sets the stub of OpenAuthManager.RequestAuthentication(HttpContextBase context, String providerName, String returnUrl)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.VerifyAuthentication(System.Web.HttpContextBase,System.String)">
+            <summary>Sets the stub of OpenAuthManager.VerifyAuthentication(HttpContextBase context, String returnUrl)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.VerifyAuthenticationHttpContextBaseString">
+            <summary>Sets the stub of OpenAuthManager.VerifyAuthentication(HttpContextBase context, String returnUrl)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthManager.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthMembershipDatabase">
+            <summary>Stub type of Microsoft.AspNet.Membership.OpenAuth.OpenAuthMembershipDatabase</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthMembershipDatabase.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthMembershipDatabase.AddAccount(System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>Sets the stub of OpenAuthMembershipDatabase.AddAccount(String providerName, String providerUserId, String providerUserName, String membershipUserName, Boolean isNewMembershipUser)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthMembershipDatabase.AddAccountStringStringStringStringBoolean">
+            <summary>Sets the stub of OpenAuthMembershipDatabase.AddAccount(String providerName, String providerUserId, String providerUserName, String membershipUserName, Boolean isNewMembershipUser)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthMembershipDatabase.DeleteAccount(System.String,System.String,System.String)">
+            <summary>Sets the stub of OpenAuthMembershipDatabase.DeleteAccount(String membershipUserName, String providerName, String providerUserId)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthMembershipDatabase.DeleteAccountStringStringString">
+            <summary>Sets the stub of OpenAuthMembershipDatabase.DeleteAccount(String membershipUserName, String providerName, String providerUserId)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthMembershipDatabase.GetAccountsForUser(System.String)">
+            <summary>Sets the stub of OpenAuthMembershipDatabase.GetAccountsForUser(String membershipUserName)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthMembershipDatabase.GetAccountsForUserString">
+            <summary>Sets the stub of OpenAuthMembershipDatabase.GetAccountsForUser(String membershipUserName)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthMembershipDatabase.GetMembershipUserName(System.String,System.String,System.Boolean)">
+            <summary>Sets the stub of OpenAuthMembershipDatabase.GetMembershipUserName(String providerName, String providerUserId, Boolean updateLastUsed)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthMembershipDatabase.GetMembershipUserNameStringStringBoolean">
+            <summary>Sets the stub of OpenAuthMembershipDatabase.GetMembershipUserName(String providerName, String providerUserId, Boolean updateLastUsed)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthMembershipDatabase.HasLocalPassword(System.String)">
+            <summary>Sets the stub of OpenAuthMembershipDatabase.HasLocalPassword(String membershipUserName)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthMembershipDatabase.HasLocalPasswordString">
+            <summary>Sets the stub of OpenAuthMembershipDatabase.HasLocalPassword(String membershipUserName)</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthMembershipDatabase.InitializeStub">
+            <summary>Initializes a new instance of type StubOpenAuthMembershipDatabase</summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthMembershipDatabase.SetHasLocalPassword(System.String,System.Boolean)">
+            <summary>Sets the stub of OpenAuthMembershipDatabase.SetHasLocalPassword(String membershipUserName, Boolean value)</summary>
+        </member>
+        <member name="F:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthMembershipDatabase.SetHasLocalPasswordStringBoolean">
+            <summary>Sets the stub of OpenAuthMembershipDatabase.SetHasLocalPassword(String membershipUserName, Boolean value)</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthMembershipDatabase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthMembershipDatabase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Membership.OpenAuth.Fakes.StubOpenAuthMembershipDatabase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

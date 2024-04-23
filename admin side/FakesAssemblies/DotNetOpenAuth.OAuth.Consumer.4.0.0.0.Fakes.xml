@@ -1,0 +1,512 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotNetOpenAuth.OAuth.Consumer.4.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimOAuthConsumerMessageFactory">
+            <summary>Shim type of DotNetOpenAuth.OAuth.ChannelElements.OAuthConsumerMessageFactory</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimOAuthConsumerMessageFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimOAuthConsumerMessageFactory.#ctor(DotNetOpenAuth.OAuth.ChannelElements.OAuthConsumerMessageFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimOAuthConsumerMessageFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimOAuthConsumerMessageFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimOAuthConsumerMessageFactory.Bind(DotNetOpenAuth.Messaging.IMessageFactory)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimOAuthConsumerMessageFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimOAuthConsumerMessageFactory.Constructor">
+            <summary>Sets the shim of OAuthConsumerMessageFactory.OAuthConsumerMessageFactory()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimOAuthConsumerMessageFactory.GetNewRequestMessageMessageReceivingEndpointIDictionaryOfStringString">
+            <summary>Sets the shim of OAuthConsumerMessageFactory.GetNewRequestMessage(MessageReceivingEndpoint recipient, IDictionary`2&lt;String,String&gt; fields)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimOAuthConsumerMessageFactory.GetNewResponseMessageIDirectedProtocolMessageIDictionaryOfStringString">
+            <summary>Sets the shim of OAuthConsumerMessageFactory.GetNewResponseMessage(IDirectedProtocolMessage request, IDictionary`2&lt;String,String&gt; fields)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimOAuthConsumerMessageFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimOAuthConsumerMessageFactory.AllInstances.GetNewRequestMessageMessageReceivingEndpointIDictionaryOfStringString">
+            <summary>Sets the shim of OAuthConsumerMessageFactory.GetNewRequestMessage(MessageReceivingEndpoint recipient, IDictionary`2&lt;String,String&gt; fields)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimOAuthConsumerMessageFactory.AllInstances.GetNewResponseMessageIDirectedProtocolMessageIDictionaryOfStringString">
+            <summary>Sets the shim of OAuthConsumerMessageFactory.GetNewResponseMessage(IDirectedProtocolMessage request, IDictionary`2&lt;String,String&gt; fields)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement">
+            <summary>Shim type of DotNetOpenAuth.OAuth.ChannelElements.RsaSha1ConsumerSigningBindingElement</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement.#ctor(DotNetOpenAuth.OAuth.ChannelElements.RsaSha1ConsumerSigningBindingElement)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement.Bind(DotNetOpenAuth.Messaging.IChannelBindingElement)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement.Bind(DotNetOpenAuth.Messaging.ITamperProtectionChannelBindingElement)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement.Clone">
+            <summary>Sets the shim of RsaSha1ConsumerSigningBindingElement.Clone()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement.ConstructorX509Certificate2">
+            <summary>Sets the shim of RsaSha1ConsumerSigningBindingElement.RsaSha1ConsumerSigningBindingElement(X509Certificate2 signingCertificate)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement.GetSignatureITamperResistantOAuthMessage">
+            <summary>Sets the shim of RsaSha1ConsumerSigningBindingElement.GetSignature(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement.IsSignatureValidITamperResistantOAuthMessage">
+            <summary>Sets the shim of RsaSha1ConsumerSigningBindingElement.IsSignatureValid(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement.SigningCertificateGet">
+            <summary>Sets the shim of RsaSha1ConsumerSigningBindingElement.get_SigningCertificate()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement.SigningCertificateSetX509Certificate2">
+            <summary>Sets the shim of RsaSha1ConsumerSigningBindingElement.set_SigningCertificate(X509Certificate2 value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement.AllInstances.Clone">
+            <summary>Sets the shim of RsaSha1ConsumerSigningBindingElement.Clone()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement.AllInstances.GetSignatureITamperResistantOAuthMessage">
+            <summary>Sets the shim of RsaSha1ConsumerSigningBindingElement.GetSignature(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement.AllInstances.IsSignatureValidITamperResistantOAuthMessage">
+            <summary>Sets the shim of RsaSha1ConsumerSigningBindingElement.IsSignatureValid(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement.AllInstances.SigningCertificateGet">
+            <summary>Sets the shim of RsaSha1ConsumerSigningBindingElement.get_SigningCertificate()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.ShimRsaSha1ConsumerSigningBindingElement.AllInstances.SigningCertificateSetX509Certificate2">
+            <summary>Sets the shim of RsaSha1ConsumerSigningBindingElement.set_SigningCertificate(X509Certificate2 value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubIConsumerTokenManager">
+            <summary>Stub type of DotNetOpenAuth.OAuth.ChannelElements.IConsumerTokenManager</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubIConsumerTokenManager.#ctor">
+            <summary>Initializes a new instance of type StubIConsumerTokenManager</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubIConsumerTokenManager.ConsumerKeyGet">
+            <summary>Sets the stub of IConsumerTokenManager.get_ConsumerKey()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubIConsumerTokenManager.ConsumerSecretGet">
+            <summary>Sets the stub of IConsumerTokenManager.get_ConsumerSecret()</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubIConsumerTokenManager.dnoaoa::DotNetOpenAuth#OAuth#ChannelElements#ITokenManager#ExpireRequestTokenAndStoreNewAccessToken(System.String,System.String,System.String,System.String)">
+            <summary>Sets the stub of ITokenManager.ExpireRequestTokenAndStoreNewAccessToken(String consumerKey, String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubIConsumerTokenManager.dnoaoa::DotNetOpenAuth#OAuth#ChannelElements#ITokenManager#GetTokenSecret(System.String)">
+            <summary>Sets the stub of ITokenManager.GetTokenSecret(String token)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubIConsumerTokenManager.dnoaoa::DotNetOpenAuth#OAuth#ChannelElements#ITokenManager#GetTokenType(System.String)">
+            <summary>Sets the stub of ITokenManager.GetTokenType(String token)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubIConsumerTokenManager.dnoaoa::DotNetOpenAuth#OAuth#ChannelElements#ITokenManager#StoreNewRequestToken(DotNetOpenAuth.OAuth.Messages.UnauthorizedTokenRequest,DotNetOpenAuth.OAuth.Messages.ITokenSecretContainingMessage)">
+            <summary>Sets the stub of ITokenManager.StoreNewRequestToken(UnauthorizedTokenRequest request, ITokenSecretContainingMessage response)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubIConsumerTokenManager.ExpireRequestTokenAndStoreNewAccessTokenStringStringStringString">
+            <summary>Sets the stub of ITokenManager.ExpireRequestTokenAndStoreNewAccessToken(String consumerKey, String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubIConsumerTokenManager.GetTokenSecretString">
+            <summary>Sets the stub of ITokenManager.GetTokenSecret(String token)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubIConsumerTokenManager.GetTokenTypeString">
+            <summary>Sets the stub of ITokenManager.GetTokenType(String token)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubIConsumerTokenManager.StoreNewRequestTokenUnauthorizedTokenRequestITokenSecretContainingMessage">
+            <summary>Sets the stub of ITokenManager.StoreNewRequestToken(UnauthorizedTokenRequest request, ITokenSecretContainingMessage response)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubIConsumerTokenManager.dnoaoac::DotNetOpenAuth#OAuth#ChannelElements#IConsumerTokenManager#ConsumerKey">
+            <summary>Sets the stub of IConsumerTokenManager.get_ConsumerKey()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubIConsumerTokenManager.dnoaoac::DotNetOpenAuth#OAuth#ChannelElements#IConsumerTokenManager#ConsumerSecret">
+            <summary>Sets the stub of IConsumerTokenManager.get_ConsumerSecret()</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubOAuthConsumerMessageFactory">
+            <summary>Stub type of DotNetOpenAuth.OAuth.ChannelElements.OAuthConsumerMessageFactory</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubOAuthConsumerMessageFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubOAuthConsumerMessageFactory.GetNewRequestMessage(DotNetOpenAuth.Messaging.MessageReceivingEndpoint,System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>Sets the stub of OAuthConsumerMessageFactory.GetNewRequestMessage(MessageReceivingEndpoint recipient, IDictionary`2&lt;String,String&gt; fields)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubOAuthConsumerMessageFactory.GetNewRequestMessageMessageReceivingEndpointIDictionaryOfStringString">
+            <summary>Sets the stub of OAuthConsumerMessageFactory.GetNewRequestMessage(MessageReceivingEndpoint recipient, IDictionary`2&lt;String,String&gt; fields)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubOAuthConsumerMessageFactory.GetNewResponseMessage(DotNetOpenAuth.Messaging.IDirectedProtocolMessage,System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>Sets the stub of OAuthConsumerMessageFactory.GetNewResponseMessage(IDirectedProtocolMessage request, IDictionary`2&lt;String,String&gt; fields)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubOAuthConsumerMessageFactory.GetNewResponseMessageIDirectedProtocolMessageIDictionaryOfStringString">
+            <summary>Sets the stub of OAuthConsumerMessageFactory.GetNewResponseMessage(IDirectedProtocolMessage request, IDictionary`2&lt;String,String&gt; fields)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubOAuthConsumerMessageFactory.InitializeStub">
+            <summary>Initializes a new instance of type StubOAuthConsumerMessageFactory</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubOAuthConsumerMessageFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubOAuthConsumerMessageFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubOAuthConsumerMessageFactory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1ConsumerSigningBindingElement">
+            <summary>Stub type of DotNetOpenAuth.OAuth.ChannelElements.RsaSha1ConsumerSigningBindingElement</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1ConsumerSigningBindingElement.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1ConsumerSigningBindingElement.Clone">
+            <summary>Sets the stub of RsaSha1ConsumerSigningBindingElement.Clone()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1ConsumerSigningBindingElement.Clone01">
+            <summary>Sets the stub of RsaSha1ConsumerSigningBindingElement.Clone()</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1ConsumerSigningBindingElement.GetSignature(DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage)">
+            <summary>Sets the stub of RsaSha1ConsumerSigningBindingElement.GetSignature(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1ConsumerSigningBindingElement.GetSignatureITamperResistantOAuthMessage">
+            <summary>Sets the stub of RsaSha1ConsumerSigningBindingElement.GetSignature(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1ConsumerSigningBindingElement.InitializeStub">
+            <summary>Initializes a new instance of type StubRsaSha1ConsumerSigningBindingElement</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1ConsumerSigningBindingElement.IsMessageApplicable(DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage)">
+            <summary>Sets the stub of SigningBindingElementBase.IsMessageApplicable(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1ConsumerSigningBindingElement.IsMessageApplicableITamperResistantOAuthMessage">
+            <summary>Sets the stub of SigningBindingElementBase.IsMessageApplicable(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1ConsumerSigningBindingElement.IsSignatureValid(DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage)">
+            <summary>Sets the stub of RsaSha1ConsumerSigningBindingElement.IsSignatureValid(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1ConsumerSigningBindingElement.IsSignatureValidITamperResistantOAuthMessage">
+            <summary>Sets the stub of RsaSha1ConsumerSigningBindingElement.IsSignatureValid(ITamperResistantOAuthMessage message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1ConsumerSigningBindingElement.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1ConsumerSigningBindingElement.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.Fakes.StubRsaSha1ConsumerSigningBindingElement.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase">
+            <summary>Shim type of DotNetOpenAuth.OAuth.ConsumerBase</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.#ctor(DotNetOpenAuth.OAuth.ConsumerBase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.ChannelGet">
+            <summary>Sets the shim of ConsumerBase.get_Channel()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.ConstructorServiceProviderDescriptionIConsumerTokenManager">
+            <summary>Sets the shim of ConsumerBase.ConsumerBase(ServiceProviderDescription serviceDescription, IConsumerTokenManager tokenManager)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.ConsumerKeyGet">
+            <summary>Sets the shim of ConsumerBase.get_ConsumerKey()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.CreateAuthorizingMessageMessageReceivingEndpointString">
+            <summary>Sets the shim of ConsumerBase.CreateAuthorizingMessage(MessageReceivingEndpoint endpoint, String accessToken)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.Dispose">
+            <summary>Sets the shim of ConsumerBase.Dispose()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.DisposeBoolean">
+            <summary>Sets the shim of ConsumerBase.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.PrepareAuthorizedRequestAccessProtectedResourceRequest">
+            <summary>Sets the shim of ConsumerBase.PrepareAuthorizedRequest(AccessProtectedResourceRequest message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.PrepareAuthorizedRequestAndSendMessageReceivingEndpointString">
+            <summary>Sets the shim of ConsumerBase.PrepareAuthorizedRequestAndSend(MessageReceivingEndpoint endpoint, String accessToken)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.PrepareAuthorizedRequestMessageReceivingEndpointString">
+            <summary>Sets the shim of ConsumerBase.PrepareAuthorizedRequest(MessageReceivingEndpoint endpoint, String accessToken)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.PrepareAuthorizedRequestMessageReceivingEndpointStringIDictionaryOfStringString">
+            <summary>Sets the shim of ConsumerBase.PrepareAuthorizedRequest(MessageReceivingEndpoint endpoint, String accessToken, IDictionary`2&lt;String,String&gt; extraData)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.PrepareAuthorizedRequestMessageReceivingEndpointStringIEnumerableOfMultipartPostPart">
+            <summary>Sets the shim of ConsumerBase.PrepareAuthorizedRequest(MessageReceivingEndpoint endpoint, String accessToken, IEnumerable`1&lt;MultipartPostPart&gt; binaryData)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.PrepareRequestUserAuthorizationUriIDictionaryOfStringStringIDictionaryOfStringStringStringOut">
+            <summary>Sets the shim of ConsumerBase.PrepareRequestUserAuthorization(Uri callback, IDictionary`2&lt;String,String&gt; requestParameters, IDictionary`2&lt;String,String&gt; redirectParameters, String&amp; requestToken)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.ProcessUserAuthorizationStringString">
+            <summary>Sets the shim of ConsumerBase.ProcessUserAuthorization(String requestToken, String verifier)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.RequestNewClientAccountIDictionaryOfStringString">
+            <summary>Sets the shim of ConsumerBase.RequestNewClientAccount(IDictionary`2&lt;String,String&gt; requestParameters)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.ServiceProviderGet">
+            <summary>Sets the shim of ConsumerBase.get_ServiceProvider()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.ServiceProviderSetServiceProviderDescription">
+            <summary>Sets the shim of ConsumerBase.set_ServiceProvider(ServiceProviderDescription value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.TokenManagerGet">
+            <summary>Sets the shim of ConsumerBase.get_TokenManager()</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.AllInstances.ChannelGet">
+            <summary>Sets the shim of ConsumerBase.get_Channel()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.AllInstances.ConsumerKeyGet">
+            <summary>Sets the shim of ConsumerBase.get_ConsumerKey()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.AllInstances.CreateAuthorizingMessageMessageReceivingEndpointString">
+            <summary>Sets the shim of ConsumerBase.CreateAuthorizingMessage(MessageReceivingEndpoint endpoint, String accessToken)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.AllInstances.Dispose">
+            <summary>Sets the shim of ConsumerBase.Dispose()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of ConsumerBase.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.AllInstances.PrepareAuthorizedRequestAccessProtectedResourceRequest">
+            <summary>Sets the shim of ConsumerBase.PrepareAuthorizedRequest(AccessProtectedResourceRequest message)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.AllInstances.PrepareAuthorizedRequestAndSendMessageReceivingEndpointString">
+            <summary>Sets the shim of ConsumerBase.PrepareAuthorizedRequestAndSend(MessageReceivingEndpoint endpoint, String accessToken)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.AllInstances.PrepareAuthorizedRequestMessageReceivingEndpointString">
+            <summary>Sets the shim of ConsumerBase.PrepareAuthorizedRequest(MessageReceivingEndpoint endpoint, String accessToken)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.AllInstances.PrepareAuthorizedRequestMessageReceivingEndpointStringIDictionaryOfStringString">
+            <summary>Sets the shim of ConsumerBase.PrepareAuthorizedRequest(MessageReceivingEndpoint endpoint, String accessToken, IDictionary`2&lt;String,String&gt; extraData)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.AllInstances.PrepareAuthorizedRequestMessageReceivingEndpointStringIEnumerableOfMultipartPostPart">
+            <summary>Sets the shim of ConsumerBase.PrepareAuthorizedRequest(MessageReceivingEndpoint endpoint, String accessToken, IEnumerable`1&lt;MultipartPostPart&gt; binaryData)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.AllInstances.PrepareRequestUserAuthorizationUriIDictionaryOfStringStringIDictionaryOfStringStringStringOut">
+            <summary>Sets the shim of ConsumerBase.PrepareRequestUserAuthorization(Uri callback, IDictionary`2&lt;String,String&gt; requestParameters, IDictionary`2&lt;String,String&gt; redirectParameters, String&amp; requestToken)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.AllInstances.ProcessUserAuthorizationStringString">
+            <summary>Sets the shim of ConsumerBase.ProcessUserAuthorization(String requestToken, String verifier)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.AllInstances.RequestNewClientAccountIDictionaryOfStringString">
+            <summary>Sets the shim of ConsumerBase.RequestNewClientAccount(IDictionary`2&lt;String,String&gt; requestParameters)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.AllInstances.ServiceProviderGet">
+            <summary>Sets the shim of ConsumerBase.get_ServiceProvider()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.AllInstances.ServiceProviderSetServiceProviderDescription">
+            <summary>Sets the shim of ConsumerBase.set_ServiceProvider(ServiceProviderDescription value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimConsumerBase.AllInstances.TokenManagerGet">
+            <summary>Sets the shim of ConsumerBase.get_TokenManager()</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Fakes.ShimDesktopConsumer">
+            <summary>Shim type of DotNetOpenAuth.OAuth.DesktopConsumer</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimDesktopConsumer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimDesktopConsumer.#ctor(DotNetOpenAuth.OAuth.DesktopConsumer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimDesktopConsumer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimDesktopConsumer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimDesktopConsumer.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimDesktopConsumer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimDesktopConsumer.ConstructorServiceProviderDescriptionIConsumerTokenManager">
+            <summary>Sets the shim of DesktopConsumer.DesktopConsumer(ServiceProviderDescription serviceDescription, IConsumerTokenManager tokenManager)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimDesktopConsumer.ProcessUserAuthorizationString">
+            <summary>Sets the shim of DesktopConsumer.ProcessUserAuthorization(String requestToken)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimDesktopConsumer.ProcessUserAuthorizationStringString">
+            <summary>Sets the shim of DesktopConsumer.ProcessUserAuthorization(String requestToken, String verifier)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimDesktopConsumer.RequestUserAuthorizationIDictionaryOfStringStringIDictionaryOfStringStringStringOut">
+            <summary>Sets the shim of DesktopConsumer.RequestUserAuthorization(IDictionary`2&lt;String,String&gt; requestParameters, IDictionary`2&lt;String,String&gt; redirectParameters, String&amp; requestToken)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Fakes.ShimDesktopConsumer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimDesktopConsumer.AllInstances.ProcessUserAuthorizationString">
+            <summary>Sets the shim of DesktopConsumer.ProcessUserAuthorization(String requestToken)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimDesktopConsumer.AllInstances.ProcessUserAuthorizationStringString">
+            <summary>Sets the shim of DesktopConsumer.ProcessUserAuthorization(String requestToken, String verifier)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimDesktopConsumer.AllInstances.RequestUserAuthorizationIDictionaryOfStringStringIDictionaryOfStringStringStringOut">
+            <summary>Sets the shim of DesktopConsumer.RequestUserAuthorization(IDictionary`2&lt;String,String&gt; requestParameters, IDictionary`2&lt;String,String&gt; redirectParameters, String&amp; requestToken)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Fakes.ShimWebConsumer">
+            <summary>Shim type of DotNetOpenAuth.OAuth.WebConsumer</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimWebConsumer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimWebConsumer.#ctor(DotNetOpenAuth.OAuth.WebConsumer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimWebConsumer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimWebConsumer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.ShimWebConsumer.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimWebConsumer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimWebConsumer.ConstructorServiceProviderDescriptionIConsumerTokenManager">
+            <summary>Sets the shim of WebConsumer.WebConsumer(ServiceProviderDescription serviceDescription, IConsumerTokenManager tokenManager)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimWebConsumer.PrepareRequestUserAuthorization">
+            <summary>Sets the shim of WebConsumer.PrepareRequestUserAuthorization()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimWebConsumer.PrepareRequestUserAuthorizationUriIDictionaryOfStringStringIDictionaryOfStringString">
+            <summary>Sets the shim of WebConsumer.PrepareRequestUserAuthorization(Uri callback, IDictionary`2&lt;String,String&gt; requestParameters, IDictionary`2&lt;String,String&gt; redirectParameters)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimWebConsumer.ProcessUserAuthorization">
+            <summary>Sets the shim of WebConsumer.ProcessUserAuthorization()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimWebConsumer.ProcessUserAuthorizationHttpRequestBase">
+            <summary>Sets the shim of WebConsumer.ProcessUserAuthorization(HttpRequestBase request)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Fakes.ShimWebConsumer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimWebConsumer.AllInstances.PrepareRequestUserAuthorization">
+            <summary>Sets the shim of WebConsumer.PrepareRequestUserAuthorization()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimWebConsumer.AllInstances.PrepareRequestUserAuthorizationUriIDictionaryOfStringStringIDictionaryOfStringString">
+            <summary>Sets the shim of WebConsumer.PrepareRequestUserAuthorization(Uri callback, IDictionary`2&lt;String,String&gt; requestParameters, IDictionary`2&lt;String,String&gt; redirectParameters)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimWebConsumer.AllInstances.ProcessUserAuthorization">
+            <summary>Sets the shim of WebConsumer.ProcessUserAuthorization()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.ShimWebConsumer.AllInstances.ProcessUserAuthorizationHttpRequestBase">
+            <summary>Sets the shim of WebConsumer.ProcessUserAuthorization(HttpRequestBase request)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Fakes.StubConsumerBase">
+            <summary>Stub type of DotNetOpenAuth.OAuth.ConsumerBase</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.StubConsumerBase.#ctor(DotNetOpenAuth.OAuth.ServiceProviderDescription,DotNetOpenAuth.OAuth.ChannelElements.IConsumerTokenManager)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.StubConsumerBase.Dispose(System.Boolean)">
+            <summary>Sets the stub of ConsumerBase.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.Fakes.StubConsumerBase.DisposeBoolean">
+            <summary>Sets the stub of ConsumerBase.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.StubConsumerBase.InitializeStub">
+            <summary>Initializes a new instance of type StubConsumerBase</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.StubConsumerBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.StubConsumerBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.StubConsumerBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Fakes.StubDesktopConsumer">
+            <summary>Stub type of DotNetOpenAuth.OAuth.DesktopConsumer</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.StubDesktopConsumer.#ctor(DotNetOpenAuth.OAuth.ServiceProviderDescription,DotNetOpenAuth.OAuth.ChannelElements.IConsumerTokenManager)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.StubDesktopConsumer.Dispose(System.Boolean)">
+            <summary>Sets the stub of ConsumerBase.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.Fakes.StubDesktopConsumer.DisposeBoolean">
+            <summary>Sets the stub of ConsumerBase.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.StubDesktopConsumer.InitializeStub">
+            <summary>Initializes a new instance of type StubDesktopConsumer</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.StubDesktopConsumer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.StubDesktopConsumer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.StubDesktopConsumer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.Fakes.StubWebConsumer">
+            <summary>Stub type of DotNetOpenAuth.OAuth.WebConsumer</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.StubWebConsumer.#ctor(DotNetOpenAuth.OAuth.ServiceProviderDescription,DotNetOpenAuth.OAuth.ChannelElements.IConsumerTokenManager)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.StubWebConsumer.Dispose(System.Boolean)">
+            <summary>Sets the stub of ConsumerBase.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.OAuth.Fakes.StubWebConsumer.DisposeBoolean">
+            <summary>Sets the stub of ConsumerBase.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.Fakes.StubWebConsumer.InitializeStub">
+            <summary>Initializes a new instance of type StubWebConsumer</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.StubWebConsumer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.StubWebConsumer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.Fakes.StubWebConsumer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
